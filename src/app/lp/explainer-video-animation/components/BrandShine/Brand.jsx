@@ -75,7 +75,7 @@ const Brand = ({ content }) => {
                                     <Image src={branImage} alt='brandShine' className={`${css}`} quality={85} />
                                 </div>
                             </div> :
-                            <div className="col-span-6">
+                            <div className="col-span-6 relative">
                                 <div className="img absolute bottom-0 right-0 lg:right-[-5px] xl:right-[-27px] lg:block hidden">
                                     <Image src={branImage} alt='brandShine' height={622} width={389} className='xl:min-h-[400px] xl:w-full h-full ' quality={85} />
                                 </div>

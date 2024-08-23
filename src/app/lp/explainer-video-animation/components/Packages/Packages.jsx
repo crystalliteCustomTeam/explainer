@@ -43,7 +43,8 @@ const Packages = () => {
                             <Image src={Image1} alt='Infinfity Animation' className='mt-[-55px] mx-auto relative z-10' />
                             <div className='px-5 pb-2'>
                                 <p className='text-center text-[17px] xl:text-[20px] font-semibold leading-[24px] xl:leading-[30px] poppins text-black'>Startup Package</p>
-                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-black'>$175</h5>
+                                <p className='text-center text-[13px] xl:text-[15px] font-medium leading-[24px] xl:leading-[30px] poppins text-black'>Text & Image Compilation</p>
+                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-black'>$175<span className='font-semibold text-[16px] xl:text-[20px] line-through'>$499</span></h5>
                                 <ul className='pb-4'>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' width={14} height={14} />
@@ -97,7 +98,8 @@ const Packages = () => {
                             <Image src={Image2} alt='Infinfity Animation' className='mt-[-55px] mx-auto relative z-10' />
                             <div className='px-5 pb-2'>
                                 <p className='text-center text-[17px] xl:text-[20px] font-semibold leading-[24px] xl:leading-[30px] poppins text-white'>Classic Package</p>
-                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-white'>$499</h5>
+                                <p className='text-center text-[13px] xl:text-[15px] font-medium leading-[24px] xl:leading-[30px] poppins text-white'>Whitebaord or Motion Graphics Animation</p>
+                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-white'>$499<span className='font-semibold text-[16px] xl:text-[20px] line-through'>$999</span></h5>
                                 <ul className='pb-4'>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' className='invert-[1]' width={14} height={14} />
@@ -151,7 +153,8 @@ const Packages = () => {
                             <Image src={Image3} alt='Infinfity Animation' className='mt-[-55px] mx-auto relative z-10' />
                             <div className='px-5 pb-2'>
                                 <p className='text-center text-[17px] xl:text-[20px] font-semibold leading-[24px] xl:leading-[30px] poppins text-white'>Premium Package</p>
-                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-white'>$799</h5>
+                                <p className='text-center text-[13px] xl:text-[15px] font-medium leading-[24px] xl:leading-[30px] poppins text-white'>Ultimate 2D Animation</p>
+                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-white'>$799<span className='font-semibold text-[16px] xl:text-[20px] line-through'>$1599</span></h5>
                                 <ul className='pb-4'>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' className='invert-[1]' width={14} height={14} />
