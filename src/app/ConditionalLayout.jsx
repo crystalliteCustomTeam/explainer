@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 //
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
+import Popup from "@/components/popup/Popup"
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -24,6 +25,7 @@ const ConditionalLayout = ({ children }) => {
     }, [])
     return (
         <PopupProvider value={{ popup, togglePopup }}>
+            <Popup />
             {pathname !== "/lp/explainer-video-animation" && (
                 <Header />
             )

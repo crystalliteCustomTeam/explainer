@@ -233,11 +233,11 @@ const Header = () => {
                         <div className="lg:flex hidden items-center gap-x-7">
                             <div className="">
                                 <a
-                                    href="tel:833-666-6684"
+                                    href="tel:1-833-666-6684"
                                     className="flex items-center gap-x-3 text-primary-100 poppins font-semibold text-[15px]"
                                 >
                                     <FaPhoneAlt className="text-[15px]" />
-                                    833-666-6684
+                                    1-833-666-6684
                                 </a>
                             </div>
                             <div className="lg:block hidden">
@@ -252,11 +252,11 @@ const Header = () => {
                         <div className="xl:hidden flex items-center gap-x-3">
                             <div className="">
                                 <a
-                                    href="tel:833-666-6684"
+                                    href="tel:1-833-666-6684"
                                     className="flex items-center gap-x-3 text-primary-100 poppins font-semibold text-[13px] sm:text-[15px]"
                                 >
                                     <FaPhoneAlt className="text-[15px] sm:block hidden" />
-                                    833-666-6684
+                                    1-833-666-6684
                                 </a>
                             </div>
                             <button

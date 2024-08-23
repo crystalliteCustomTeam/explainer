@@ -67,7 +67,7 @@ const Header = () => {
                                 <ul className='flex items-center justify-end gap-x-2 xl:gap-x-4'>
                                     <li>
                                         <a href="mailto:queries@explainervideosllc.com" className='flex items-center'>
-                                            <Image src={mail} alt='Infinity Animation' />
+                                            <Image src={mail} alt='Explainer Videos LLC' />
                                             <span className='text-[14px] lg:text-[13px] xl:text-[14px] text-white px-[8px] font-normal poppins'>queries@explainervideosllc.com</span>
                                         </a>
                                     </li>
@@ -88,7 +88,7 @@ const Header = () => {
                                         <a href='tel:833-666-6689' className='flex items-center gap-2 text-[14px] lg:text-[13px] xl:text-[14px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
                                             <Image src={flag} alt='CA' className='object-contain' />
                                             <span className='w-max'>
-                                                Toll Free: 1-833-666-6689
+                                                Toll Free: 1-833-666-6684
                                             </span>
                                         </a>
                                     </li>
@@ -101,7 +101,7 @@ const Header = () => {
                                     <a href='tel:833-666-6689' className='flex items-center gap-2 text-[13px] md:text-[16px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
                                         <Image src={flag} alt='CA' className='object-contain' />
                                         <span className='w-max'>
-                                            Toll Free: 1-833-666-6689
+                                            Toll Free: 1-833-666-6684
                                         </span>
                                     </a>
                                 </li>

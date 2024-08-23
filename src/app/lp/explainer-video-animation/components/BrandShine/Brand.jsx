@@ -45,7 +45,7 @@ const Brand = ({ content }) => {
                                         <a href="tel:833-666-6689" className='flex items-center gap-2 max-width h-[40px] xl:h-[45px] text-[14px] lg:text-[12px] xl:text-[14px] poppins font-bold text-white'>
                                             <Image src={flag} alt='UK' className='object-contain' />
                                             <span>
-                                                Toll Free: 1-833-666-6689
+                                                Toll Free: 1-833-666-6684
                                             </span>
                                         </a>
                                     </div>
@@ -63,7 +63,7 @@ const Brand = ({ content }) => {
                                         <a href="tel:833-666-6689" className='flex items-center gap-2 max-width h-[40px] xl:h-[45px] text-[14px] lg:text-[12px] xl:text-[14px] poppins font-bold text-white'>
                                             <Image src={flag} alt='UK' className='object-contain' />
                                             <span>
-                                                Toll Free: 1-833-666-6689
+                                                Toll Free: 1-833-666-6684
                                             </span>
                                         </a>
                                     </div>

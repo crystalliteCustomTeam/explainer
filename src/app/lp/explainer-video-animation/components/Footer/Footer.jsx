@@ -32,31 +32,15 @@ const Footer = () => {
     const socialLinks = [
         {
             icon: facebook,
-            link: "https://www.facebook.com/infinityanimationsofficial"
-        },
-        {
-            icon: twitter,
-            link: "https://twitter.com/infinityan_/"
+            link: "https://www.facebook.com/explainervideosllc/",
         },
         {
             icon: instagram,
-            link: "https://www.instagram.com/infinityanimationsofficials"
+            link: "https://www.instagram.com/explainervideosllc/",
         },
         {
             icon: linkedin,
-            link: "https://www.linkedin.com/company/infinity-animations/"
-        },
-        {
-            icon: youtube,
-            link: "https://www.youtube.com/@Infinity-Animations"
-        },
-        {
-            icon: vimeo,
-            link: "https://www.vimeo.com/infinityanimations"
-        },
-        {
-            icon: tiktok,
-            link: "https://www.tiktok.com/@infinityanimationsusa"
+            link: "https://www.linkedin.com/company/explainer-videos-llc/",
         },
     ];
     //========== Form
@@ -243,8 +227,8 @@ const Footer = () => {
                                 <div className="address_detail">
                                     <ul>
                                         <li className='py-[10px]'>
-                                            <a href="tel:833-666-6689" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
-                                                <Phone className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> 1-833-666-6689
+                                            <a href="tel:1-833-666-6684" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                                <Phone className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> 1-833-666-6684
                                             </a>
                                         </li>
                                         <li className='py-[10px]'>
@@ -259,7 +243,7 @@ const Footer = () => {
                                         </li>
                                         <li className='py-[10px]'>
                                             <a href="https://maps.app.goo.gl/BFBsCwAX1znom3LE6" target='_blank' className='text-[15px] md:text-[20px] text-white montserrat flex gap-2'>
-                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> One World Trade Center, 285 Fulton St 85th floor suite 8500, New York, NY 10007
+                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> One World Trade Center, 285 Fulton St 85th floor suite 8500, New York, NY 10007, United States
                                             </a>
                                         </li>
                                     </ul>
@@ -271,7 +255,7 @@ const Footer = () => {
                                                     return (
                                                         <li key={i}>
                                                             <Link target="_blank" href={e.link} className="bg-transparent border border-[#ffffff] w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1">
-                                                                <Image src={e.icon} className="w-[20px]" alt="Infinity Animation" />
+                                                                <Image src={e.icon} className="w-[20px]" alt="Explainer Videos LLC" />
                                                             </Link>
                                                         </li>
                                                     );

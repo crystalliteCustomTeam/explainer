@@ -104,7 +104,7 @@ const Banner = () => {
                 };
                 let bodyContent = JSON.stringify({
                     "IP": `${ip.ip} - ${ip.country} - ${ip.city}`,
-                    "Brand": "Infinity Animations",
+                    "Brand": "Explainer Videos LLC",
                     "Page": `${currentRoute}`,
                     "Date": currentdate,
                     "Time": currentdate,
@@ -211,7 +211,7 @@ const Banner = () => {
                                     </a>
                                 </div>
                                 <button onClick={handleChatOpen} className='flex items-center gap-2'>
-                                    <Image src={Chats} alt='Infinity Animation' />
+                                    <Image src={Chats} alt='Explainer Videos LLC' />
                                     <div>
                                         <p className='text-[15px] leading-tight text-white poppins font-normal '>Chat Now to Avail 70% OFF</p>
                                         <span className='text-[#0DEB48] poppins text-[17px] font-semibold'>
@@ -221,8 +221,8 @@ const Banner = () => {
                                 </button>
                             </div>
                             <div className='flex items-center gap-7 my-5 md:my-0 md:pt-9'>
-                                <Image src={BannerLogos} alt='Infinity Animation' className='w-6/12' />
-                                <Image src={BannerLogosTwo} alt='Infinity Animation' className='w-4/12' />
+                                <Image src={BannerLogos} alt='Explainer Videos LLC' className='w-6/12' />
+                                <Image src={BannerLogosTwo} alt='Explainer Videos LLC' className='w-4/12' />
                             </div>
                         </div>
                     </div>
@@ -230,14 +230,14 @@ const Banner = () => {
                     <div className="col-span-12 lg:col-span-6 2xl:col-span-5">
                         <div className={`${styles.form} bg-[#FF2D4B] rounded-[19px] py-12 px-6 xl:px-8 md:mr-auto lg:mr-0 ml-auto relative lg:w-[75%] 2xl:w-[90%]`}>
                             <div className="flex items-center gap-x-4">
-                                <Image src={Logo1} alt='Infinity Animation' height={100} className='mt-[-49px]' />
+                                <Image src={Logo1} alt='Explainer Videos LLC' height={100} className='mt-[-49px]' />
                                 <p className='text-[15px] font-semibold leading-[22px] md:leading-[26px] text-white poppins'>
                                     SIGN-UP & GET UPTO  <span className='text-[#FFCC00]'>70%</span> Off <br className='md:block hidden' />
                                     ON ALL TYPES OF VIDEO SERVICES
                                 </p>
                             </div>
                             <div className="logo absolute w-[25%] right-[-8px] top-[10px] md:w-[20%] md:right-[-10px] md:top-[35px] xl:w-[25%] xl:right-[-15px] xl:top-[25px]">
-                                <Image src={Logo2} alt='Infinity Animation' />
+                                <Image src={Logo2} alt='Explainer Videos LLC' />
                             </div>
                             <form className='pt-5 lg:pt-8'>
                                 <div className="name relative mb-4">
@@ -268,7 +268,7 @@ const Banner = () => {
                                     <textarea name="message" placeholder='Tell us about your Project' className='text-[14px] md:text-[16px] font-normal leading-[25px] w-full h-[100px] text-[#0000008e] poppins px-4 rounded-[5px] border border-[#00000029] focus:outline-0 pt-4 resize-none' onChange={handleDataChange}></textarea>
                                 </div>
                                 <div className="btn">
-                                    <button className='h-[50px] w-full bg-black rounded-[5px] poppins text-[14px] md:text-[16px] leading-[25px] font-semibold' onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
+                                    <button className='h-[50px] w-full text-white bg-black rounded-[5px] poppins text-[14px] md:text-[16px] leading-[25px] font-semibold' onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
                                 </div>
                             </form>
                         </div>

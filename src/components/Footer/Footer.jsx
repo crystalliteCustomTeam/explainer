@@ -148,13 +148,13 @@ const Footer = () => {
   ];
   const contactLinks = [
     {
-      text: "One World Trade Center, 285 Fulton St 85th floor suite 8500, New York, NY 10007, United States",
+      text: "One World Trade Center, 285 Fulton St 85th floor suite 8500, New York, NY 10007, United States",
       link: "https://maps.app.goo.gl/L9FtsgKKyQ4TzTbc7",
       img: Location,
     },
     {
-      text: "(833)-666-6684",
-      link: "tel:833-666-6684",
+      text: "1-833-666-6684",
+      link: "tel:1-833-666-6684",
       img: Phone,
     },
   ];
@@ -232,7 +232,7 @@ const Footer = () => {
               {contactLinks.map((e, i) => (
                 <li key={i}>
                   <Link href={e.link} className="flex items-start gap-2">
-                    <Image src={e.img} width={23} height={23} alt="Explainer Videos LLC"  className="pt-1"/>
+                    <Image src={e.img} width={23} height={23} alt="Explainer Videos LLC" className="pt-1" />
                     <span className="pt-1">{e.text}</span>
                   </Link>
                 </li>

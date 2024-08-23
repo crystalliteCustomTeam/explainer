@@ -30,7 +30,7 @@ const Animations = ({ content }) => {
                             <p className='text-[13px] sm:text-[16px] font-sans leading-[20px] mb-3 text-white text-center lg:w-10/12 mx-auto'>{subpara}</p>
 
                             <div className="logos mt-4 lg:mt-10">
-                                <Image src={Logos} alt='Explainer Videos LLCs' className='w-11/12 mx-auto' />
+                                <Image src={Logos} alt='Explainer Videos LLC' className='w-11/12 mx-auto' />
                             </div>
                             <div className="btn mt-8 lg:mt-12 flex items-center justify-center">
                                 <Link href="javascript:$zopim.livechat.window.show();" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-3/12 mx-auto h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>

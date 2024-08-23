@@ -64,11 +64,11 @@ const page = () => {
     //==== Animations Sections =====//
     const animations = {
         title: <>Best <span className='text-[#FF0000]'>Explainer Video Animation</span> Creation Services</>,
-        para: <>At Infinity Animations, our team transforms creativity into compelling visuals, crafting pivotal explainer videos for business success. Our seamless process keeps you informed and satisfied throughout.</>,
+        para: <>At Explainer Videos LLC, our team transforms creativity into compelling visuals, crafting pivotal explainer videos for business success. Our seamless process keeps you informed and satisfied throughout.</>,
         subtitleOne: <><span className='text-[#FF0000]'>Explain Better. </span> Drive <br className='xl:block hidden' /> Engagement. Get More Sales.</>,
         subtitleTwo: <>Don't settle for ordinary—capture your audience’s attention with the irresistible allure of animated videos.</>,
         subpara: <>
-            Our explainer videos simplify complex ideas and engage viewers like never before. Studies show that explainer videos can boost sales by up to 49%, so investing in our animations is a game-changer for your ROI. At Infinity Animations, we deliver innovative, high-quality videos on tight deadlines and at competitive prices. Join top industry leaders who have already reaped the rewards of our exceptional service. Elevate your business with the power of explainer videos today!
+            Our explainer videos simplify complex ideas and engage viewers like never before. Studies show that explainer videos can boost sales by up to 49%, so investing in our animations is a game-changer for your ROI. At Explainer Videos LLC, we deliver innovative, high-quality videos on tight deadlines and at competitive prices. Join top industry leaders who have already reaped the rewards of our exceptional service. Elevate your business with the power of explainer videos today!
         </>,
         AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/973456427/rendition/1080p/file.mp4?loc=external&signature=bec01dc8250d19fddde8de57be2a91813d578dfc4f31dbe5a25fa58857a4113e",
     }
@@ -133,8 +133,8 @@ const page = () => {
         cardImage: Remark9,
     }
     const remarkable = {
-        title: <>How Infinity Animations <span className='text-[#FF0000]'>Achieve Remarkable</span> Outcomes</>,
-        para: <>At Infinity Animations, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors or smaller projects. Every detail is considered in our comprehensive approach to ensure excellence in every animation project.</>,
+        title: <>How Explainer Videos LLC <span className='text-[#FF0000]'>Achieve Remarkable</span> Outcomes</>,
+        para: <>At Explainer Videos LLC, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors or smaller projects. Every detail is considered in our comprehensive approach to ensure excellence in every animation project.</>,
         cardOne: cardOne,
         cardTwo: cardTwo,
         cardThree: cardThree,
