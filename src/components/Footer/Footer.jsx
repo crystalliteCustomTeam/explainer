@@ -249,7 +249,7 @@ const Footer = () => {
               {otherLinks.map((e, i) => {
                 return (
                   <li key={i}>
-                    <Link href={e.link} className="text-[16px] text-black poppins font-normal hover:opacity-50 leading-[30px]">
+                    <Link href={e.link} target="__blank" className="text-[16px] text-black poppins font-normal hover:opacity-50 leading-[30px]">
                       {e.text}
                     </Link>
                   </li>
