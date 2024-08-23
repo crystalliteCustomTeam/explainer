@@ -302,3 +302,30 @@ body {
 }
 
 /*=============== Media Query End ===============*/
+/*=============== LP ReadClientSlider End */
+
+.slick-prev:before {
+  content: url(/infinity-studio-lp-2/right-arrow.svg) !important;
+}
+
+.slick-next:before {
+  content: url(/infinity-studio-lp-2/right-arrow.svg) !important;
+}
+
+.clientReadSliderlp .slick-next {
+  right: inherit;
+  left: 100px;
+}
+
+.clientReadSliderlp .slick-prev {
+  left: 25px;
+  transform: rotate(180deg) !important;
+}
+
+.clientReadSliderlp .slick-prev,
+.clientReadSliderlp .slick-next {
+  top: 0;
+  transform: translate(0, -67%);
+}
+
+/*=============== LP ReadClientSlider End */

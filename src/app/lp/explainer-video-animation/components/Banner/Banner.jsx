@@ -10,7 +10,7 @@ import Chats from "media/infinity-studio-lp-new/banner-chat.svg"
 import BannerLogos from "media/infinity-studio/bannerLogos.png"
 import BannerLogosTwo from "media/infinity-studio-lp-new/bannerLogosTwo.png"
 import Logo1 from "media/infinity-studio-lp-new/form-1.png"
-import Logo2 from "media/infinity-studio-lp-new/form-2.png"
+import Logo2 from "media/infinity-studio-lp-new/badge-70.png"
 import Check from "media/infinity-studio/check.png"
 
 const Banner = () => {
@@ -290,7 +290,7 @@ const Banner = () => {
                                     ON ALL TYPES OF VIDEO SERVICES
                                 </p>
                             </div>
-                            <div className="logo absolute w-[25%] right-[-8px] top-[10px] md:w-[20%] md:right-[-10px] md:top-[35px] xl:w-[25%] xl:right-[-15px] xl:top-[25px]">
+                            <div className="logo absolute w-[25%] right-[-10px] top-[10px] md:w-[20%] md:right-[-10px] md:top-[35px] xl:w-[25%] xl:right-[-13px] xl:top-[25px]">
                                 <Image src={Logo2} alt='Explainer Videos LLC' />
                             </div>
                             <form className='pt-5 lg:pt-8'>

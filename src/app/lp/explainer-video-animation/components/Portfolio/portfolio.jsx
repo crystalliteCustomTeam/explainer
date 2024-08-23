@@ -86,7 +86,7 @@ const Portfolio = ({ content }) => {
                                         {tabContents[activeTab].map((item, index) => (
                                             <Link key={index} href={item.video} datafancybox="gallery" className={`${styles.shadow} w-full h-full group`}>
                                                 <div className="overlay relative ">
-                                                    <Image src={item.thumbnail} alt="Explainer Videos LLC" className='h-[263px] min-w-[468px]' />
+                                                    <Image src={item.thumbnail} alt="Explainer Videos LLC" />
                                                     <div className="bg-slate-700/75 h-full w-full 
                                                    absolute left-[0%] top-[0%] 
                                                     flex items-center justify-center ">

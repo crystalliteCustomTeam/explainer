@@ -17,7 +17,7 @@ export async function POST(request) {
         });
         const mailOptions = {
             from: "leads@infinityanimations.com",
-            to: ['queries@infinityanimations.com', 'queries@explainervideosllc.com'],
+            to: ['queries@infinityanimations.com', 'queries@explainervideosllc.com', 'm.farrukh@infinityanimations.com'],
             subject: `Explainer Videos LLC Lead`,
             html: `
             <table>

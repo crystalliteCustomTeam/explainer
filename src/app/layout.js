@@ -1,10 +1,11 @@
 // Import Fonts
-import {primary} from "./configs/fonts";
+import { primary } from "./configs/fonts";
 // Import Components
 import ConditionalLayout from "./ConditionalLayout";
 // Import Css
 import "./global.css";
 import Script from "next/script";
+import Scripts from "./Scripts";
 //===== Meta Data =====
 export const metadata = {
   metadataBase: new URL("https://cloudstudiosinc.com/"),
@@ -22,7 +23,7 @@ export const metadata = {
     images: "/public/images/icons/footerlogo.webp",
   },
   //===== Canonical =====
-  alternates: {canonical: "/"},
+  alternates: { canonical: "/" },
   //===== No-Index =====
   robots: {
     index: false,
@@ -48,9 +49,10 @@ export const metadata = {
 };
 <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" />;
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Scripts />
       <body className={`${primary.variable}`}>
         <ConditionalLayout>
           <main>{children}</main>
