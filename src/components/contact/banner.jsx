@@ -11,7 +11,6 @@ import BannerLogos from "media/infinity-studio/bannerLogos.png"
 import BannerLogosTwo from "media/infinity-studio-lp-new/bannerLogosTwo.png"
 import Logo1 from "media/infinity-studio-lp-new/form-1.png"
 import Logo2 from "media/infinity-studio-lp-new/form-2.png"
-import Check from "media/infinity-studio/check.png"
 
 const Banner = () => {
     //========== Popup
@@ -199,67 +198,13 @@ const Banner = () => {
                 <video id="background-video" src={backgroundVideo} autoPlay loop muted className='relative h-full xl:left-0 w-full object-cover'>
                 </video>
             </div>
-            {/* <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
-                <div className="grid grid-cols-12 gap-y-5 md:gap-y-10 items-center">
-                    <div className="col-span-12 lg:col-span-6 2xl:col-span-6"> */}
-
             <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
-                <div className="grid grid-cols-12 gap-y-12 items-end ">
-                    <div className="col-span-12 lg:col-span-7 xl:col-span-7">
+                <div className="grid grid-cols-12 gap-y-5 md:gap-y-10 items-center">
+                    <div className="col-span-12 lg:col-span-6 2xl:col-span-6">
                         <div className="txt">
-                            <h1 className='text-[25px] lg:text-[35px] font-semibold poppins leading-[35px] lg:leading-[50px] mb-5 text-white'>Boost Sales with Animation Services. Instantaneously Forge Animated Explainer Videos!</h1>
-                            <p className='text-[14px] md:text-[16px] poppins leading-[25px] font-normal xl:pr-[20px] text-white'>Transform Your Ideas into Visually Engaging Animated Stories, Tailored to Resonate with Your Audience & Elevate your Brand.</p>
-                            <div className="grid grid-cols-12 gap-y-6 sm:gap-x-10 items-end pb-0 pt-[25px] md:py-[25px]">
-                                <div className="col-span-12 sm:col-span-6 lg:col-span-5">
-                                    <div className='flex items-center gap-x-2 border-l-0 border-2 rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
-                                        <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
-                                        </div>
-                                        <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Demo/Tutorial Videos</span>
-                                    </div>
-                                </div>
-                                <div className="col-span-12 sm:col-span-6 lg:col-span-5">
-                                    <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
-                                        <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
-                                        </div>
-                                        <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Training Videos</span>
-                                    </div>
-                                </div>
-                                <div className="col-span-12 sm:col-span-6 lg:col-span-5">
-                                    <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
-                                        <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
-                                        </div>
-                                        <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Animated commercial Videos</span>
-                                    </div>
-                                </div>
-                                <div className="col-span-12 sm:col-span-6 lg:col-span-5">
-                                    <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
-                                        <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
-                                        </div>
-                                        <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Promotional Videos</span>
-                                    </div>
-                                </div>
-                                <div className="col-span-12 sm:col-span-6 lg:col-span-5">
-                                    <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
-                                        <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
-                                        </div>
-                                        <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'> Marketing Videos</span>
-                                    </div>
-                                </div>
-                                <div className="col-span-12 sm:col-span-6 lg:col-span-5">
-                                    <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
-                                        <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
-                                        </div>
-                                        <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Product Explainer Videos</span>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <div className="flex items-center gap-4 lg:gap-8 pt-5 lg:pt-9">
+                            <h1 className='text-[25px] lg:text-[35px] font-semibold poppins leading-[35px] lg:leading-[50px] mb-5 text-white'>Contact Us</h1>
+                            <p className='text-[14px] md:text-[16px] poppins leading-[25px] font-normal xl:pr-[20px] text-white'>Become a part of the Cloud Studios revolution and help your brand break boundaries through powerful animation.</p>
+                            <div className="flex items-center gap-4 lg:gap-8 pt-5 lg:pt-9">
                                 <div>
                                     <a href='tel:833-666-6689' className='flex items-center justify-center text-[14px] xl:text-[14px] md:text-[16px] text-white font-semibold poppins h-[45px] w-[165px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
                                         Call Now
@@ -274,13 +219,14 @@ const Banner = () => {
                                         </span>
                                     </div>
                                 </button>
-                            </div> */}
+                            </div>
                             <div className='flex items-center gap-7 my-5 md:my-0 md:pt-9'>
                                 <Image src={BannerLogos} alt='Explainer Videos LLC' className='w-6/12' />
                                 <Image src={BannerLogosTwo} alt='Explainer Videos LLC' className='w-4/12' />
                             </div>
                         </div>
                     </div>
+                    <div className="2xl:block hidden 2xl:col-span-1"></div>
                     <div className="col-span-12 lg:col-span-6 2xl:col-span-5">
                         <div className={`${styles.form} bg-[#FF2D4B] rounded-[19px] py-12 px-6 xl:px-8 md:mr-auto lg:mr-0 ml-auto relative lg:w-[75%] 2xl:w-[90%]`}>
                             <div className="flex items-center gap-x-4">

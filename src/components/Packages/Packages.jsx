@@ -43,11 +43,11 @@ const Packages = () => {
                             <Image src={Image1} alt='Infinfity Animation' className='mt-[-55px] mx-auto relative z-10' />
                             <div className='px-5 pb-2'>
                                 <p className='text-center text-[17px] xl:text-[20px] font-semibold leading-[24px] xl:leading-[30px] poppins text-black'>Startup Package</p>
-                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-black'>$175</h5>
+                                <h5 className='text-[50px] xl:text-[70px] font-bold poppins text-center leading-[60px] xl:leading-[85px] mb-2 text-black'>$195</h5>
                                 <ul className='pb-4'>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' width={14} height={14} />
-                                        <span className='text-black text-[15px] xl:text-[18px] font-normal leading-[25px] xl:leading-[35px] poppins'>60 Seconds Duration</span>
+                                        <span className='text-black text-[15px] xl:text-[18px] font-normal leading-[25px] xl:leading-[35px] poppins'>30 Seconds Duration</span>
                                     </li>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' width={14} height={14} />
@@ -101,7 +101,7 @@ const Packages = () => {
                                 <ul className='pb-4'>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' className='invert-[1]' width={14} height={14} />
-                                        <span className='text-white text-[15px] xl:text-[18px] font-normal leading-[25px] xl:leading-[35px] poppins'>60 Seconds Duration</span>
+                                        <span className='text-white text-[15px] xl:text-[18px] font-normal leading-[25px] xl:leading-[35px] poppins'>30 Seconds Duration</span>
                                     </li>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' className='invert-[1]' width={14} height={14} />
@@ -155,7 +155,7 @@ const Packages = () => {
                                 <ul className='pb-4'>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' className='invert-[1]' width={14} height={14} />
-                                        <span className='text-white text-[15px] xl:text-[18px] font-normal leading-[25px] xl:leading-[35px] poppins'>60 Seconds Duration</span>
+                                        <span className='text-white text-[15px] xl:text-[18px] font-normal leading-[25px] xl:leading-[35px] poppins'>30 Seconds Duration</span>
                                     </li>
                                     <li className='flex items-center gap-2 mb-2'>
                                         <Image src={Tick} alt='Explainer Videos LLC' className='invert-[1]' width={14} height={14} />

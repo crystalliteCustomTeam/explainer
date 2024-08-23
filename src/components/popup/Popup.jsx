@@ -234,7 +234,7 @@ const Popup = ({ }) => {
                                         <textarea id="message" name="message" className="montserrat text-[12px] text-white w-full h-[95px] bg-[#242424]/100 rounded-[6px] backdrop-blur-xl px-3 lg:px-4 pt-3 2xl:mb-4 focus:outline-0 resize-none" placeholder="Message" onChange={handleDataChange}></textarea>
                                     </div>
                                     <button className='bg-prime text text-[10px]-xl:white border-0 h-[40px] xl:h-[50px] px-3 2xl:px-6 rounded-md flex items-center gap-x-2 mt-2 ml-[4px]' onClick={handleFormSubmit} disabled={isDisabled}>
-                                        <span className="text-[12px] md:text-[16px] xl:text-[18px] font-normal font-sans">
+                                        <span className="text-[12px] md:text-[16px] xl:text-[18px] font-normal font-sans text-white">
                                             {formStatus}
                                         </span>
                                         <Image className="flex items-center justify-center w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] bg-white rounded-full p-2 ms-2 object-contain formbutton" src={arrowRed} alt="Infinity Animations " />

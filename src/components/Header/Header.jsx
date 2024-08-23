@@ -30,6 +30,7 @@ import {
 } from "@heroicons/react/24/solid";
 // Import Images
 import logo from "media/logo.webp";
+import usePopup from "@/app/configs/store/Popup";
 
 const megaMenuItems = [
     {
@@ -182,17 +183,17 @@ function NavList() {
                 </span>
             </Link>
             <MegaMenu />
-            <Link href="/">
+            <Link href="/process">
                 <span className="text-white lg:text-black poppins font-semibold text-[16px] hover:text-primary-100 hover:duration-100 duration-100 ease-in-out lg:p-3">
                     Process
                 </span>
             </Link>
-            <Link href="/">
+            <Link href="/pricing">
                 <span className="text-white lg:text-black poppins font-semibold text-[16px] hover:text-primary-100 hover:duration-100 duration-100 ease-in-out lg:p-3">
                     Pricing
                 </span>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
                 <span className="text-white lg:text-black poppins font-semibold text-[16px] hover:text-primary-100 hover:duration-100 duration-100 ease-in-out lg:p-3">
                     Contact Us
                 </span>
@@ -203,7 +204,10 @@ function NavList() {
 
 const Header = () => {
     const [openNav, setOpenNav] = React.useState(false);
-
+    const { popup, togglePopup } = usePopup();
+    const popupHandle = () => {
+        togglePopup(popup);
+    }
     React.useEffect(() => {
         window.addEventListener(
             "resize",
@@ -241,12 +245,11 @@ const Header = () => {
                                 </a>
                             </div>
                             <div className="lg:block hidden">
-                                <Link
-                                    href="javascript:$zopim.livechat.window.show();"
-                                    className="text-[13px] sm:text-[15px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-[135px] h-[42px] poppins flex items-center justify-center"
+                                <div onClick={popupHandle}
+                                    className="text-[13px] cursor-pointer sm:text-[15px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-[135px] h-[42px] poppins flex items-center justify-center"
                                 >
                                     Get A Quote
-                                </Link>
+                                </div>
                             </div>
                         </div>
                         <div className="xl:hidden flex items-center gap-x-3">
