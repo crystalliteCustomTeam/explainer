@@ -185,38 +185,38 @@ const page = () => {
     }
     //=====Portfilio Fold=====// 
     const tabInfo = [
-        { label: "Hybrid Animation", index: 0 },
+        { label: "2D Animation", index: 0 },
         { label: "3D Animation", index: 1 },
-        { label: "2D Animation", index: 2 },
+        { label: "Hybrid Animation", index: 2 },
         { label: "Whiteboard Animation", index: 3 },
         { label: "Motion Graphics", index: 4 },
     ];
     const tabContents = [
         [
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/920567123/rendition/1080p/file.mp4?loc=external&signature=d9b02a0f53aa8784b0e3ed063720d29b1970b3e3b399f1d34316482874fdaa86",
-                thumbnail: Thumnail25,
+                video: "https://player.vimeo.com/progressive_redirect/playback/919379331/rendition/1080p/file.mp4?loc=external&signature=2cb0c1bd0ce7278cfcc88931f949d2a4df4a28555c8e3a5dd73de49eeb9934e9",
+                thumbnail: Thumnail1,
             },
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/920118952/rendition/1080p/file.mp4?loc=external&signature=9e89bcc5fc0c0794397cf4af48ddf2c08a91de61f1595d2508f39fb7db153987",
-                thumbnail: Thumnail26,
+                video: "https://player.vimeo.com/progressive_redirect/playback/919380387/rendition/1080p/file.mp4?loc=external&signature=c6da013ddb686dfc7be1b15b94eda413bc5fa963be1fd91775347155025326ee",
+                thumbnail: Thumnail2,
             },
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/920111559/rendition/1080p/file.mp4?loc=external&signature=e16f08c552d3f87499d9225879c3819c9a220295567b993dfe101e7a1e2089c3",
-                thumbnail: Thumnail27,
+                video: "https://player.vimeo.com/progressive_redirect/playback/919383086/rendition/1080p/file.mp4?loc=external&signature=0c96783fc0283d20b714fec19c63f4565bf6618cfe19a581a25783cb5f6005e1",
+                thumbnail: Thumnail3,
             },
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/920113599/rendition/1080p/file.mp4?loc=external&signature=efccabbedd550a6e10912f062b329c284dd086ef4babfb053151a34ea77e6466",
-                thumbnail: Thumnail28,
+                video: "https://player.vimeo.com/progressive_redirect/playback/919381089/rendition/1080p/file.mp4?loc=external&signature=19f1bda07f4caacaccc0fdcf5567fb848096a95289bb8bc5310b0bb801c74380",
+                thumbnail: Thumnail4,
             },
-            // {
-            //     video: "https://player.vimeo.com/progressive_redirect/playback/911728642/rendition/1080p/file.mp4?loc=external&signature=44469d3d3ef50562def357cdf05ef68b8d9eb1f6c874c98d4b7a6772c4b7f173",
-            //     thumbnail: Thumnail29,
-            // },
-            // {
-            //     video: "https://player.vimeo.com/progressive_redirect/playback/911724677/rendition/1080p/file.mp4?loc=external&signature=32ea21fdd1dded95912051ee5fefdc0deefb2e26b2598ae835cf57397b1a87e6",
-            //     thumbnail: Thumnail30,
-            // }
+            {
+                video: "https://player.vimeo.com/progressive_redirect/playback/919383727/rendition/1080p/file.mp4?loc=external&signature=e2c22685eafa8501d4efe1007026a663eee3d5cac85dc8007e6c9afcfc4a9e59",
+                thumbnail: Thumnail5,
+            },
+            {
+                video: "https://player.vimeo.com/progressive_redirect/playback/920485906/rendition/1080p/file.mp4?loc=external&signature=90d3e6d4b05f56ed61129b5031be09b724259666750b41882f54bf99b3e2314e",
+                thumbnail: Thumnail6,
+            }
         ],
         [
             {
@@ -246,29 +246,29 @@ const page = () => {
         ],
         [
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/919379331/rendition/1080p/file.mp4?loc=external&signature=2cb0c1bd0ce7278cfcc88931f949d2a4df4a28555c8e3a5dd73de49eeb9934e9",
-                thumbnail: Thumnail1,
+                video: "https://player.vimeo.com/progressive_redirect/playback/920567123/rendition/1080p/file.mp4?loc=external&signature=d9b02a0f53aa8784b0e3ed063720d29b1970b3e3b399f1d34316482874fdaa86",
+                thumbnail: Thumnail25,
             },
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/919380387/rendition/1080p/file.mp4?loc=external&signature=c6da013ddb686dfc7be1b15b94eda413bc5fa963be1fd91775347155025326ee",
-                thumbnail: Thumnail2,
+                video: "https://player.vimeo.com/progressive_redirect/playback/920118952/rendition/1080p/file.mp4?loc=external&signature=9e89bcc5fc0c0794397cf4af48ddf2c08a91de61f1595d2508f39fb7db153987",
+                thumbnail: Thumnail26,
             },
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/919383086/rendition/1080p/file.mp4?loc=external&signature=0c96783fc0283d20b714fec19c63f4565bf6618cfe19a581a25783cb5f6005e1",
-                thumbnail: Thumnail3,
+                video: "https://player.vimeo.com/progressive_redirect/playback/920111559/rendition/1080p/file.mp4?loc=external&signature=e16f08c552d3f87499d9225879c3819c9a220295567b993dfe101e7a1e2089c3",
+                thumbnail: Thumnail27,
             },
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/919381089/rendition/1080p/file.mp4?loc=external&signature=19f1bda07f4caacaccc0fdcf5567fb848096a95289bb8bc5310b0bb801c74380",
-                thumbnail: Thumnail4,
+                video: "https://player.vimeo.com/progressive_redirect/playback/920113599/rendition/1080p/file.mp4?loc=external&signature=efccabbedd550a6e10912f062b329c284dd086ef4babfb053151a34ea77e6466",
+                thumbnail: Thumnail28,
             },
-            {
-                video: "https://player.vimeo.com/progressive_redirect/playback/919383727/rendition/1080p/file.mp4?loc=external&signature=e2c22685eafa8501d4efe1007026a663eee3d5cac85dc8007e6c9afcfc4a9e59",
-                thumbnail: Thumnail5,
-            },
-            {
-                video: "https://player.vimeo.com/progressive_redirect/playback/920485906/rendition/1080p/file.mp4?loc=external&signature=90d3e6d4b05f56ed61129b5031be09b724259666750b41882f54bf99b3e2314e",
-                thumbnail: Thumnail6,
-            }
+            // {
+            //     video: "https://player.vimeo.com/progressive_redirect/playback/911728642/rendition/1080p/file.mp4?loc=external&signature=44469d3d3ef50562def357cdf05ef68b8d9eb1f6c874c98d4b7a6772c4b7f173",
+            //     thumbnail: Thumnail29,
+            // },
+            // {
+            //     video: "https://player.vimeo.com/progressive_redirect/playback/911724677/rendition/1080p/file.mp4?loc=external&signature=32ea21fdd1dded95912051ee5fefdc0deefb2e26b2598ae835cf57397b1a87e6",
+            //     thumbnail: Thumnail30,
+            // }
         ],
         [
             {
@@ -319,7 +319,7 @@ const page = () => {
             },
             // {
             //     video: "https://player.vimeo.com/progressive_redirect/playback/907668204/rendition/1080p/file.mp4?loc=external&signature=a51872dd125be907894841af68d8262c46f584ab3dbcfad7c0f068e9556b98c8",
-            //     thumbnail: Thumnail24,
+            //     thumbnail: Thumnail23,
             // }
         ],
     ];
