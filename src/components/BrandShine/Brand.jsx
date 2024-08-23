@@ -17,7 +17,7 @@ const Brand = ({ content }) => {
                                 <h5 className='text-white font-bold font-sans leading-[31px] text-[18px] md:text-[25px] lg:w-11/12 pb-[7px]'>{subtitle}</h5>
                                 <p className='text-[16px] text-white font-sans leading-[23px]'>{desc}</p>
                                 <div className="btn mt-6">
-                                    <Link class="text-[13px] md:text-[16px] font-semibold leading-[25px] text-white bg-black rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center" href="javascript:;">{btnTxt}</Link>
+                                    <Link class="text-[13px] md:text-[16px] font-semibold leading-[25px] text-white bg-black rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center" href="javascript:$zopim.livechat.window.show();">{btnTxt}</Link>
                                 </div>
                             </div> :
                             <div className="col-span-12 lg:col-span-6">
@@ -25,7 +25,7 @@ const Brand = ({ content }) => {
                                 <h5 className='text-white font-bold font-sans leading-[31px] text-[25px] lg:w-11/12 pb-[5px]'>{subtitle}</h5>
                                 <p className='text-[17px] text-white font-sans leading-[22px]'>{desc}</p>
                                 <div className="btn mt-6">
-                                    <Link class="text-[13px] md:text-[16px] font-semibold leading-[25px] text-white bg-black rounded-[5px] w-full md:w-[410px] h-[44px] poppins flex items-center justify-center" href="javascript:;">Let's Begin Your Animated Journey Together!</Link>
+                                    <Link class="text-[13px] md:text-[16px] font-semibold leading-[25px] text-white bg-black rounded-[5px] w-full md:w-[410px] h-[44px] poppins flex items-center justify-center" href="javascript:$zopim.livechat.window.show();">Let's Begin Your Animated Journey Together!</Link>
                                 </div>
                             </div>}
 

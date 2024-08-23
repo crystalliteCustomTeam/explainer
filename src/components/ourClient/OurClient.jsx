@@ -70,7 +70,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Cloud Studios Inc turned our ideas into pure magic! Their creativity knows no bounds, and the results totally blew us away!</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC turned our ideas into pure magic! Their creativity knows no bounds, and the results totally blew us away!</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
@@ -84,7 +84,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Working with Cloud Studios Inc was a pleasure. Their team is not only professional but also incredibly talented. The animations they created for our brand added that extra spark we were looking for.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Working with Explainer Videos LLC was a pleasure. Their team is not only professional but also incredibly talented. The animations they created for our brand added that extra spark we were looking for.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
@@ -98,7 +98,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>I can't express how impressed we were with Cloud Studios Inc. They took our complex data and turned it into beautiful, engaging infographics. Their attention to detail and commitment to our project were truly outstanding.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>I can't express how impressed we were with Explainer Videos LLC. They took our complex data and turned it into beautiful, engaging infographics. Their attention to detail and commitment to our project were truly outstanding.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
@@ -112,7 +112,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Cloud Studios Inc made our logo come alive in a way we couldn't have imagined. It added a dynamic touch to our branding that we love.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC made our logo come alive in a way we couldn't have imagined. It added a dynamic touch to our branding that we love.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
@@ -126,7 +126,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>The architectural visualizations crafted by Cloud Studios Inc are simply breathtaking. They have a unique talent for bringing architectural concepts to life, and we couldn't be happier.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>The architectural visualizations crafted by Explainer Videos LLC are simply breathtaking. They have a unique talent for bringing architectural concepts to life, and we couldn't be happier.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
@@ -140,7 +140,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Cloud Studios Inc worked wonders with CGI-VFX for our product. Their work took our marketing efforts to a whole new level and made us stand out in the market.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC worked wonders with CGI-VFX for our product. Their work took our marketing efforts to a whole new level and made us stand out in the market.</p>
                                 </div>
                             </Slider>
                         </div>

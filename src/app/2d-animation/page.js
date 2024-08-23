@@ -68,8 +68,8 @@ const page = () => {
   ]
 
   const banner = {
-    title: <>Full Service 2D Animation Service By Cloud Studios Inc</>,
-    para: <>Experience the magic of animation with Cloud Studios Inc. Where dreams unfold, and creativity takes flight. Unleash the extraordinary in every frame.</>,
+    title: <>Full Service 2D Animation Service By Explainer Videos LLC</>,
+    para: <>Experience the magic of animation with Explainer Videos LLC. Where dreams unfold, and creativity takes flight. Unleash the extraordinary in every frame.</>,
     list: lists,
     isList: false,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/916116973/rendition/1080p/file.mp4?loc=external&log_user=0&signature=77fdc5bd531e7ad88bc093f0ed7a0b34f0c4b24122d3d126758e255b1a15575a",
@@ -78,10 +78,10 @@ const page = () => {
   //==== Animations Sections =====//
   const animations = {
     title: <>Stunning 2D Animation Service</>,
-    para: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
+    para: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Explainer Videos LLC offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
     subtitleOne: <>Professional Animated Video</>,
     subtitleTwo: <>Services For Diverse Businesses</>,
-    subpara: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
+    subpara: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Explainer Videos LLC offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
     AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/916096653/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2c1fbdcd7282fe2b314ed51948a2b8195b14b7d762295e12e88097ea4fc583e2",
   }
 
@@ -238,7 +238,7 @@ const page = () => {
   const brands = {
     title: "Broad-Cast Your Brand Worldwide Through Custom Animated Videos!",
     subtitle: "",
-    desc: "At Cloud Studios Inc we exhibit professionalism through our animated videos, we deliver to our prestigious clients. Our Videos bring interest and spirit to your subject. Our animators create and present even the most complicated concepts in the simplest way possible. At Cloud Studios Inc we take care of every feature of your corporate identity. We assure you that we will make use of every latest and related method to develop and improve your corporate identity in the market with our best video service.",
+    desc: "At Explainer Videos LLC we exhibit professionalism through our animated videos, we deliver to our prestigious clients. Our Videos bring interest and spirit to your subject. Our animators create and present even the most complicated concepts in the simplest way possible. At Explainer Videos LLC we take care of every feature of your corporate identity. We assure you that we will make use of every latest and related method to develop and improve your corporate identity in the market with our best video service.",
     branImage: BranShine,
     isBranImage: true,
     css: "w-9/12 ml-auto",
@@ -256,14 +256,14 @@ const page = () => {
   }
   const cardTwo = {
     cardtitle: <>Storyboarding & Sequencing</>,
-    cardpara: <>After creating a professional and engaging script, the experts at Cloud Studios Inc move towards the next phase of 2D Animation creation process, which is ‘Storyboarding & Sequencing’. A storyboard or a sequence is a visual representation of a video sequence and breaks down the action into individual panels. </>,
+    cardpara: <>After creating a professional and engaging script, the experts at Explainer Videos LLC move towards the next phase of 2D Animation creation process, which is ‘Storyboarding & Sequencing’. A storyboard or a sequence is a visual representation of a video sequence and breaks down the action into individual panels. </>,
     css: " before:content-[''] before:h-[60%] before:w-full before:bg-[url('../../public/home/card_image-bg.png')] before:bg-cover before:bg-no-repeat before:bg-center before:absolute before:left-0 before:bottom-0 before:rounded-b-[15px] before:z-[-1] z-[999999999]",
     imageCss: 'w-full',
     cardImage: Remark11,
   }
   const cardThree = {
     cardtitle: <>Animation And Music</>,
-    cardpara: <>After designing the animation backgrounds/characters/product model as per your requirement, now it's time for the namesake job of the 2D animation design process. At Cloud Studios Inc, our professionals in this phase craft the actual engagement in the animation. This is the stage where a lot of creative magic happens! </>,
+    cardpara: <>After designing the animation backgrounds/characters/product model as per your requirement, now it's time for the namesake job of the 2D animation design process. At Explainer Videos LLC, our professionals in this phase craft the actual engagement in the animation. This is the stage where a lot of creative magic happens! </>,
     css: "",
     cardImage: Remark12,
   }
@@ -284,7 +284,7 @@ const page = () => {
   }
   const cardTen = {
     cardtitle: <>Finalizing & Delivery</>,
-    cardpara: <>THAT’S IT, your 2D animation video is complete and ready to rock and roll! Cloud Studios Inc will deliver it to you as HD 1080p MOV or MP4 file, ready for download. In case, you need any other format for your video, we are here to cater to your that requirement as well. If you need help figuring out how to host your video, where to place it, or how to market it in the best possible manner, Cloud Studios Inc is happy to point you in the right direction!
+    cardpara: <>THAT’S IT, your 2D animation video is complete and ready to rock and roll! Explainer Videos LLC will deliver it to you as HD 1080p MOV or MP4 file, ready for download. In case, you need any other format for your video, we are here to cater to your that requirement as well. If you need help figuring out how to host your video, where to place it, or how to market it in the best possible manner, Explainer Videos LLC is happy to point you in the right direction!
       <br /><br />
       Hire us today to discuss your 2D animation video project with our experts. If you’d like to know more information on our 2D animation process, let’s set up a time to chat or call!
     </>,
@@ -293,7 +293,7 @@ const page = () => {
 
   const remarkable = {
     title: <>How We Achieve Remarkable Outcomes</>,
-    para: <>At Cloud Studios Inc, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors <br />
+    para: <>At Explainer Videos LLC, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors <br />
       or smaller projects. Every detail is considered in our comprehensive approach to ensure excellence in every animation project.</>,
     cardOne: cardOne,
     cardTwo: cardTwo,

@@ -224,7 +224,7 @@ const Header = () => {
                             <Image
                                 src={logo}
                                 className="w-[60%] sm:w-[80%]"
-                                alt="Cloud Studios Inc"
+                                alt="Explainer Videos LLC"
                             />
                         </Typography>
                         <div className="hidden lg:block">
@@ -242,7 +242,7 @@ const Header = () => {
                             </div>
                             <div className="lg:block hidden">
                                 <Link
-                                    href="javascript:;"
+                                    href="javascript:$zopim.livechat.window.show();"
                                     className="text-[13px] sm:text-[15px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-[135px] h-[42px] poppins flex items-center justify-center"
                                 >
                                     Get A Quote

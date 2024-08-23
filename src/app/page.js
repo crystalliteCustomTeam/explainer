@@ -215,7 +215,7 @@ const page = () => {
   const brands = {
     title: "We Are Ready…But Are You?",
     subtitle: "Your Brand Deserves Only the Best! 🤓",
-    desc: "Within the halls of Cloud Studios Inc, we embody professionalism, epitomized through our tailored animated creations, methodically tailored for our esteemed clientele. Infused with vitality and intrigue, our videos serve as dynamic vehicles for conveying your message. Our adept animators specialize in translating even the most intricate concepts into visual narratives. At Cloud Studios Inc, we handle every facet of your corporate identity with precision, leveraging the latest methodologies to amplify your brand's presence in the market through our top-tier video services, spanning video explainer, explainer videos, video animation, 2D animation services, 3D animation services, and whiteboard animation.",
+    desc: "Within the halls of Explainer Videos LLC, we embody professionalism, epitomized through our tailored animated creations, methodically tailored for our esteemed clientele. Infused with vitality and intrigue, our videos serve as dynamic vehicles for conveying your message. Our adept animators specialize in translating even the most intricate concepts into visual narratives. At Explainer Videos LLC, we handle every facet of your corporate identity with precision, leveraging the latest methodologies to amplify your brand's presence in the market through our top-tier video services, spanning video explainer, explainer videos, video animation, 2D animation services, 3D animation services, and whiteboard animation.",
     branImage: BranShine,
     isBranImage: true,
     css: "lg:min-h-[550px] xl:w-10/12 animationUpDown",

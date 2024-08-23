@@ -23,17 +23,17 @@ const Animations = ({ content }) => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12">
                         <div className="col-span-12">
-                            {/* <Image src={AnimationVideo} quality={85} alt='Cloud Studios Inc' className='mt-4 md:w-5/12 mx-auto md:mt-[-50px] shadow-2xl' /> */}
+                            {/* <Image src={AnimationVideo} quality={85} alt='Explainer Videos LLC' className='mt-4 md:w-5/12 mx-auto md:mt-[-50px] shadow-2xl' /> */}
                             <video src={AnimationVideo} autoPlay={true} loop={true} muted={true} className='mt-4 md:w-8/12 lg:w-5/12 mx-auto md:mt-[-50px] custom-shadow rounded-[15px]'></video>
                             <h3 className='text-[25px] sm:text-[40px] lg:text-[50px] leading-[25px] md:leading-[40px] lg:leading-[55px] font-bold font-sans mt-3 md:mt-8 mb-2 text-white text-center'>{subtitleOne}</h3>
                             <h5 className='text-center text-[25px] text-white leading-[30px] md:leading-[33px] font-bold font-sans mb-4 lg:mb-8'>{subtitleTwo}</h5>
                             <p className='text-[13px] sm:text-[16px] font-sans leading-[20px] mb-3 text-white text-center lg:w-10/12 mx-auto'>{subpara}</p>
 
                             <div className="logos mt-4 lg:mt-10">
-                                <Image src={Logos} alt='Cloud Studios Incs' className='w-11/12 mx-auto' />
+                                <Image src={Logos} alt='Explainer Videos LLCs' className='w-11/12 mx-auto' />
                             </div>
                             <div className="btn mt-8 lg:mt-12 flex items-center justify-center">
-                                <Link href="javascript:;" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-3/12 mx-auto h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>
+                                <Link href="javascript:$zopim.livechat.window.show();" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-3/12 mx-auto h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>
                             </div>
                         </div>
                     </div>

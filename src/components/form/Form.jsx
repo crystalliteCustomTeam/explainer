@@ -30,7 +30,7 @@ const Form = () => {
                                     <input type="email" placeholder='Email' className='bg-white shadow-sm shadow-white rounded-[5px] h-[45px] text-center font-sans w-full lg:w-[285px] focus:outline-none text-black mb-[15px] lg:mb-0' />
                                 </div>
                                 <button className='w-full lg:w-[285px] h-[45px] bg-gradient-to-r from-[#363636] to-[#000000] poppins rounded-[5px] font-semibold text-white relative'>
-                                    <Image src={HandAnimation} alt='Cloud Studios Inc' className='absolute top-[-104px] left-0 right-0 mx-auto lg:block hidden' />
+                                    <Image src={HandAnimation} alt='Explainer Videos LLC' className='absolute top-[-104px] left-0 right-0 mx-auto lg:block hidden' />
                                     <span>Claim</span>
                                 </button>
                             </div>
