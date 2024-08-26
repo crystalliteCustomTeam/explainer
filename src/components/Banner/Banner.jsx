@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                     <h1 className='text-[30px] sm:text-[35px] lg:text-[45px] font-bold text-black font-sans text-center leading-[35px] sm:leading-[45px] lg:leading-[55px] pt-2 md:pt-4 pb-2 md:pb-5' data-aos="fade-up" data-wow-duration="3s">Make People Fall in Love with Your Brand <br className='md:block hidden' />
                         With The Power Of Video Animation</h1>
-                    <p className='text-center text-[13px] sm:text-[16px] font-sans text-black leading-[19px] pb-6' data-aos="fade-up" data-wow-duration="3s">Break those short attention spans and deliver engagement, boost your conversions, and immerse your target audiences with boundary-defying video animation.</p>
+                    <p className='text-center text-[13px] sm:text-[16px] font-sans text-black leading-[19px] pb-6' data-aos="fade-up" data-wow-duration="3s">Break those short attention spans and deliver engagement, boost your conversions,<br /> and immerse your target audiences with boundary-defying video animation.</p>
                     <div className="video w-full lg:w-6/12 mx-auto">
                         {banVideo.map((item, index) => (
                             <div key={index}>
@@ -47,7 +47,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <Image src={PartiThree} alt='Particle' className='absolute left-0 bottom-[-28%] lg:bottom-[-11%] w-[7%] lg:block hidden' />
-            </section>
+            </section >
         </>
     )
 }

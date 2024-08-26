@@ -21,7 +21,7 @@ const Brand = ({ content }) => {
                                 </div>
                             </div> :
                             <div className="col-span-12 lg:col-span-6">
-                                <h2 className='text-white font-bold font-sans text-[25px] md:text-[50px] xl:text-[70px] leading-tight xl:leading-[70px] mb-[20px]'>{title}</h2>
+                                <h2 className='text-white font-bold font-sans text-[25px] md:text-[45px] xl:text-[60px] leading-tight xl:leading-[60px] mb-[20px]'>{title}</h2>
                                 <h5 className='text-white font-bold font-sans leading-[31px] text-[25px] lg:w-11/12 pb-[5px]'>{subtitle}</h5>
                                 <p className='text-[17px] text-white font-sans leading-[22px]'>{desc}</p>
                                 <div className="btn mt-6">
