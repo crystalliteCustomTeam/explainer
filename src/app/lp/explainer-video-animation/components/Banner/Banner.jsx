@@ -6,11 +6,10 @@ import { usePathname } from "next/navigation"
 // Import Css
 import styles from "./Banner.module.css"
 // Images
-import Chats from "media/infinity-studio-lp-new/banner-chat.svg"
-import BannerLogos from "media/infinity-studio/bannerLogos.png"
+import BannerLogos from "media/infinity-studio/bannerLogos.webp"
 import BannerLogosTwo from "media/infinity-studio-lp-new/bannerLogosTwo.png"
-import Logo1 from "media/infinity-studio-lp-new/form-1.png"
-import Logo2 from "media/infinity-studio-lp-new/badge-70.png"
+import Logo1 from "media/infinity-studio-lp-new/form-1.webp"
+import Logo2 from "media/infinity-studio-lp-new/badge-70.webp"
 import Check from "media/infinity-studio/check.png"
 
 const Banner = () => {
@@ -213,7 +212,7 @@ const Banner = () => {
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                                     <div className='flex items-center gap-x-2 border-l-0 border-2 rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
                                         <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
+                                            <Image priority src={Check} alt='banner-logos' className='img-fuild' />
                                         </div>
                                         <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Demo/Tutorial Videos</span>
                                     </div>
@@ -221,7 +220,7 @@ const Banner = () => {
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                                     <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
                                         <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
+                                            <Image priority src={Check} alt='banner-logos' className='img-fuild' />
                                         </div>
                                         <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Training Videos</span>
                                     </div>
@@ -229,7 +228,7 @@ const Banner = () => {
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                                     <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
                                         <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
+                                            <Image priority src={Check} alt='banner-logos' className='img-fuild' />
                                         </div>
                                         <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Animated commercial Videos</span>
                                     </div>
@@ -237,7 +236,7 @@ const Banner = () => {
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                                     <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
                                         <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
+                                            <Image priority src={Check} alt='banner-logos' className='img-fuild' />
                                         </div>
                                         <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Promotional Videos</span>
                                     </div>
@@ -245,7 +244,7 @@ const Banner = () => {
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                                     <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
                                         <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
+                                            <Image priority src={Check} alt='banner-logos' className='img-fuild' />
                                         </div>
                                         <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'> Marketing Videos</span>
                                     </div>
@@ -253,7 +252,7 @@ const Banner = () => {
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
                                     <div className='flex items-center gap-x-2 border-l-0 border-2  rounded-full w-full sm:w-[90%] xl:w-[300px] h-[32px] xl:h-[40px]'>
                                         <div className='w-[30px] xl:w-[38px] h-[30px] xl:h-[37px]'>
-                                            <Image src={Check} alt='banner-logos' className='img-fuild' />
+                                            <Image priority src={Check} alt='banner-logos' className='img-fuild' />
                                         </div>
                                         <span className='text-white font-[400] pb-[10px] poppins text-[12px] xl:text-[16px] pt-[8px]'>Product Explainer Videos</span>
                                     </div>
@@ -276,22 +275,22 @@ const Banner = () => {
                                 </button>
                             </div> */}
                             <div className='flex items-center gap-7 my-5 md:my-0 md:pt-9'>
-                                <Image src={BannerLogos} alt='Explainer Videos LLC' className='w-6/12' />
-                                <Image src={BannerLogosTwo} alt='Explainer Videos LLC' className='w-4/12' />
+                                <Image src={BannerLogos} alt='Explainer Videos LLC' className='w-6/12' priority />
+                                <Image src={BannerLogosTwo} alt='Explainer Videos LLC' className='w-4/12' priority />
                             </div>
                         </div>
                     </div>
                     <div className="col-span-12 lg:col-span-6 xl:col-span-5">
                         <div className={`${styles.form} bg-[#FF2D4B] rounded-[19px] py-12 px-6 xl:px-8 md:mr-auto lg:mr-0 ml-auto relative lg:w-[75%] xl:w-[90%]`}>
                             <div className="flex items-center gap-x-4">
-                                <Image src={Logo1} alt='Explainer Videos LLC' height={100} className='mt-[-49px]' />
+                                <Image priority src={Logo1} alt='Explainer Videos LLC' height={100} className='mt-[-49px]' />
                                 <p className='text-[15px] font-semibold leading-[22px] md:leading-[26px] text-white poppins'>
                                     SIGN-UP & GET UPTO  <span className='text-[#FFCC00]'>70%</span> Off <br className='md:block hidden' />
                                     ON ALL TYPES OF VIDEO SERVICES
                                 </p>
                             </div>
                             <div className="logo absolute w-[25%] right-[-10px] top-[10px] md:w-[20%] md:right-[-10px] md:top-[35px] xl:w-[25%] xl:right-[-13px] xl:top-[25px]">
-                                <Image src={Logo2} alt='Explainer Videos LLC' />
+                                <Image priority src={Logo2} alt='Explainer Videos LLC' />
                             </div>
                             <form className='pt-5 lg:pt-8'>
                                 <div className="name relative mb-4">

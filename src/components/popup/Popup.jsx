@@ -8,8 +8,8 @@ import { Dialog } from "@material-tailwind/react";
 import usePopup from '@/app/configs/store/Popup';
 // Images
 import closeBtn from 'media/video-explainer/close-btn.svg'
-import popUpImage from "media/images/boost-img.gif"
-import arrowRed from "media/icons/arrow-red.png"
+import popUpImage from "media/infinity-studio-lp-new/brandshine.webp"
+import arrowRed from "media/icons/arrow-red.webp"
 
 const Popup = ({ }) => {
 
@@ -194,9 +194,9 @@ const Popup = ({ }) => {
         <>
             <Dialog open={popup} handler={popupHandle} className='popup h-full w-full' style={{ background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(8px)' }}>
                 <section className='h-screen lg:w-full py-7 2xl:py-12 px-4 md:px-6 flex items-center justify-center'>
-                    <div className="popupBg bg-[url('../../public/video-explainer/popupnew-bg.png')] bg-[length:100%_100%] bg-center bg-no-repeat pt-8 pb-8 xl:pt-9 px-4 sm:px-6 lg:px-10 relative w-full lg:w-[850px] xl:w-[900px] h-auto rounded-xl">
+                    <div className="popupBg bg-[url('../../public/video-explainer/popupnew-bg.webp')] bg-[length:100%_100%] bg-center bg-no-repeat pt-8 pb-8 xl:pt-9 px-4 sm:px-6 lg:px-10 relative w-full lg:w-[850px] xl:w-[900px] h-auto rounded-xl">
                         <div className='w-[40px] xl:w-[60px] h-[40px] xl:h-[60px] absolute top-[1%] right-[1%] flex items-center justify-center text-center rounded-[50%] border-0 cursor-pointer'>
-                            <Image onClick={popupHandle} src={closeBtn} className="w-full" alt='Infinity Animations' />
+                            <Image priority onClick={popupHandle} src={closeBtn} className="w-full" alt='Infinity Animations' />
                         </div>
                         <div className="grid grid-cols-12">
                             <div className="col-span-12 lg:col-span-6">
@@ -237,13 +237,13 @@ const Popup = ({ }) => {
                                         <span className="text-[12px] md:text-[16px] xl:text-[18px] font-normal font-sans text-white">
                                             {formStatus}
                                         </span>
-                                        <Image className="flex items-center justify-center w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] bg-white rounded-full p-2 ms-2 object-contain formbutton" src={arrowRed} alt="Infinity Animations " />
+                                        <Image priority className="flex items-center justify-center w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] bg-white rounded-full p-2 ms-2 object-contain formbutton" src={arrowRed} alt="Infinity Animations " />
                                     </button>
                                 </form>
                             </div>
-                            <div className="col-span-12 lg:col-span-6 lg:block hidden">
-                                <div className="max-h-[400px] 2xl:max-h-full mt-[-55px] xl:mt-0">
-                                    <Image src={popUpImage} alt="Infinity Animation" className="h-full m-auto w-[90%]" />
+                            <div className="col-span-12 lg:col-span-6 lg:block hidden m-auto">
+                                <div className="max-h-[400px] 2xl:max-h-full  xl:m-auto">
+                                    <Image priority src={popUpImage} alt="Infinity Animation" className="h-full m-auto w-[90%]" />
                                 </div>
                             </div>
                         </div>

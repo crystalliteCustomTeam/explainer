@@ -61,12 +61,12 @@ const megaMenuItems = [
     {
         title: "Infographics Design",
         icon: PhoneIcon,
-        href: "/",
+        href: "/infograpics-desgin",
     },
     {
         title: "Logo Animation",
         icon: NewspaperIcon,
-        href: "/",
+        href: "/logo-animation",
     },
 ];
 

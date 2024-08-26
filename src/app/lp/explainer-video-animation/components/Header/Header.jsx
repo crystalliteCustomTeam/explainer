@@ -59,7 +59,7 @@ const Header = () => {
                     <div className="grid grid-cols-12 items-center">
                         <div className="col-span-4 lg:col-span-3">
                             <div className="logo">
-                                <Image src={logo} alt='logo' width={150} className='w-[90%] md:w-[50%]' />
+                                <Image priority src={logo} alt='logo' width={150} className='w-[90%] md:w-[50%]' />
                             </div>
                         </div>
                         <div className="col-span-12 lg:col-span-9 lg:block hidden">
@@ -67,13 +67,13 @@ const Header = () => {
                                 <ul className='flex items-center justify-end gap-x-2 xl:gap-x-4'>
                                     <li>
                                         <a href="mailto:queries@explainervideosllc.com" className='flex items-center'>
-                                            <Image src={mail} alt='Explainer Videos LLC' />
+                                            <Image priority src={mail} alt='Explainer Videos LLC' />
                                             <span className='text-[14px] lg:text-[13px] xl:text-[14px] text-white px-[8px] font-normal poppins'>queries@explainervideosllc.com</span>
                                         </a>
                                     </li>
                                     <li>
                                         <button onClick={handleChatOpen} className='flex items-center text-white font-normal poppins bg-[#ff2d4c2f] border-2 xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-xl duration-700 transition-all hover:bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
-                                            <Image src={Chat} alt='UK' className='object-contain grayscale-[1] brightness-[100] xl:block hidden' />
+                                            <Image priority src={Chat} alt='UK' className='object-contain grayscale-[1] brightness-[100] xl:block hidden' />
                                             <span className='text-[14px] lg:text-[13px] xl:text-[14px] text-white px-[4px] font-normal poppins'>
                                                 Live Chat
                                             </span>
@@ -86,7 +86,7 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <a href='tel:833-666-6689' className='flex items-center gap-2 text-[14px] lg:text-[13px] xl:text-[14px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
-                                            <Image src={flag} alt='CA' className='object-contain' />
+                                            <Image priority src={flag} alt='CA' className='object-contain' />
                                             <span className='w-max'>
                                                 Toll Free: 1-833-666-6684
                                             </span>
@@ -99,7 +99,7 @@ const Header = () => {
                             <ul>
                                 <li className='flex items-center justify-end'>
                                     <a href='tel:833-666-6689' className='flex items-center gap-2 text-[13px] md:text-[16px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
-                                        <Image src={flag} alt='CA' className='object-contain' />
+                                        <Image priority src={flag} alt='CA' className='object-contain' />
                                         <span className='w-max'>
                                             Toll Free: 1-833-666-6684
                                         </span>

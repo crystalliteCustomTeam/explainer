@@ -55,6 +55,14 @@ const Footer = () => {
       text: "Whiteboard",
       link: "/whiteboard",
     },
+    {
+      text: "Infograpics Desgin",
+      link: "/infograpics-desgin",
+    },
+    {
+      text: "Logo Animation",
+      link: "/logo-animation",
+    },
 
   ];
   const otherLinks = [

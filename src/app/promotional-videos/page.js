@@ -69,7 +69,7 @@ const page = () => {
     isBranImage: true,
     css: "mx-auto w-9/12",
     positionCss: "",
-    btnTxt: "Make An Animation     +"
+    btnTxt: "Make An Animation "
   }
   //==== remarkable start =====//
 

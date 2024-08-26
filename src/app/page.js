@@ -13,7 +13,7 @@ import OurClient from '@/components/ourClient/OurClient'
 import Extraordinary from '@/components/Extraordinary/Extraordinary'
 
 // ===== Images 
-import BranShine from "media/home/brandshine.png"
+import BranShine from "media/home/brandshine.webp"
 import SaleShine from "media/home/salesimage.png"
 
 

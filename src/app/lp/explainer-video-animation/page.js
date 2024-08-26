@@ -15,7 +15,7 @@ import Faqs from './components/faqs/Faqs'
 import Footer from './components/Footer/Footer'
 import SidebarCTA from './components/sidebarcat/SidebarCta'
 // Images
-import BranShine from "media/infinity-studio-lp-new/brandshine.png"
+import BranShine from "media/infinity-studio-lp-new/brandshine.webp"
 import SaleShine from "media/explainer-videos/salesimage.png"
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/img01.jpg"
@@ -246,7 +246,7 @@ const page = () => {
         ],
         [
             {
-                video: "https://player.vimeo.com/progressive_redirect/playback/920567123/rendition/1080p/file.mp4?loc=external&signature=d9b02a0f53aa8784b0e3ed063720d29b1970b3e3b399f1d34316482874fdaa86",
+                video: "https://player.vimeo.com/progressive_redirect/playback/920567123/rendition/1080p/file.mp4?loc=external&signature=46417ad19f9c7ee2365787670b7b7cfd33b270410032ca3d43364c08c20f8f28",
                 thumbnail: Thumnail25,
             },
             {
