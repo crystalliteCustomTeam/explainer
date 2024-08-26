@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "3d Animations - Explainer Videos LLC",
-    description: "Learn more about the passionate team driving innovation, precision, and storytelling mastery in every animated frame.",
+    title: "Revolutionary 3D Animation Solutions for Brands & Businesses.",
+    description: "Leverage the power of cutting-edge 3D animations to elevate your marketing with premium 3D animation services.",
     //===== OG Tags =====
     openGraph: {
-        title: '3d Animations - Explainer Videos LLC',
-        description: 'Learn more about the passionate team driving innovation, precision, and storytelling mastery in every animated frame.',
-        url: '/2d-animation',
+        title: 'Revolutionary 3D Animation Solutions for Brands & Businesses.',
+        description: 'Leverage the power of cutting-edge 3D animations to elevate your marketing with premium 3D animation services.',
+        url: '/3d-animation',
         siteName: 'Explainer Videos LLC',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/2d-animation' },
+    alternates: { canonical: '/3d-animation' },
     //===== GEO Tags =====
     other: {},
 }

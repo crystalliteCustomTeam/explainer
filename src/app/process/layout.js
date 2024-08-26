@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Process  - Explainer Videos LLC",
-    description: "",
+    title: "A Process That Is Time-Tested & Optimized – Explainer Videos LLC.",
+    description: "Experience the power of video animation and see our process in action. See how we animate, dominate, and help brands to go further!",
     //===== OG Tags =====
     openGraph: {
         title: 'Process - Explainer Videos LLC',
-        description: '',
+        description: 'Experience the power of video animation and see our process in action. See how we animate, dominate, and help brands to go further!',
         url: '/process',
         siteName: 'Explainer Videos LLC',
         locale: 'en_US',

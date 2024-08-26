@@ -202,18 +202,18 @@ const Banner = () => {
                 <div className="grid grid-cols-12 gap-y-5 md:gap-y-10 items-center">
                     <div className="col-span-12 lg:col-span-6 2xl:col-span-6">
                         <div className="txt">
-                            <h1 className='text-[25px] lg:text-[35px] font-semibold poppins leading-[35px] lg:leading-[50px] mb-5 text-white'>Contact Us</h1>
-                            <p className='text-[14px] md:text-[16px] poppins leading-[25px] font-normal xl:pr-[20px] text-white'>Become a part of the Cloud Studios revolution and help your brand break boundaries through powerful animation.</p>
+                            <h1 className='text-[25px] lg:text-[35px] font-semibold poppins leading-[35px] lg:leading-[50px] mb-5 text-white'>Connect With Us!</h1>
+                            <p className='text-[14px] md:text-[16px] poppins leading-[25px] font-normal xl:pr-[20px] text-white'>Choose Explainer Videos LLC. for the ultimate video animation solutions and convert prospects into clients using the video medium.</p>
                             <div className="flex items-center gap-4 lg:gap-8 pt-5 lg:pt-9">
                                 <div>
                                     <a href='tel:833-666-6689' className='flex items-center justify-center text-[14px] xl:text-[14px] md:text-[16px] text-white font-semibold poppins h-[45px] w-[165px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
-                                        Call Now
+                                        Call Us Now!
                                     </a>
                                 </div>
                                 <button onClick={handleChatOpen} className='flex items-center gap-2'>
                                     <Image src={Chats} alt='Explainer Videos LLC' />
                                     <div>
-                                        <p className='text-[15px] leading-tight text-white poppins font-normal '>Chat Now to Avail 70% OFF</p>
+                                        <p className='text-[15px] leading-tight text-white poppins font-normal '>Chat Now to Avail 50% OFF</p>
                                         <span className='text-[#0DEB48] poppins text-[17px] font-semibold'>
                                             Live Chat
                                         </span>
@@ -232,7 +232,7 @@ const Banner = () => {
                             <div className="flex items-center gap-x-4">
                                 <Image src={Logo1} alt='Explainer Videos LLC' height={100} className='mt-[-49px]' />
                                 <p className='text-[15px] font-semibold leading-[22px] md:leading-[26px] text-white poppins'>
-                                    SIGN-UP & GET UPTO  <span className='text-[#FFCC00]'>70%</span> Off <br className='md:block hidden' />
+                                    SIGN-UP & GET UPTO  <span className='text-[#FFCC00]'>50%</span> Off <br className='md:block hidden' />
                                     ON ALL TYPES OF VIDEO SERVICES
                                 </p>
                             </div>

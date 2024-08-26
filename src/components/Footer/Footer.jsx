@@ -107,8 +107,7 @@ const Footer = () => {
               <Image src={logo} width={263} height={40} className="pb-3" alt="Explainer Videos LLC" />
             </Link>
             <p className="text-[14px] poppins text-left text-black mt-3 pb-10">
-              Explainer Videos LLC is a visionary kingdom where creativity knows no bounds. With masterful strokes of artistry, they breathe life into ideas, forging appealing animations that dance with
-              imagination.
+              We're the video experts who help you tell your story in a way that resonates with everyone. We're reliable, creative, and results-driven. Take charge today and experience the potential of video animation and explainer videos for your brand.
             </p>
 
 
@@ -170,7 +169,7 @@ const Footer = () => {
         </div>
         <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-2 sm:gap-y-0 items-center border-t border-[#000000]">
           <div className="basis-full sm:basis-1/2">
-            <p className="text-sm poppins text-black leading-6 text-center sm:text-left">© Copyright 2024 - Explainer Videos LLC</p>
+            <p className="text-sm poppins text-black leading-6 text-center sm:text-left">© Copyright 2024 Explainer Videos LLC – A Brand of Infinity Animations</p>
           </div>
           <div className="basis-full sm:basis-1/2">
             <ul className="flex items-center justify-center sm:justify-end gap-4">

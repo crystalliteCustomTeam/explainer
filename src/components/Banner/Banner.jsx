@@ -32,12 +32,12 @@ const Banner = () => {
                             <Star className='text-[#FFD62B] text-[22px] w-[22px] h-[22px]' />
                         </div>
                         <div className="content">
-                            <p className='text-[13px] sm:text-[16px] text-black font-sans ms-2'><strong>4.8 out of 5</strong> (review rating) Over 1,200+ reviews</p>
+                            <p className='text-[13px] sm:text-[16px] text-black font-sans ms-2'><strong>4.8 out of 5</strong> Rating  Over 1500+ Reviews</p>
                         </div>
                     </div>
-                    <h1 className='text-[30px] sm:text-[35px] lg:text-[45px] font-bold text-black font-sans text-center leading-[35px] sm:leading-[45px] lg:leading-[55px] pt-2 md:pt-4 pb-2 md:pb-5' data-aos="fade-up" data-wow-duration="3s">Boost Sales with 3D Animation Services. <br className='md:block hidden' />
-                        Instantaneously Forge Explainer Videos!</h1>
-                    <p className='text-center text-[13px] sm:text-[16px] font-sans text-black leading-[19px] pb-6' data-aos="fade-up" data-wow-duration="3s">Our repertoire spans the spectrum from 2D animation services to 3D animation services, with the timeless allure<br /> of whiteboard animation bringing your visions to life.</p>
+                    <h1 className='text-[30px] sm:text-[35px] lg:text-[45px] font-bold text-black font-sans text-center leading-[35px] sm:leading-[45px] lg:leading-[55px] pt-2 md:pt-4 pb-2 md:pb-5' data-aos="fade-up" data-wow-duration="3s">Make People Fall in Love with Your Brand <br className='md:block hidden' />
+                        With The Power Of Video Animation</h1>
+                    <p className='text-center text-[13px] sm:text-[16px] font-sans text-black leading-[19px] pb-6' data-aos="fade-up" data-wow-duration="3s">Break those short attention spans and deliver engagement, boost your conversions, and immerse your target audiences with boundary-defying video animation.</p>
                     <div className="video w-full lg:w-6/12 mx-auto">
                         {banVideo.map((item, index) => (
                             <div key={index}>

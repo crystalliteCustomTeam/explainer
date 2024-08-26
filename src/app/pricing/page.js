@@ -19,9 +19,9 @@ const page = () => {
   ]
 
   const banner = {
-    title: <>Animation, Design, Digital & Everything </>,
-    para: <><p className='pb-3'>We are not just animators – we’re visual animation sorcerers. Born from a passion for pushing the boundaries of digital storytelling, weve evolved into pioneers of next-gen animation for businesses. Our journey began with a simple belief: every brand has a unique story waiting to be told through motion.</p>
-      <p>We blend cutting-edge technology with creative genius to deliver super-immersive experiences that don’t just grab attention – they ignite the imagination, push brands through the clutter and break frontiers.</p></>,
+    title: <>Explainer Videos: Your Brand's Secret Weapon! </>,
+    para: <><p className='pb-3'>Video content is a super-powerful tool in digital marketing and branding for businesses and digital entities. Explainer videos and animated content enable brands to cut through the digital noise and be seen, heard, and felt. Video animation captures attention, conveys complex ideas simply, and leaves an impression that sticks with audiences on sensory levels.</p>
+      <p>With unlimited creative possibilities, animated explainer videos can capture your brand's essence, connect with your audience, and boost those number-focused conversions. Today's consumers demand visual storytelling, and explainer videos provide an effective and entertaining way to deliver it. Don't let your brand get left behind – grip the potential of explainer videos and see the results for your brand.</p></>,
     list: lists,
     isList: false,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/924775413/rendition/240p/file.mp4?loc=external&log_user=0&signature=8ec85e9167e33fa1f6f0341d28222d54340a4a5eff496c22a01c4feb71262cb9",
@@ -41,7 +41,8 @@ const page = () => {
     <>
       <InnerBanner content={banner} />
       <Form />
-      <Packages /> <OurClient />
+      <Packages />
+      <OurClient />
 
       <Extraordinary />
     </>

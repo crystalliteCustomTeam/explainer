@@ -23,8 +23,8 @@ const page = () => {
   ]
 
   const banner = {
-    title: <>Journey to Brilliance with Guaranteed Results</>,
-    para: <><div className='pb-6'>Animation Creation Unpacked!</div></>,
+    title: <>We have a streamlined production process for our animation projects!</>,
+    para: <><div className='pb-6'>Animation wonders unpacked!</div></>,
     list: lists,
     isList: false,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/924775413/rendition/240p/file.mp4?loc=external&log_user=0&signature=8ec85e9167e33fa1f6f0341d28222d54340a4a5eff496c22a01c4feb71262cb9",
@@ -32,23 +32,23 @@ const page = () => {
   //=====StoryLine Fold=====//
   const accordionData = [
     {
-      question: 'Strategic Storytelling',
-      answer: "Begin with a strategic approach to storytelling, ensuring that every animation project has a compelling narrative foundation that resonates with your audience.",
+      question: 'Idea Storm!',
+      answer: "We kick off by unleashing a tumultuous of creativity! Our team dives deep into brainstorming, generating wild and innovative concepts that perfectly align with your brand’s vision. No idea is too crazy – this is where magic begins!",
       StoryLineImg: StoryLine1
     },
     {
-      question: 'Audio Excellence',
-      answer: "Elevate the storytelling experience with audio mastery. Our team meticulously selects and integrates sound elements to enhance emotional connections and create a truly immersive experience.",
+      question: 'Epic Storyboarding!',
+      answer: "Next, we sketch out your video’s journey with detailed, dynamic storyboards. This phase is all about mapping out the visual flow, ensuring every scene tells your story in the most engaging and visually stunning way possible.",
       StoryLineImg: StoryLine2
     },
     {
-      question: 'Dynamic Animation',
-      answer: "Infuse life into your story with dynamic animations. From 2D to 3D, our animation expertise brings characters, scenes, and concepts to vibrant existence, captivating your audience with visually stunning sequences.",
+      question: 'Animate to Life!',
+      answer: "Now comes the fun part – breathing life into your storyboard. Our animators work their wizardry, crafting smooth, captivating animations that grab attention and keep viewers hooked from the first frame to the last.",
       StoryLineImg: StoryLine3
     },
     {
-      question: 'The Midas Touch',
-      answer: "Add the final touch of brilliance with our Midas Touch – a meticulous polish and refinement process that ensures your animation shines with perfection. Every detail is scrutinized to deliver an animated masterpiece that exceeds expectations.",
+      question: 'Sound – The Midas Touch!',
+      answer: "Finally, we add the golden touch with sound. Music, voiceovers, and effects are carefully chosen to elevate your video, creating a perfectly synced masterpiece that resonates and leaves a lasting impression.",
       StoryLineImg: StoryLine4
     },
   ];

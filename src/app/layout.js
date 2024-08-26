@@ -8,13 +8,13 @@ import Script from "next/script";
 import Scripts from "./Scripts";
 //===== Meta Data =====
 export const metadata = {
-  metadataBase: new URL("https://cloudstudiosinc.com/"),
+  metadataBase: new URL("https://www.explainervideosllc.com/"),
   //===== Meta Tags =====
-  title: "Premium Video Animation Services | Explainer Videos LLC",
+  title: "Explainer Videos LLC – Your Brand, Animated!",
   description: "Embrace the juncture and vivify your narrative through impeccable craftsmanship, alongside an all-inclusive suite of video animation and 3D animation services.",
   //===== OG Tags =====
   openGraph: {
-    title: "Premium Video Animation Services | Explainer Videos LLC",
+    title: "Explainer Videos LLC – Your Brand, Animated!",
     description: "Embrace the juncture and vivify your narrative through impeccable craftsmanship, alongside an all-inclusive suite of video animation and 3D animation services.",
     url: "/",
     siteName: "Explainer Videos LLC",
@@ -26,7 +26,7 @@ export const metadata = {
   alternates: { canonical: "/" },
   //===== No-Index =====
   robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
     googleBot: {

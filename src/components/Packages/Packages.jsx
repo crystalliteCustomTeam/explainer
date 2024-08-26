@@ -32,8 +32,8 @@ const Packages = () => {
                 <div className="grid grid-cols-12 gap-5">
                     <div className="col-span-12">
                         <p className='text-[18px] lg:text-[25px] text-center leading-[25px] lg:leading-[38px] poppins font-semibold text-black'>Pricing</p>
-                        <h2 className='text-black poppins text-[25px] md:text-[30px] lg:text-[35px] font-semibold leading-[35px] md:leading-[45px] lg:leading-[50px] text-center mb-2'>A Comprehensive Suite of <span className='text-[#FF0000]'>Video Animation</span> Packages</h2>
-                        <p className='text-[14px] md:text-[16px] poppins text-normal text-black text-center lg:w-8/12 xl:px-[23px] mx-auto mb-4 md:mb-10'>Explainer Videos LLC is a renowned name in the video animation industry. Our packages cover all the pre-production and post-production steps so that you walk away with an animated video that delivers results.</p>
+                        <h2 className='text-black poppins text-[25px] md:text-[30px] lg:text-[35px] font-semibold leading-[35px] md:leading-[45px] lg:leading-[50px] text-center mb-2'>Affordable & Quality-Focused <span className='text-[#FF0000]'>Video Animation</span> Packages</h2>
+                        <p className='text-[14px] md:text-[16px] poppins text-normal text-black text-center lg:w-8/12 xl:px-[23px] mx-auto mb-4 md:mb-10'>Get awesome video animation services without emptying your wallet. Quality animations that are wow-priced, so you’ll still afford your coffee!</p>
                     </div>
                     <div className="col-span-12 lg:col-span-4">
                         <div className='bg-gradient-to-r from-[#f3d86e] to-[#FFCC00] rounded-[30px] md:rounded-[40px] lg:rounded-[25px] group'>

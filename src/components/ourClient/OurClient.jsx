@@ -50,8 +50,8 @@ const OurClient = () => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12 items-center">
                         <div className="col-span-12">
-                            <h2 className='text-[30px] sm:text-[45px] md:text-[50px] leading-tight font-bold font-sans text-center text-white mb-3'>Let’s Read What Our Clients Have to Say</h2>
-                            <p className='text-[13px] lg:text-[16px] leading-[21px] font-sans text-center text-white mx-auto mb-10'>If you can’t trust us, try trusting them.</p>
+                            <h2 className='text-[30px] sm:text-[45px] md:text-[50px] leading-tight font-bold font-sans text-center text-white mb-3'>See What the People Are Saying About Us!</h2>
+                            <p className='text-[13px] lg:text-[16px] leading-[21px] font-sans text-center text-white mx-auto mb-10'>he power of video – unleashed!</p>
                         </div>
                         <div className="col-span-4 lg:col-span-8">
                             <Image src={ClientImage} alt='Clients' className='mt-[-57px] lg:mt-0 lg:mb-[-70px] lg:block hidden' />
@@ -61,7 +61,7 @@ const OurClient = () => {
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client1} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Vanessa Carpenter</h3>
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Navarro</h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -70,12 +70,12 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC turned our ideas into pure magic! Their creativity knows no bounds, and the results totally blew us away!</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>OMG, Explainer Videos LLC is fire! 🔥 They get our vibe and make videos that are so lit, they're practically viral already. My friends are obsessed with the explainer video they made for our brand. It's like, the coolest thing ever.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client2} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Bradley Lynch</h3>
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Mitchell</h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -84,12 +84,12 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Working with Explainer Videos LLC was a pleasure. Their team is not only professional but also incredibly talented. The animations they created for our brand added that extra spark we were looking for.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC is a breath of fresh air! They're creative, collaborative, and understand how to connect with our target audience. We were blown away by their attention to detail and their ability to translate our brand's message into a visually compelling story.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client1} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Sophia Zimmerman</h3>
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Hank</h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -98,12 +98,12 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>I can't express how impressed we were with Explainer Videos LLC. They took our complex data and turned it into beautiful, engaging infographics. Their attention to detail and commitment to our project were truly outstanding.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC is a smart choice for any brand looking to make a lasting impression. They're professional, reliable, and deliver high-quality results. We were impressed by their ability to simplify complex concepts and make them engaging for a broad audience.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client1} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Tara Figueroa</h3>
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Rose</h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -112,12 +112,12 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC made our logo come alive in a way we couldn't have imagined. It added a dynamic touch to our branding that we love.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC is a refreshing change from those flashy, over-the-top agencies. They're straightforward, professional, and get the job done right. We were pleased with the clarity and effectiveness of their explainer videos. They helped us communicate our message in a way that resonated with our audience.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client1} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Priscilla Pearson</h3>
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Nance </h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -126,12 +126,12 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>The architectural visualizations crafted by Explainer Videos LLC are simply breathtaking. They have a unique talent for bringing architectural concepts to life, and we couldn't be happier.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC is a game-changer for our industry. Their understanding of our target market and their ability to create engaging content that drives results is unparalleled. We've seen a significant increase in engagement and conversions since partnering with Explainer Videos LLC.</p>
                                 </div>
                                 <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client1} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Randolph Simpson</h3>
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Jonah </h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -140,7 +140,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC worked wonders with CGI-VFX for our product. Their work took our marketing efforts to a whole new level and made us stand out in the market.</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Explainer Videos LLC is the coolest video production company ever. They're totally on point with the latest trends and know how to make a statement. Their work is so creative and innovative, it's like they're from another planet. We're obsessed.</p>
                                 </div>
                             </Slider>
                         </div>

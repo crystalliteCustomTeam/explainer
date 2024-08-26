@@ -101,7 +101,7 @@ const Bussiness = () => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="grid-cols-1">
                         <div className="content">
-                            <h2 className='text-[30px] md:text-[50px] leading-tight md:leading-[55px] font-sans font-bold text-center text-black mb-2 sm:mb-6'>Video Animation Services Guarantee <br /> Business Prosperity</h2>
+                            <h2 className='text-[30px] md:text-[50px] leading-tight md:leading-[55px] font-sans font-bold text-center text-black mb-2 sm:mb-6'>Animation Has A 66% Higher Average Viewing Rate.</h2>
                         </div>
                     </div>
                 </div>

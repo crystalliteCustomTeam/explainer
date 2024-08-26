@@ -15,8 +15,8 @@ const Extraordinary = () => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12">
                         <div className="col-span-12">
-                            <h2 className='text-[30px] md:text-[40px] lg:text-[55px] leading-tight font-bold font-sans text-center text-black mb-3'>Endeavor to Conceive an Exceptional Creation</h2>
-                            <p className='text-[13px] sm:text-[17px] leading-[21px] font-sans text-center text-black lg:w-9/12 mx-auto mb-10'>Are you ready for our video animation services? If yes, then you are about to enter into a portal that leads to never-ending artistic creativity and vigor.</p>
+                            <h2 className='text-[30px] md:text-[40px] lg:text-[55px] leading-tight font-bold font-sans text-center text-black mb-3'>Let’s Get Started And Create Magic!</h2>
+                            <p className='text-[13px] sm:text-[17px] leading-[21px] font-sans text-center text-black lg:w-9/12 mx-auto mb-10'>Attention spans are short, time is money – embrace the power of video animation and explainer videos to propel your business and brand to new heights of conversion and engagement.</p>
                             <div className="flex flex-wrap items-center justify-center gap-3">
                                 <div className="btns">
                                     <Link class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-[318px] h-[44px] poppins flex items-center justify-center" href="javascript:$zopim.livechat.window.show();">Make an Animation</Link>
