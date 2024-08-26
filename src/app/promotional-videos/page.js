@@ -57,9 +57,6 @@ const page = () => {
   const portfolio = {
     title: (<> Our Never-Ending Portfolio of Video Animation </>),
     para: (<>Our portfolio is certainly one-of-a-kind – see how we have empowered brands through animation and explainer videos.</>),
-    tabContents: tabContents,
-    tabsInfo: true,
-    tabInfo: tabInfo,
     bg: "bg-[#F3F3F3]"
   };
 
