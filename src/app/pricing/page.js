@@ -43,7 +43,6 @@ const page = () => {
       <Form />
       <Packages />
       <OurClient />
-
       <Extraordinary />
     </>
   )

@@ -14,13 +14,13 @@ import { register } from "swiper/element/bundle";
 // ==== Import Css
 import styles from "./Animation.module.css"
 // ==== Images Start
-import Slide1 from "media/explainer-videos/animate1.png"
-import Slide2 from "media/explainer-videos/animate2.png"
-import Slide3 from "media/explainer-videos/animate3.jpg"
-import Slide4 from "media/explainer-videos/animate4.jpg"
-import Slide5 from "media/explainer-videos/animate5.jpg"
+import Slide1 from "media/thumbnails/3d-animation/img01.jpg"
+import Slide2 from "media/thumbnails/cell/img01.jpg"
+import Slide3 from "media/thumbnails/art/img01.jpg"
+import Slide4 from "media/thumbnails/hybrid/img02.jpg"
+import Slide5 from "media/thumbnails/2d-animation/img01.jpg"
 import Slide6 from "media/thumbnails/whiteboard/img01.jpg"
-import Slide7 from "media/thumbnails/motion-graphics/img04.jpg"
+import Slide7 from "media/thumbnails/motion-graphics/img05.jpg"
 import Arrow from "media/explainer-videos/slide-arrow.png"
 import VideoIco from "media/infinity-studio/play2.png"
 
@@ -209,7 +209,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">2D Animation Service</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>2D animation involves creating movement in a two-dimensional space, offering a timeless and versatile visual experience. Our service leverages the simplicity and charm of hand-drawn elements to craft engaging and visually stunning animations. This approach allows for clear and effective communication, perfect for explainer videos, marketing campaigns, and educational content. By focusing on high-quality, captivating animations, we ensure that your message resonates with your audience and leaves a lasting impression.</p>
                                     <div className="btn w-max ms-auto">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -222,7 +222,7 @@ const Animation = () => {
                             }}>
                                 <div>
                                     <Link
-                                        href="https://player.vimeo.com/progressive_redirect/playback/907829397/rendition/1080p/file.mp4?loc=external&signature=90d3e6d4b05f56ed61129b5031be09b724259666750b41882f54bf99b3e2314e" datafancybox="gallery">
+                                        href="https://player.vimeo.com/progressive_redirect/playback/919379331/rendition/1080p/file.mp4?loc=external&signature=688759b3a128941cd55dfa9b0248db0a5d69063eda5f3f1cacfe2758156c5307" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -235,7 +235,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">3D Animation Services</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>Our 3D animation services are not just visuals; they're an immersive experience that propels your brand into the future. Our skilled team of 3D artists and visionaries transform concepts into living, breathing narratives that captivate audiences.</p>
                                     <div className="btn w-max ms-auto relative z-50">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -247,7 +247,7 @@ const Animation = () => {
                                 },
                             }}>
                                 <div>
-                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/947422905/rendition/1080p/file.mp4?loc=external&signature=f56596bad42e22dfbb5dcf417293fe4f92f3fc7e84a9464be5c8f07f903eaa05" datafancybox="gallery">
+                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/919392459/rendition/1080p/file.mp4?loc=external&signature=ac9f7046018f628b3e07c3d01f3bd2c3a36b37627a8c49b7a9e0efbd3ebc92f5" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -260,7 +260,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Cel Animation Services</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>With Cel Animation, we seamlessly merge traditional hand-drawn Cel animation techniques with cutting-edge digital elements. This dynamic fusion results in visuals that not only pay homage to the timeless charm of Cel animation but also push the boundaries of innovation.</p>
                                     <div className="btn w-max ms-auto">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -272,7 +272,7 @@ const Animation = () => {
                                 },
                             }}>
                                 <div>
-                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/957421481/rendition/1080p/file.mp4?loc=external&signature=2200951cfd824565a3f569c81e997b1f7c5ad0a443debd2bc4d73ff7a3b0f27b" datafancybox="gallery">
+                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/920118193/rendition/1080p/file.mp4?loc=external&signature=c2cebc64d5f107cfdffdba4155e3ff82538218dd21ce6039ad883775f9c0c858" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -285,7 +285,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Architectural Visualization Services</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>At the intersection of innovation and aesthetics, our Architectural Visualization Services go beyond rendering structures; they create visual stories that resonate. Whether it's a residential project, commercial space, or urban development.</p>
                                     <div className="btn w-max ms-auto">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -297,7 +297,7 @@ const Animation = () => {
                                 },
                             }}>
                                 <div>
-                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/923043536/rendition/1080p/file.mp4?loc=external&signature=65ba4de21993e2ab518a0dbad0e015b2bd960e70967b63241c8509cc1f8c5390" datafancybox="gallery">
+                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/919390533/rendition/1080p/file.mp4?loc=external&signature=c76b981a883dfcb0cd240c857eade6dd476450bf53e4e0f2680e692b3d593ed0" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -310,7 +310,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Hybrid Animation Service</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>Oborderur 3D animation services are not just visuals; they're an immersive experience that propels your brand into the future. Our skilled team of 3D artists and visionaries transform concepts into living, breathing narratives that captivate audiences.</p>
                                     <div className="btn w-max ms-auto">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -323,7 +323,7 @@ const Animation = () => {
                             }}>
                                 <div>
                                     <Link
-                                        href="https://player.vimeo.com/progressive_redirect/playback/911728642/rendition/1080p/file.mp4?loc=external&signature=44469d3d3ef50562def357cdf05ef68b8d9eb1f6c874c98d4b7a6772c4b7f173" datafancybox="gallery">
+                                        href="https://player.vimeo.com/progressive_redirect/playback/920118952/rendition/1080p/file.mp4?loc=external&signature=b3f7b88a02ddcd4ae523d2df010d84a56c016b75f42b85d15e4188eb79bb1472" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -336,7 +336,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Whiteboard Animation Video</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>Whiteboard videos simulate black-line graphics on a white background while guiding viewers through the entire concept or idea.</p>
                                     <div className="btn w-max ms-auto">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -349,7 +349,7 @@ const Animation = () => {
                             }}>
                                 <div>
                                     <Link
-                                        href="https://player.vimeo.com/progressive_redirect/playback/906229275/rendition/1080p/file.mp4?loc=external&signature=6cce77a47f5927d9a30e5a8c79efd00b539f963952705e6d3ee7565e9c1ccd7e" datafancybox="gallery">
+                                        href="https://player.vimeo.com/progressive_redirect/playback/919395443/rendition/1080p/file.mp4?loc=external&signature=ea1769b08ec37fe18f225b3d37b15051f726c1c6745c145aa3bd421f52dec51a" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -362,7 +362,7 @@ const Animation = () => {
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Motion Graphics</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>Again, motion graphics animation videos are known for being simple and engaging. It's the perfect animation style for businesses looking to show off various goods or services.</p>
                                     <div className="btn w-max ms-auto">
-                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Make an Animation
+                                        <button onClick={handleChatOpen} className='flex items-center gap-x-3 mt-4 h-[35px] lg:h-[40px] xl:h-[45px] w-max px-3 text-[12px] md:text-[14px] xl:text-[16px] font-medium poppins tracking-wider bg-[#FF2D4B] text-white rounded-[5px] shadow-3xl duration-700 transition-all hover:duration-700 hover:transition-all'>Get Started
                                             <Image src={Arrow} className='w-[10px] h-[10px] object-contain' alt='Arrow' width={8} height={9} />
                                         </button>
                                     </div>
@@ -375,7 +375,7 @@ const Animation = () => {
                             }}>
                                 <div>
                                     <Link
-                                        href="https://player.vimeo.com/progressive_redirect/playback/907667817/rendition/1080p/file.mp4?loc=external&signature=62f4e51f50389dad04d8d6658c50e99198503d3ca6d458ef27bac708f6bb7feb" datafancybox="gallery">
+                                        href="https://player.vimeo.com/progressive_redirect/playback/919793776/rendition/1080p/file.mp4?loc=external&signature=0c613749c66b5efecab8f5cde764a5c26fdb7d1b1f7242c23e67c215a739830b" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
