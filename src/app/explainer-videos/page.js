@@ -15,36 +15,6 @@ import Extraordinary from '@/components/Extraordinary/Extraordinary'
 import BranShine from "media/explainer-videos/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
 
-// ==== Thumnail Image
-import Thumnail1 from "media/thumbnails/2d-animation/img01.jpg"
-import Thumnail2 from "media/thumbnails/2d-animation/img02.jpg"
-import Thumnail3 from "media/thumbnails/2d-animation/img03.jpg"
-import Thumnail4 from "media/thumbnails/2d-animation/img04.jpg"
-import Thumnail5 from "media/thumbnails/2d-animation/img05.jpg"
-import Thumnail6 from "media/thumbnails/2d-animation/img06.jpg"
-import Thumnail7 from "media/thumbnails/3d-animation/img01.jpg"
-import Thumnail8 from "media/thumbnails/3d-animation/img02.jpg"
-import Thumnail9 from "media/thumbnails/3d-animation/img03.jpg"
-import Thumnail10 from "media/thumbnails/3d-animation/img04.jpg"
-import Thumnail11 from "media/thumbnails/3d-animation/img05.jpg"
-import Thumnail12 from "media/thumbnails/3d-animation/img06.jpg"
-import Thumnail13 from "media/thumbnails/whiteboard/img01.jpg"
-import Thumnail14 from "media/thumbnails/whiteboard/img02.jpg"
-import Thumnail15 from "media/thumbnails/whiteboard/img03.jpg"
-import Thumnail16 from "media/thumbnails/whiteboard/img04.jpg"
-import Thumnail17 from "media/thumbnails/whiteboard/img05.jpg"
-import Thumnail18 from "media/thumbnails/whiteboard/img06.jpg"
-import Thumnail19 from "media/thumbnails/motion-graphics/img01.jpg"
-import Thumnail20 from "media/thumbnails/motion-graphics/img02.jpg"
-import Thumnail21 from "media/thumbnails/motion-graphics/img03.jpg"
-import Thumnail22 from "media/thumbnails/motion-graphics/img04.jpg"
-import Thumnail23 from "media/thumbnails/motion-graphics/img05.jpg"
-import Thumnail25 from "media/thumbnails/hybrid/img01.jpg"
-import Thumnail26 from "media/thumbnails/hybrid/img02.jpg"
-import Thumnail27 from "media/thumbnails/hybrid/img03.jpg"
-import Thumnail28 from "media/thumbnails/hybrid/img04.jpg"
-import Thumnail29 from "media/thumbnails/hybrid/img04.jpg"
-import Thumnail30 from "media/thumbnails/hybrid/img04.jpg"
 
 // ===== Card Images
 import Remark10 from "media/home/remark24.png"
@@ -175,7 +145,7 @@ const page = () => {
       <Portfolio content={portfolio} />
       <Brand content={brands} />
       <Remarkable content={remarkable} />
-      <Animation />
+      {/* <Animation /> */}
       <Brand content={sales} />
       <OurClient />
       <Extraordinary />

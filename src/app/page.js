@@ -129,7 +129,7 @@ const page = () => {
       <Form />
       <Bussiness />
       <Assisted />
-      <Animation />
+      {/* <Animation /> */}
       <Portfolio content={portfolio} />
       <Brand content={brands} />
       <Remarkable content={remarkable} />
