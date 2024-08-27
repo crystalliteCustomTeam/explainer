@@ -40,7 +40,7 @@ const PricingLP = () => {
                             <h3>Video Basic</h3>
                             <p>Text &amp; Image Compilation</p>
                             <div className={styles.amountBox}>
-                                <h2>$165 </h2>
+                                <h2>$155 </h2>
                                 <strike>$499</strike>
                             </div>
                             <ul className={styles.listBox}>
