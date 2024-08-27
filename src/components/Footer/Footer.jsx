@@ -96,7 +96,7 @@ const Footer = () => {
   const contactLinks = [
     {
       text: "222 S Figueroa St, Los Angeles, CA 90012, United States",
-      link: "https://maps.app.goo.gl/L9FtsgKKyQ4TzTbc7",
+      link: "https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7",
       img: Location,
     },
     {
