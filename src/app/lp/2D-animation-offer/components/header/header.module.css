@@ -1,0 +1,32 @@
+.headerSection {
+    height: 80px;
+    background: transparent;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+
+}
+
+.headerSection a {
+    font-weight: 600;
+    font-size: 18px;
+    background: #1a4bdb;
+    padding: 12px 30px;
+    border-radius: 60px;
+    animation: 1s ease-in-out infinite blink;
+    color: #fff;
+    text-decoration: none;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        color: #1a4bdb
+    }
+
+    50% {
+        color: #d8db1a
+    }
+}

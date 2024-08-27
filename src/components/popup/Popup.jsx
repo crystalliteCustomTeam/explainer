@@ -201,8 +201,8 @@ const Popup = ({ }) => {
                         <div className="grid grid-cols-12">
                             <div className="col-span-12 lg:col-span-6">
                                 <div className="txt pt-5 sm:pt-0">
-                                    <p className="montserrat uppercase text-[17px] 2xl:text-[20px] leading-[30px] 2xl:leading-[30px] text-center text-white bg-white/20 backdrop-blur-2xl rounded-[20px] px-4 sm:w-6/12 lg:w-9/12 pt-[2px]">Fill This Form to Avail</p>
-                                    <h2 className="fontsfpromedium uppercase text-[25px] sm:text-[35px] tracking-normal font-bold leading-[30px] sm:leading-[45px] text-white pt-2 pb-0 xl:py-2 2xl:py-3">Amazing <span className="text-[#FB2035]">Discounts</span></h2>
+                                    <p className="montserrat uppercase text-[17px] 2xl:text-[20px] leading-[30px] 2xl:leading-[30px] text-center text-white bg-white/20 backdrop-blur-2xl rounded-[20px] px-4 sm:w-6/12 lg:w-9/12 ">Fill This Form to Avail</p>
+                                    <h2 className="fontsfpromedium uppercase text-[25px] sm:text-[35px] tracking-normal font-bold leading-[30px] sm:leading-[45px] text-white pb-0 xl:py-2 2xl:py-3">70% <span className="text-[#FB2035]">Discounts</span></h2>
                                     <p className="text-[14px] sm:text-[16px] xl:text-[20px] text-white leading-[26px] xl:leading-[28px] montserrat pl-2 pb-3 xl:pb-4 2xl:pb-6">On Video Animation Services</p>
                                 </div>
                                 <form className="relative z-[99]">

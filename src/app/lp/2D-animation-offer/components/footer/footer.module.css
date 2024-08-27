@@ -1,0 +1,164 @@
+.footerSection {
+    padding: 50px 0;
+    background: #eee;
+    position: relative;
+}
+
+.footerSection h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 52px;
+    color: #000;
+    padding-bottom: 15px;
+    word-spacing: -3px;
+    font-family: Poppins, sans-serif;
+}
+
+.footerSection p {
+    width: 100%;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 25px;
+    line-height: 24px;
+    font-family: Poppins, sans-serif;
+}
+
+.btnStart {
+    font-size: 18px;
+    background: #1a4bdb;
+    padding: 12px 50px;
+    border-radius: 60px;
+    color: #fff;
+    box-shadow: -1px 0 30px 0 rgb(244 151 11 / 0%);
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.infoContact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+
+}
+
+.infoContact .imgInfo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #1a4bdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.infoContact .imgInfo img {
+    filter: invert(1);
+}
+
+.infoContact .imgTxt {
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.infoContact .imgTxt a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 5px 0 0;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+.footerGif {
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    top: auto;
+    mix-blend-mode: multiply;
+    transform: scaleX(-1);
+}
+
+.copyRight {
+    background: #000;
+    height: 60px;
+}
+
+.copyRight p {
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.copyRight a {
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1500px) {
+
+    .footerGif {
+        right: 0px;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .footerSection h2 {
+        font-size: 35px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+
+    .footerSection p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1299px) {
+
+    .footerGif {
+        right: 0px;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .footerSection h2 {
+        font-size: 32px;
+        line-height: 42px;
+        padding-bottom: 0px;
+    }
+
+    .footerSection p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 1099px) {
+    .footerGif {
+        display: none;
+    }
+
+    .footerSection h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 0px;
+    }
+
+    .footerSection p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,88 @@
+.testimonailSection {
+    padding: 50px 0px;
+
+}
+
+.testimonailSection h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 52px;
+    padding-bottom: 20px;
+    word-spacing: -3px;
+    font-family: Poppins, sans-serif;
+}
+
+.testimonailSection p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+
+.boxIcon {
+    height: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxIcon .mainBox {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    height: 250px;
+    background: #fff;
+    box-shadow: 1px 0 20px 1px #0000000f;
+    padding: 30px 30px;
+    border: 2px solid 0000000f;
+    max-width: 640px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxIcon .mainBox.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.boxIcon .mainBox.hide {
+    transform: translateY(250px);
+    opacity: 0;
+}
+
+.boxIcon .mainBox p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+.boxIcon .mainBox .iconContent {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxIcon .mainBox .iconContent .iconBox {
+    width: 60px;
+    height: 60px;
+}
+
+.boxIcon .mainBox .iconContent .titBox {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    line-height: 26px;
+}
+
+.boxIcon .mainBox .iconContent .titBox span {
+    display: block;
+    color: #2c5dcf;
+}
