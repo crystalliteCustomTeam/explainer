@@ -95,7 +95,7 @@ const Footer = () => {
   ];
   const contactLinks = [
     {
-      text: "One World Trade Center, 285 Fulton St 85th floor suite 8500, New York, NY 10007, United States",
+      text: "222 S Figueroa St, Los Angeles, CA 90012, United States",
       link: "https://maps.app.goo.gl/L9FtsgKKyQ4TzTbc7",
       img: Location,
     },

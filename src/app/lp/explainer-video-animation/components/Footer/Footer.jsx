@@ -242,8 +242,8 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li className='py-[10px]'>
-                                            <a href="https://maps.app.goo.gl/BFBsCwAX1znom3LE6" target='_blank' className='text-[15px] md:text-[20px] text-white montserrat flex gap-2'>
-                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> One World Trade Center, 285 Fulton St 85th floor suite 8500, New York, NY 10007, United States
+                                            <a href="https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7" target='_blank' className='text-[15px] md:text-[20px] text-white montserrat flex gap-2'>
+                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> 222 S Figueroa St, Los Angeles, CA 90012, United States
                                             </a>
                                         </li>
                                     </ul>
