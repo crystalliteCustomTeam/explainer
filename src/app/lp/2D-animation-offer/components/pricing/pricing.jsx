@@ -27,15 +27,13 @@ const PricingLP = () => {
 
     return (
         <section className={styles.pricingSection} >
-            <Container>
-                <Row>
-                    <Col md={10} lg={6} className="m-auto text-center">
+            <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
+                    <div className="m-auto text-center pb-5">
                         <h2>Our Afforable Pricing</h2>
-                        <p>Providing exceptional pricing with amazing custom animated video packages. Choose a fantastic animated video package below to best suit your business and budget. Boost your business with ny animation studio now.</p>
-                    </Col>
-                </Row>
-                <Row className="mt-4">
-                    <Col md={4} className="my-auto">
+                        <p>Providing exceptional pricing with amazing custom animated video packages.<br className="hidden md:block" /> Choose a fantastic animated video package below to best suit your business<br className="hidden md:block" /> and budget. Boost your business with ny animation studio now.</p>
+                    </div>
+                <div className="mt-[35px] max-w-[1260px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-x-6 ">
+                    <div className="my-auto">
                         <div className={styles.pricingBox}>
                             <h3>Video Basic</h3>
                             <p>Text &amp; Image Compilation</p>
@@ -43,7 +41,7 @@ const PricingLP = () => {
                                 <h2>$155 </h2>
                                 <strike>$499</strike>
                             </div>
-                            <ul className={styles.listBox}>
+                            <ul className={`${styles.listBox} min-h-[270px]`}>
                                 <li><Arrow />60 Sec Duration</li>
                                 <li><Arrow />Script Writing</li>
                                 <li><Arrow />Custom Artwork</li>
@@ -56,8 +54,8 @@ const PricingLP = () => {
                                 <div className={styles.sameBtn} onClick={handleChatOpen}>Live Chat</div>
                             </div>
                         </div>
-                    </Col>
-                    <Col md={4} className="my-auto">
+                    </div>
+                    <div className="my-auto">
                         <div className={styles.pricingBox}>
                             <h3>Video Plus</h3>
                             <p>Whitebaord or Motion Graphics Animation</p>
@@ -65,7 +63,7 @@ const PricingLP = () => {
                                 <h2>$499 </h2>
                                 <strike>$999</strike>
                             </div>
-                            <ul className={styles.listBox}>
+                            <ul className={`${styles.listBox} min-h-[270px]`}>
                                 <li><Arrow />60 Sec Duration</li>
                                 <li><Arrow />Script Writing</li>
                                 <li><Arrow />Professional Voice-over & SFX</li>
@@ -79,8 +77,8 @@ const PricingLP = () => {
                                 <div className={styles.sameBtn} onClick={handleChatOpen} >Live Chat</div>
                             </div>
                         </div>
-                    </Col>
-                    <Col md={4} className="my-auto">
+                    </div>
+                    <div className="my-auto">
                         <div className={styles.pricingBox}>
                             <h3>Video Classic</h3>
                             <p>Ultimate 2D Animation</p>
@@ -88,7 +86,7 @@ const PricingLP = () => {
                                 <h2>$799 </h2>
                                 <strike>$1599</strike>
                             </div>
-                            <ul className={styles.listBox}>
+                            <ul className={`${styles.listBox} min-h-[270px]`}>
                                 <li><Arrow />60 Sec Duration</li>
                                 <li><Arrow />Script Writing</li>
                                 <li><Arrow />Professional Voice-over & SFX</li>
@@ -102,9 +100,9 @@ const PricingLP = () => {
                                 <div className={styles.sameBtn} onClick={handleChatOpen} >Live Chat</div>
                             </div>
                         </div>
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
+            </div>
         </section >
     )
 }

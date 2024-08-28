@@ -69,7 +69,7 @@ const page = () => {
         subpara: <>
             Our explainer videos simplify complex ideas and engage viewers like never before. Studies show that explainer videos can boost sales by up to 49%, so investing in our animations is a game-changer for your ROI. At Explainer Videos LLC, we deliver innovative, high-quality videos on tight deadlines and at competitive prices. Join top industry leaders who have already reaped the rewards of our exceptional service. Elevate your business with the power of explainer videos today!
         </>,
-        AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/973456427/rendition/1080p/file.mp4?loc=external&signature=bec01dc8250d19fddde8de57be2a91813d578dfc4f31dbe5a25fa58857a4113e",
+        AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/1003646118/rendition/1080p/file.mp4?loc=external&signature=b1f2b712c970db0f879eff69249267bb59fccad7b6a0e48de91aa03c5c919656",
     }
     // ==== brands Start
     const brands = {

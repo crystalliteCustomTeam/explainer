@@ -6,7 +6,7 @@
     position: relative;
     z-index: 1;
     max-width: 360px;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 .formSec.active {

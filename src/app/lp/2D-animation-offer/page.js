@@ -1,7 +1,7 @@
 import BanenrLP from "./components/banenr/banenr";
 import ClientSlider from "./components/clients/clients";
 import HeaderLP from "./components/header/header"
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import ContentLP from "./components/content/content";
 import ContentLP1 from "./components/content1/content";
 import PricingLP from "./components/pricing/pricing";

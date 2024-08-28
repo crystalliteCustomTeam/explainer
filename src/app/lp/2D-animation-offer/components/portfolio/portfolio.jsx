@@ -62,11 +62,11 @@ const Portfolio = ({ content }) => {
                             <p>{para}</p>
                         </div>
                     </div>
-                    <div className={`"mt-8 md:mt-8`}>
+                    <div className={`mt-8 md:mt-[35px]`}>
                         <ul className="flex flex-wrap justify-center text-sm font-medium text-center gap-3 md:gap-5 mx-auto">
                             {tabInfo.map((tab, index) => (
                                 <li key={index}
-                                    className={`w-max px-[10px] lg:px-[25px] h-[30px] lg:h-[40px] flex items-center justify-center text-[12px] lg:text-[14px] font-normal poppins border rounded-[27px] cursor-pointer border-primary-100 hover:bg-[#000] hover:text-white hover:duration-700 duration-700 ease-in-out ${activeTab === index ? 'bg-[#000] text-white' : 'bg-[#2c5dcf] text-white'}`}
+                                    className={`w-max px-[10px] lg:px-[25px] h-[30px] lg:h-[40px] flex items-center justify-center text-[12px] lg:text-[14px] font-normal poppins border rounded-[27px] cursor-pointer hover:bg-[#000] hover:text-white hover:duration-700 duration-700 ease-in-out ${activeTab === index ? 'bg-[#000] text-white' : 'bg-[#2c5dcf] text-white'}`}
                                     onClick={() => handleTabClick(index)}>
                                     {tab.label}
                                 </li>

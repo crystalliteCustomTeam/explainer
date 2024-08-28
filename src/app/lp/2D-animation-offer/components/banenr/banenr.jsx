@@ -1,7 +1,6 @@
 "use client"
 import styles from "./banner.module.css"
 import BgImg from "media/2D-animation-offer/newbglp.webp";
-import { Col, Container, Row } from "react-bootstrap"
 import FormContact from "../from/from";
 import usePopup from '@/app/configs/store/Popup'
 
@@ -11,10 +10,10 @@ const BanenrLP = () => {
         togglePopup(popup);
     }
     return (
-        <section className={styles.bannerSection} style={{ backgroundImage: `url(${BgImg.src})` }}>
-            <Container className="h-100">
-                <Row className="h-100">
-                    <Col md={6} className="my-auto">
+        <section className={`${styles.bannerSection} pt-[120px] pb-[90px]`} style={{ backgroundImage: `url(${BgImg.src})` }}>
+            <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-between max-w-[1260px] mx-auto">
+                    <div className="my-auto">
                         <h1>Share Your <br /><span>Exciting Story </span> with <br /> 2D Animated Videos</h1>
                         <ul>
                             <li>Self-explanatory Animations</li>
@@ -25,12 +24,12 @@ const BanenrLP = () => {
                         <div className={styles.conmanCTA} onClick={popupHandle}>
                             Start Your Project
                         </div>
-                    </Col>
-                    <Col md={6} className="my-auto text-right">
+                    </div>
+                    <div className="my-auto text-right flex flex-col justify-center items-center md:items-end  py-4 md:py-auto">
                         <FormContact />
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }

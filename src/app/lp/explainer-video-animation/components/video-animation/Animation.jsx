@@ -297,7 +297,7 @@ const Animation = () => {
                                 },
                             }}>
                                 <div>
-                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/919390533/rendition/1080p/file.mp4?loc=external&signature=c76b981a883dfcb0cd240c857eade6dd476450bf53e4e0f2680e692b3d593ed0" datafancybox="gallery">
+                                    <Link href="https://player.vimeo.com/progressive_redirect/playback/1003644710/rendition/1080p/file.mp4?loc=external&signature=98876e4005e2a117ea2226d0649ec45f0b9e98902126141a76c48aaab8024c27" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
@@ -323,7 +323,7 @@ const Animation = () => {
                             }}>
                                 <div>
                                     <Link
-                                        href="https://player.vimeo.com/progressive_redirect/playback/920118952/rendition/1080p/file.mp4?loc=external&signature=b3f7b88a02ddcd4ae523d2df010d84a56c016b75f42b85d15e4188eb79bb1472" datafancybox="gallery">
+                                        href="https://player.vimeo.com/progressive_redirect/playback/1003645318/rendition/1080p/file.mp4?loc=external&signature=6b75c5ec53f451a3db93dd5d64dd33f78fe85ca71c08b0c1f8ab951a82d7cb95" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>

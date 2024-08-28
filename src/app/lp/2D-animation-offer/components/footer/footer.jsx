@@ -18,12 +18,12 @@ const FooterLP = () => {
     return (
         <>
             <section className={styles.footerSection}>
-                <Container >
-                    <Row >
-                        <Col lg={5} >
+                <div className="container">
+                    <div className='h-100 max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-between'>
+                        <div className='flex flex-col items-center pb-5 lg:pb-0 '>
                             <FormContact footer="yes" />
-                        </Col>
-                        <Col lg={6} >
+                        </div>
+                        <div className='z-10'>
                             <h2>Looking for an excellent Business idea?</h2>
                             <p>Give us a call or drop by anytime, we endeavour to answer all
                                 enquiries within 24 hours on business days.</p>
@@ -45,30 +45,31 @@ const FooterLP = () => {
                                 </div>
                                 <div className={styles.imgTxt}>
                                     Call Now
-                                    <a href='tel:1-833-666-6684' target='_blank'>1-833-666-6684</a>
+                                    <a href='tel:1-833-666-6684' >1-833-666-6684</a>
                                 </div>
                             </div>
-                            <div className={styles.footerGif}>
-                                <video className="hero__video" id="header-vid" playsInline autoPlay muted loop>
-                                    <source src={'https://www.tenfoldanimations.com/2D-animation-offer/images/jump.webm'} type="video/webm" />
-                                </video>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
+
+                        </div>
+                        <div className={styles.footerGif}>
+                            <video className="hero__video" id="header-vid" playsInline autoPlay muted loop>
+                                <source src={'https://www.tenfoldanimations.com/2D-animation-offer/images/jump.webm'} type="video/webm" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section className={styles.copyRight}>
-                <Container className='h-100'>
-                    <Row className='h-100'>
-                        <Col md={6} className='my-auto'>
+                <div className="container">
+                    <div className='max-w-[1260px] m-auto grid grid-cols-1 lg:grid-cols-2 py-[15px]'>
+                        <div className=' text-center md:text-left '>
                             <p>© Copyright 2024 - Explainer Videos LLC</p>
-                        </Col>
-                        <Col md={6} className='my-auto text-end'>
+                        </div>
+                        <div className='text-center md:text-right '>
                             <Link href="/terms-and-conditions">Terms and Conditions</Link>
                             <Link href="/privacy-policy">Privacy Policy</Link>
-                        </Col>
-                    </Row>
-                </Container>
+                        </div>
+                    </div>
+                </div>
             </section>
         </>
     )

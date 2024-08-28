@@ -7,13 +7,13 @@ export const metadata = {
     openGraph: {
         title: 'Professional Video Animation Services | High-Quality Animation Solutions',
         description: 'Discover top-notch video animation services tailored to your needs. Our expert team creates engaging and high-quality animations to bring your ideas to life. Explore our portfolio and elevate your brand today!',
-        url: '/explainer-video-animation',
+        url: '/animated-explainer-videos',
         siteName: 'Explainer Videos LLC',
         locale: 'en_US',
         type: 'website',
     },
     //===== Canonical =====
-    alternates: { canonical: '/explainer-video-animation' },
+    alternates: { canonical: '/animated-explainer-videos' },
     //===== GEO Tags =====
     other: {},
 }

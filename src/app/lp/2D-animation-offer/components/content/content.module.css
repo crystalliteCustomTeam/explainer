@@ -34,7 +34,8 @@
     z-index: 1;
     position: relative;
     margin-top: 25px;
-    display: inline-block;
+    display: inline-block;    
+    font-family: Poppins, sans-serif;
 }
 
 .conmanCTA:before {
@@ -59,5 +60,12 @@
 
     50% {
         background: #2bdd8c
+    }
+}
+
+@media only screen and (max-width: 991px) {
+   
+    .conmanCTA {
+        font-size: 45px;
     }
 }

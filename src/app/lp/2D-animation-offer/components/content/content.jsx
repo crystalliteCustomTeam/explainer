@@ -12,9 +12,9 @@ const ContentLP = () => {
     }
     return (
         <section className={styles.contentSection} >
-            <Container className="h-100">
-                <Row className="h-100">
-                    <Col md={6} className="my-auto">
+            <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
+                <div className="h-100 max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-between"  >
+                    <div className="my-auto">
                         <h2>A Storytelling <br />2D Animation Company</h2>
                         <p>With our 2D animated video production services, you can convey your message in a
                             compelling way that
@@ -36,12 +36,12 @@ const ContentLP = () => {
                         <div className={styles.conmanCTA} onClick={popupHandle} >
                             Start Your Project
                         </div>
-                    </Col>
-                    <Col md={6} className="m-auto text-center">
+                    </div>
+                    <div className="m-auto text-center">
                         <Image src={IMG.src} alt="Storytelling" width={555} height={416} />
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
