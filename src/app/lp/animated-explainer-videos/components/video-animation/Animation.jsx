@@ -21,6 +21,10 @@ import Slide4 from "media/thumbnails/hybrid/img02.jpg"
 import Slide5 from "media/thumbnails/2d-animation/img01.jpg"
 import Slide6 from "media/thumbnails/whiteboard/img01.jpg"
 import Slide7 from "media/thumbnails/motion-graphics/img05.jpg"
+import Slide8 from "media/thumbnails/architectural.jpg"
+import Slide9 from "media/thumbnails/cash.jpg"
+
+
 import Arrow from "media/explainer-videos/slide-arrow.png"
 import VideoIco from "media/infinity-studio/play2.png"
 
@@ -280,7 +284,7 @@ const Animation = () => {
                         </swiper-slide>
                         <swiper-slide className='relative pt-4'>
                             <div>
-                                <Image src={Slide3} alt='Slide' className='rounded-[20px] w-full relative top-0 left-0' />
+                                <Image src={Slide8} alt='Slide' className='rounded-[20px] w-full relative top-0 left-0' />
                                 <div className="absolute bottom-0 left-0 w-full h-full flex items-start justify-end flex-col bg-gradient-to-t from-black/100 to-black/20 rounded-[20px] px-[20px] pb-[20px] md:px-[25px] md:pb-[25px] xl:px-[40px] xl:pb-[40px]">
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Architectural Visualization Services</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>At the intersection of innovation and aesthetics, our Architectural Visualization Services go beyond rendering structures; they create visual stories that resonate. Whether it's a residential project, commercial space, or urban development.</p>
@@ -305,7 +309,7 @@ const Animation = () => {
                         </swiper-slide>
                         <swiper-slide className='relative pt-4'>
                             <div>
-                                <Image src={Slide4} alt='Slide' className='rounded-[20px] w-full relative top-0 left-0' />
+                                <Image src={Slide9} alt='Slide' className='rounded-[20px] w-full relative top-0 left-0' />
                                 <div className="absolute bottom-0 left-0 w-full h-full flex items-start justify-end flex-col bg-gradient-to-t from-black/100 to-black/20 rounded-[20px] px-[20px] pb-[20px] md:px-[25px] md:pb-[25px] xl:px-[40px] xl:pb-[40px]">
                                     <h3 className="text-white text-[20px] lg:text-[24px] xl:text-[26px] font-sans font-[400] lg:pb-1 xl:pb-2">Hybrid Animation Service</h3>
                                     <p className='text-white md:text-[15px] xl:text-[17px] font-sans leading-[20px] xl:leading-[22px] lg:w-11/12 pr-2 overflow-y-scroll h-[40px] xl:h-[45px] hidden lg:block'>Oborderur 3D animation services are not just visuals; they're an immersive experience that propels your brand into the future. Our skilled team of 3D artists and visionaries transform concepts into living, breathing narratives that captivate audiences.</p>
@@ -323,7 +327,7 @@ const Animation = () => {
                             }}>
                                 <div>
                                     <Link
-                                        href="https://player.vimeo.com/progressive_redirect/playback/1003645318/rendition/1080p/file.mp4?loc=external&signature=6b75c5ec53f451a3db93dd5d64dd33f78fe85ca71c08b0c1f8ab951a82d7cb95" datafancybox="gallery">
+                                        href="https://player.vimeo.com/progressive_redirect/playback/1003646118/rendition/1080p/file.mp4?loc=external&signature=b1f2b712c970db0f879eff69249267bb59fccad7b6a0e48de91aa03c5c919656" datafancybox="gallery">
                                         <Image src={VideoIco} alt='video-icon' className={`${styles.play} absolute translate-x-[-50%] translate-y-[-50%] w-[50px] xl:w-[60px]`} />
                                     </Link>
                                 </div>
