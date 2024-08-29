@@ -1,3 +1,4 @@
+"use client"
 import logo from "media/logo.webp";
 import Image from "next/image";
 import styles from "./header.module.css"
@@ -7,8 +8,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 
 
 const HeaderLP = () => {
-    // Chat Code
-    const handleChatOpen = (e) => {
+      // Chat Code
+      const handleChatOpen = (e) => {
         e.preventDefault();
         if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
             $zopim.livechat.window.show();
@@ -24,9 +25,9 @@ const HeaderLP = () => {
                         </div>
                     </div>
                     <div className="my-auto text-right flex items-end justify-end">
-                        <Link href="javascript:$zopim.livechat.window.show();" className={`${styles.button} text-[15px] sm:text-[18px] py-3 px-6 max-w-[150px] me-2 hidden md:block`}>Chat Now</Link>
+                        <button onClick={handleChatOpen} className={`${styles.button} text-[15px] sm:text-[18px] py-3 px-6 max-w-[150px] me-2 hidden md:block`} >Chat Now</button>
                         <Link href="tel:1-833-666-6684" className={`${styles.button} text-[15px] sm:text-[18px] py-3 px-6 hidden md:block`}>1-833-666-6684</Link>
-                        <Link href="javascript:$zopim.livechat.window.show();" className={`${styles.IconButton} py-3 me-4 block md:hidden`}><PiWechatLogoFill size={30} /></Link>
+                        <button onClick={handleChatOpen} className={`${styles.IconButton} py-3 me-4 block md:hidden`} ><PiWechatLogoFill size={30} /></button>
                         <Link href="tel:1-833-666-6684" className={`${styles.IconButton}  py-3 me-4 block md:hidden`}><BiSolidPhoneCall size={30} /></Link>
                     </div>
                 </div>
