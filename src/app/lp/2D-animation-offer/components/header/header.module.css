@@ -8,11 +8,11 @@
     background: transparent;
     position: absolute;
     width: 100%
-
-
 }
 
-.headerSection a {
+.headerSection a {}
+
+.button {
     font-weight: 600;
     background: #1a4bdb;
     /* padding: 12px 30px; */
@@ -20,9 +20,13 @@
     animation: 1s ease-in-out infinite blink;
     color: #fff;
     text-decoration: none;
+    font-family: Poppins, sans-serif;
 }
-
-.button {
+.IconButton {
+    font-weight: 600;
+    animation: 1s ease-in-out infinite blink;
+    color: #fff;
+    text-decoration: none;
     font-family: Poppins, sans-serif;
 }
 
