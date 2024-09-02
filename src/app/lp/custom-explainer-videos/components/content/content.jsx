@@ -16,8 +16,7 @@ const ContentLP = () => {
                 <div className="h-100 max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-between"  >
                     <div className="my-auto">
                         <h2>A Storytelling 2D & 3D <br /> Explainer Video Company</h2>
-                        <p>With our 2D animated video production
-                            With our explainer video production, you can convey your message in a
+                        <p>With our explainer video production, you can convey your message in a
                             compelling way that
                             convinces the audience to convert into a customer. The custom videos we create don't
                             just attract, but
@@ -26,7 +25,7 @@ const ContentLP = () => {
                             greater extent and do something unique.
                         </p>
                         <p>
-                            Tenfold Animations hires expert 2D animators with great expertise in gaining
+                            Explainer Videos LLC hires expert 2D animators with great expertise in gaining
                             customers' confidence and
                             satisfying the clients to the utmost satisfaction. Our 2D video animation team's
                             intellect serves you

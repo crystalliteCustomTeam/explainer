@@ -17,17 +17,17 @@ const Partner = () => {
         {
             tit: (<>Elizabeth <span>Smith</span></>),
             icon: Girl.src,
-            txt: "The editing of our tutorials on how to make the best use of our DIY items is done by Tenfold Animations Videos. I find the video quality superb. There is a finesse in their work which many cannot give even after multiple revisions.",
+            txt: "The editing of our tutorials on how to make the best use of our DIY items is done by Explainer Videos LLC Videos. I find the video quality superb. There is a finesse in their work which many cannot give even after multiple revisions.",
         },
         {
             tit: (<>Randy <span>Obrein</span></>),
             icon: Boy.src,
-            txt: "We hired Tenfold Animations to create a cartoon video for our products. We wanted to advertise our work uniquely and creatively. They made this happen. We are delighted with their work. Thank you!",
+            txt: "We hired Explainer Videos LLC to create a cartoon video for our products. We wanted to advertise our work uniquely and creatively. They made this happen. We are delighted with their work. Thank you!",
         },
         {
             tit: (<>Emily <span>Clarke</span></>),
             icon: Girl.src,
-            txt: "A true professional-no fuss, hassle-free cooperation—Tenfold Animations Team quickly understands your needs and gets straight to it. Quality of work is excellent. Highly recommended.",
+            txt: "A true professional-no fuss, hassle-free cooperation—Explainer Videos LLC Team quickly understands your needs and gets straight to it. Quality of work is excellent. Highly recommended.",
         },
 
     ];
