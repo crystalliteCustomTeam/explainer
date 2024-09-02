@@ -1,0 +1,172 @@
+.pricingSection {
+    padding: 50px 0;
+    background: #eee;
+}
+
+.pricingSection h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 52px;
+    padding-bottom: 20px;
+    word-spacing: -3px;
+    font-family: Poppins, sans-serif;
+}
+
+.pricingSection p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.pricingBox {
+    background-color: #fff;
+    box-shadow: 1.792px 4.668px 29px 0 rgba(0, 0, 0, .07);
+    padding: 40px 20px 20px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.pricingBox::before {
+    content: "";
+    width: 77px;
+    height: 88px;
+    background: url(../../../../../../public//2D-animation-offer/pricing-bf.png) 0 0/contain;
+    position: absolute;
+    top: -30px;
+    left: -10px
+}
+
+.pricingBox strike {
+    color: #ee3706;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+}
+
+.pricingBox ul {
+    padding: 0 0 0 30px;
+    height: 240px;
+    margin-bottom: 25px;
+    overflow-y: auto;
+}
+
+.pricingBox ul li {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    line-height: 39px;
+    font-family: Poppins, sans-serif;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.pricingBox ul li svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.priceBtn.chat-btn:hover {
+    background: 0 0
+}
+
+.pricingBox:hover {
+    background: #000
+}
+
+.pricingBox ::-webkit-scrollbar {
+    width: 8px
+}
+
+.pricingBox ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px
+}
+
+.pricingBox ::-webkit-scrollbar-thumb {
+    background: #ee3706;
+    border-radius: 10px
+}
+
+.pricingBox ::-webkit-scrollbar-thumb:hover {
+    background: #000
+}
+
+.pricingBox h3 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #000;
+    line-height: 37px;
+    font-family: Poppins, sans-serif;
+}
+
+.pricingBox p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    font-family: Poppins, sans-serif;
+}
+
+.amountBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 35px;
+    padding-top: 15px
+}
+
+.amountBox h2 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #0f1835;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 75px;
+}
+
+.priceBtn {
+    justify-content: center;
+    background: #13255f;
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+}
+
+.priceBtn .sameBtn {
+    flex: 0 0 50%;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    padding: 0 30px;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+.priceBtn .sameBtn:last-child {
+    border-right: 0px;
+}
+
+.pricingBox:hover h3,
+.pricingBox:hover p,
+.pricingBox:hover .amountBox h2,
+.pricingBox:hover ul li {
+    color: #fff;
+}
+
+.pricingBox:hover ul li svg path {
+    stroke: #fff;
+}
+
+.pricingBox:hover .priceBtn {
+    background: #fff;
+}
+
+.pricingBox:hover .priceBtn .sameBtn {
+    color: #000;
+    border-color: #000;
+}

@@ -1,0 +1,202 @@
+.benifitSection {
+    padding: 50px 0px;
+    overflow: hidden;
+    background: #eee;
+}
+
+.benifitSection h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    line-height: 52px;
+    padding-bottom: 20px;
+    word-spacing: -3px;
+    font-family: Poppins, sans-serif;
+}
+
+.benifitSection p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.benifitSection .embla {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.benifitSection .embla__viewport {
+    overflow: hidden;
+}
+
+.benifitSection .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(10px * -1);
+}
+
+.benifitSection .embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 25%;
+    min-width: 0;
+    padding-left: 10px;
+}
+
+
+
+.benifitSection .embla__slide .benifitBox {
+    background: #000;
+    padding: 40px 0 40px 25px;
+    margin: 0 15px 0 15px;
+    height: 450px;
+}
+
+.benifitSection .embla__slide .benifitBox .imgBox {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 0px;
+}
+
+.benifitSection .embla__slide .benifitBox h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 39px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.benifitSection .embla__slide .benifitBox p {
+    color: #fff;
+    padding-right: 25px;
+    line-height: 27px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1500px) {
+    .benifitSection .embla__slide {
+        transform: translate3d(0, 0, 0);
+        flex: 0 0 30%;
+        min-width: 0;
+        padding-left: 10px;
+    }
+
+    .benifitSection .embla__slide .benifitBox {
+        background: #000;
+        padding: 35px 0 35px 25px;
+        margin: 0 10px 0 10px;
+        height: 460px;
+    }
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1299px) {
+    .benifitSection .embla__slide {
+        transform: translate3d(0, 0, 0);
+        flex: 0 0 30%;
+        min-width: 0;
+        padding-left: 10px;
+    }
+
+    .benifitSection .embla__slide .benifitBox {
+        background: #000;
+        padding: 35px 0 35px 25px;
+        margin: 0 0px 0 0px;
+        height: 450px;
+    }
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1099px) {
+    .benifitSection .embla__slide {
+        transform: translate3d(0, 0, 0);
+        flex: 0 0 40%;
+        min-width: 0;
+        padding-left: 10px;
+    }
+
+    .benifitSection .embla__slide .benifitBox {
+        background: #000;
+        padding: 35px 0 35px 25px;
+        margin: 0 0px 0 0px;
+        height: 450px;
+    }
+
+    .benifitSection .embla__slide .benifitBox h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .benifitSection .embla__slide .benifitBox h2 br {
+        display: block;
+    }
+
+    .benifitSection .embla__slide .benifitBox p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-device-width: 560px) and (max-device-width: 799px) {
+    .benifitSection .embla__slide {
+        transform: translate3d(0, 0, 0);
+        flex: 0 0 55%;
+        min-width: 0;
+        padding-left: 10px;
+    }
+
+    .benifitSection .embla__slide .benifitBox {
+        background: #000;
+        padding: 35px 0 35px 25px;
+        margin: 0 0px 0 0px;
+        height: 450px;
+    }
+
+    .benifitSection .embla__slide .benifitBox h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .benifitSection .embla__slide .benifitBox h2 br {
+        display: block;
+    }
+
+    .benifitSection .embla__slide .benifitBox p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 559px) {
+    .benifitSection .embla__container {
+        margin-left: calc(10px * -1);
+    }
+
+    .benifitSection .embla__slide {
+        flex: 0 0 90%;
+        padding-left: 10px;
+    }
+
+    .benifitSection .embla__slide .benifitBox {
+        background: #000;
+        padding: 35px 0 35px 25px;
+        margin: 0 0px 0 0px;
+        height: 450px;
+    }
+
+    .benifitSection .embla__slide .benifitBox h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .benifitSection .embla__slide .benifitBox h2 br {
+        display: block;
+    }
+
+    .benifitSection .embla__slide .benifitBox p {
+        font-size: 13px;
+    }
+}

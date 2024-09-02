@@ -1,0 +1,41 @@
+/* .containerLP {
+    max-width: 1260px;
+    margin: auto;
+} */
+
+.headerSection {
+    height: 80px;
+    background: transparent;
+    position: absolute;
+    width: 100%
+}
+
+.button {
+    font-weight: 600;
+    background: #1a4bdb;
+    /* padding: 12px 30px; */
+    border-radius: 60px;
+    animation: 1s ease-in-out infinite blink;
+    color: #fff;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+.IconButton {
+    font-weight: 600;
+    animation: 1s ease-in-out infinite blink;
+    color: #fff;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        color: #1a4bdb
+    }
+
+    50% {
+        color: #d8db1a
+    }
+}

@@ -282,9 +282,9 @@ body {
 
 @media only screen and (max-width: 991px) {
 
-  .popupBg {
+  /* .popupBg {
     background: #260868;
-  }
+  } */
 
   .clientSlider {
     position: unset !important;

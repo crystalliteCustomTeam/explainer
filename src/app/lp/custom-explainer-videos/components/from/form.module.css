@@ -1,0 +1,81 @@
+.formSec {
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 7px 48.96px 2.04px rgba(0, 0, 0, .05);
+    padding: 40px 40px 25px;
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    /* margin-left: auto; */
+}
+
+.formSec.active {
+    max-width: 440px;
+}
+
+.formSec h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    text-align: left;
+}
+
+.inputFrom {
+    position: relative;
+}
+
+.inputFrom span {
+    font-size: 10px;
+    color: red;
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    bottom: 5px;
+}
+
+.inputFrom input {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-radius: 19px;
+    box-shadow: 0 5px 10px 0 rgba(61, 67, 79, .08);
+    border: 1px solid transparent;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    outline: none;
+    border: 1px solid #f9f9f9;
+}
+
+.inputFrom textarea {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 19px;
+    box-shadow: 0 15px 40px 0 rgba(61, 67, 79, .08);
+    border: 1px solid transparent;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    outline: none;
+    min-height: 80px;
+}
+
+.formSec .btnSec {
+    text-align: center;
+}
+
+.formSec .btnSec .btnSubmit {
+    font-size: 14px;
+    background: #2c5dcf;
+    color: #fff;
+    border: 0;
+    padding: 12px 50px;
+    border-radius: 60px;
+
+}
