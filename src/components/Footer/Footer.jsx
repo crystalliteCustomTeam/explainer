@@ -177,14 +177,14 @@ const Footer = () => {
         </div>
         <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-2 sm:gap-y-0 items-center border-t border-[#000000]">
           <div className="basis-full sm:basis-1/2">
-            <p className="text-sm poppins text-black leading-6 text-center sm:text-left">© Copyright 2024 Explainer Videos LLC – A Brand of Bhaoo Inc</p>
+            <p className="text-sm text-black leading-6 text-center sm:text-left poppins" >© Copyright 2024 Explainer Videos LLC – A Brand of Bhaoo Inc</p>
           </div>
           <div className="basis-full sm:basis-1/2">
             <ul className="flex items-center justify-center sm:justify-end gap-4">
               {otherLinks.map((e, i) => {
                 return (
                   <li key={i}>
-                    <Link href={e.link} target="__blank" className="text-[16px] text-black poppins font-normal hover:opacity-50 leading-[30px]">
+                    <Link href={e.link} target="__blank" className="text-[16px] text-black font-normal hover:opacity-50 leading-[30px] poppins" >
                       {e.text}
                     </Link>
                   </li>

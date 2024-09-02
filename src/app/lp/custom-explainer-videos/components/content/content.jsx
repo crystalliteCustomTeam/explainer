@@ -15,8 +15,9 @@ const ContentLP = () => {
             <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
                 <div className="h-100 max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-between"  >
                     <div className="my-auto">
-                        <h2>A Storytelling <br />2D Animation Company</h2>
-                        <p>With our 2D animated video production services, you can convey your message in a
+                        <h2>A Storytelling 2D & 3D <br /> Explainer Video Company</h2>
+                        <p>With our 2D animated video production
+                            With our explainer video production, you can convey your message in a
                             compelling way that
                             convinces the audience to convert into a customer. The custom videos we create don't
                             just attract, but

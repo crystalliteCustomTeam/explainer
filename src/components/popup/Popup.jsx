@@ -212,8 +212,6 @@ const Popup = ({ }) => {
                                 <div className="txt pt-5 sm:pt-0">
                                     <p className="montserrat uppercase text-[17px] 2xl:text-[20px] leading-[30px] font-bold 2xl:leading-[30px] text-black ">Fill This Form to Avail</p>
                                     <h2 className="fontsfpromedium uppercase text-[25px] sm:text-[35px] tracking-normal font-bold leading-[30px] sm:leading-[45px] text-white  px-6 my-[12px]  bg-[#d62f06]/80 backdrop-blur-2xl rounded-[50px] sm:w-6/12 lg:w-10/12 inline-flex">70% <span className="text-[#fff] ms-2">Discounts</span></h2>
-                                    {/* <p className="montserrat uppercase text-[17px] 2xl:text-[20px] leading-[30px] 2xl:leading-[30px] text-center text-white bg-[#d62f06]/100 backdrop-blur-2xl rounded-[20px] px-4 sm:w-6/12 lg:w-9/12 ">70% Discount</p>
-                                    <h2 className="fontsfpromedium uppercase text-[25px] sm:text-[35px] tracking-normal font-bold leading-[30px] sm:leading-[45px] text-black pb-0 xl:py-2 2xl:py-3">70% <span className="text-[#d62f06]">Discounts</span></h2> */}
                                     <p className="text-[14px] sm:text-[16px] xl:text-[20px] text-black leading-[26px] xl:leading-[28px] montserrat pl-2 pb-3 xl:pb-4 2xl:pb-6">On Video Animation Services</p>
                                 </div>
                                 <form className="relative z-[99]">

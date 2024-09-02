@@ -61,12 +61,12 @@ const FooterLP = () => {
             <section className={styles.copyRight}>
                 <div className="container">
                     <div className='max-w-[1260px] m-auto grid grid-cols-1 lg:grid-cols-2 py-[15px]'>
-                        <div className=' text-center md:text-left '>
+                        <div className=' text-center md:text-left ' style={{fontFamily:'montserrat, sans-serif'}}>
                             <p>© Copyright 2024 - Explainer Videos LLC</p>
                         </div>
                         <div className='text-center md:text-right '>
-                            <Link href="/terms-and-conditions">Terms and Conditions</Link>
-                            <Link href="/privacy-policy">Privacy Policy</Link>
+                            <Link href="/terms-and-conditions" style={{fontFamily:'montserrat, sans-serif'}}>Terms and Conditions</Link>
+                            <Link href="/privacy-policy" style={{fontFamily:'montserrat, sans-serif'}}>Privacy Policy</Link>
                         </div>
                     </div>
                 </div>
