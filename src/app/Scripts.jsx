@@ -3,6 +3,12 @@ import { useEffect } from 'react';
 
 const Scripts = () => {
     useEffect(() => {
+        // Add the Google site verification meta tag
+        const metaTag = document.createElement("meta");
+        metaTag.name = "google-site-verification";
+        metaTag.content = "CVmqagSKSfFi8jAYO2AyZehlsaONsTRqWhWdvxpnCE4";
+        document.head.appendChild(metaTag);
+
         const timer = setTimeout(() => {
             //======== ZenDesk ========//
             const zenDesk = document.createElement("script");
@@ -62,8 +68,8 @@ const Scripts = () => {
             document.body.appendChild(gtmScript);
 
 
-            
-            
+
+
 
         }, 5000);
 

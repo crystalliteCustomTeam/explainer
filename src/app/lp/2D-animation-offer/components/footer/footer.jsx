@@ -52,7 +52,7 @@ const FooterLP = () => {
                         </div>
                         <div className={styles.footerGif}>
                             <video className="hero__video" id="header-vid" playsInline autoPlay muted loop>
-                                <source src={'https://www.tenfoldanimations.com/2D-animation-offer/images/jump.webm'} type="video/webm" />
+                                <source src={'/videos/footerVideo.mp4'} type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -61,12 +61,12 @@ const FooterLP = () => {
             <section className={styles.copyRight}>
                 <div className="container">
                     <div className='max-w-[1260px] m-auto grid grid-cols-1 lg:grid-cols-2 py-[15px]'>
-                        <div className=' text-center md:text-left ' style={{fontFamily:'montserrat, sans-serif'}}>
+                        <div className=' text-center md:text-left ' style={{ fontFamily: 'montserrat, sans-serif' }}>
                             <p>© Copyright 2024 - Explainer Videos LLC</p>
                         </div>
                         <div className='text-center md:text-right '>
-                            <Link href="/terms-and-conditions" style={{fontFamily:'montserrat, sans-serif'}}>Terms and Conditions</Link>
-                            <Link href="/privacy-policy" style={{fontFamily:'montserrat, sans-serif'}}>Privacy Policy</Link>
+                            <Link href="/terms-and-conditions" style={{ fontFamily: 'montserrat, sans-serif' }}>Terms and Conditions</Link>
+                            <Link href="/privacy-policy" style={{ fontFamily: 'montserrat, sans-serif' }}>Privacy Policy</Link>
                         </div>
                     </div>
                 </div>
