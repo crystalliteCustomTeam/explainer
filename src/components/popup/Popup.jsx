@@ -205,7 +205,7 @@ const Popup = ({ }) => {
                         <div className="grid grid-cols-12">
                             <div className="col-span-12 lg:col-span-6 lg:block hidden m-auto">
                                 <div className="max-h-[400px] 2xl:max-h-full  xl:m-auto">
-                                    <Image priority src={popUpImage} alt="Infinity Animation" className="h-full m-auto w-[90%]" />
+                                    <Image priority src={popUpImage} alt="Infinity Animation" className="h-full px-[25px]" />
                                 </div>
                             </div>
                             <div className="col-span-12 lg:col-span-6">

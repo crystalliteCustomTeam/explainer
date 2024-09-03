@@ -16,22 +16,10 @@ const ContentLP = () => {
                 <div className="h-100 max-w-[1260px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center justify-between"  >
                     <div className="my-auto">
                         <h2>A Storytelling 2D & 3D <br /> Explainer Video Company</h2>
-                        <p>With our explainer video production, you can convey your message in a
-                            compelling way that
-                            convinces the audience to convert into a customer. The custom videos we create don't
-                            just attract, but
-                            they also retain attention. Moreover, our 2D video experts are always on the lookout
-                            to go to a
-                            greater extent and do something unique.
+                        <p>With our explainer video production, you can convey your message in a compelling way that convinces the audience to convert into a customer. The custom videos we create don't just attract, but they also retain attention. Moreover, our custom explainer video experts are always on the lookout to go to a greater extent and do something unique.
                         </p>
                         <p>
-                            Explainer Videos LLC hires expert 2D animators with great expertise in gaining
-                            customers' confidence and
-                            satisfying the clients to the utmost satisfaction. Our 2D video animation team's
-                            intellect serves you
-                            with the best-animated video production services to bring great designs revival that
-                            matter and
-                            animation that adds life to the story.
+                            Explainer Videos LLC hires expert explainer video animators with great expertise in gaining customers' confidence and satisfying the clients to the utmost satisfaction. Our explainer video animation team's intellect serves you with the best-animated video production services to bring great designs revival that matter and animation that adds life to the story.
                         </p>
                         <div className={styles.conmanCTA} onClick={popupHandle} >
                             Start Your Project

@@ -213,7 +213,7 @@ const portfolio = {
 const slides = [
     {
         tit: (<>Infinite<br />Customization </>),
-        txt: "Videos with a 2D animation may be tailored to meet even the clients' most specific needs.When it comes to making unique and memorable marketing videos that your clients will love and share, this unlimited modification capacity is useful.",
+        txt: "Videos with a motion graphics, 2D & 3D animation may be tailored to meet even the clients' most specific needs. When it comes to making unique and memorable marketing explainer videos that your clients will love and share, this unlimited modification capacity is useful.",
         icon: Icon01.src
     }, {
         tit: (<>Flexible<br />Storytelling </>),
@@ -221,7 +221,7 @@ const slides = [
         icon: Icon02.src
     }, {
         tit: (<>Centralized<br />Production </>),
-        txt: "2D animations are comparatively simple to create because we don't have to explore sites, haul heavy equipment, or wait for ideal weather. 2D videos are a good solution for consumers who desire a simpler and faster video creation because of their centralized production.",
+        txt: "Video animations are comparatively simple to create because we don't have to explore sites, haul heavy equipment, or wait for ideal weather. Explainer videos are a good solution for consumers who desire a simpler and faster video creation because of their centralized production.",
         icon: Icon03.src
     }, {
         tit: (<>Shareable <br />Content </>),
@@ -229,7 +229,7 @@ const slides = [
         icon: Icon04.src
     }, {
         tit: (<>Cost  <br />Effective </>),
-        txt: "Branded videos may be dry, especially if the message is complicated. These 2D videos may turn even the most mundane issues into thrilling stories.We can assist you in developing compelling narratives that captivate your audience and communicate your message.",
+        txt: "Branded videos may be dry, especially if the message is complicated. These explainer videos may turn even the most mundane issues into thrilling stories. We can assist you in developing compelling narratives that captivate your audience and communicate your message.",
         icon: Icon05.src
     }
 ]

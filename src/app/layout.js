@@ -54,6 +54,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Scripts />
       <body className={`${primary.variable}`}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K2QSGKM4"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
         <ConditionalLayout>
           <main>{children}</main>
         </ConditionalLayout>
