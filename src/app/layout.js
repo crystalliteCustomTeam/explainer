@@ -46,6 +46,18 @@ export const metadata = {
       "google-site-verification": ['CVmqagSKSfFi8jAYO2AyZehlsaONsTRqWhWdvxpnCE4'],
     },
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      'max-snippet': -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
