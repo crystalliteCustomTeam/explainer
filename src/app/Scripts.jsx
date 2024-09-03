@@ -1,14 +1,9 @@
 "use client";
+import Head from "next/head"
 import { useEffect } from 'react';
 
 const Scripts = () => {
     useEffect(() => {
-        // Add the Google site verification meta tag
-        const metaTag = document.createElement("meta");
-        metaTag.name = "google-site-verification";
-        metaTag.content = "CVmqagSKSfFi8jAYO2AyZehlsaONsTRqWhWdvxpnCE4";
-        document.head.appendChild(metaTag);
-
         const timer = setTimeout(() => {
             //======== ZenDesk ========//
             const zenDesk = document.createElement("script");
@@ -66,17 +61,26 @@ const Scripts = () => {
                 })(window,document,'script','dataLayer','GTM-K2QSGKM4');
             `;
             document.body.appendChild(gtmScript);
-
-
-
-
-
         }, 5000);
 
         return () => clearTimeout(timer);
     }, []);
 
-    return null;
+    // =======================================
+    return (
+        <>
+            <Head>
+                <noscript>
+                    <iframe
+                        src="https://www.googletagmanager.com/ns.html?id=GTM-K2QSGKM4"
+                        height="0"
+                        width="0"
+                        style={{ display: 'none', visibility: 'hidden' }}
+                    ></iframe>
+                </noscript>
+            </Head>
+        </>
+    );
 }
 
 export default Scripts;

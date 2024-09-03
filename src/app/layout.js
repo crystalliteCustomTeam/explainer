@@ -43,25 +43,17 @@ export const metadata = {
   //===== Google Varification =====
   verification: {
     other: {
-      "": [""],
+      "google-site-verification": ['CVmqagSKSfFi8jAYO2AyZehlsaONsTRqWhWdvxpnCE4'],
     },
   },
 };
-<Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" />;
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Scripts />
       <body className={`${primary.variable}`}>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-K2QSGKM4"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          ></iframe>
-        </noscript>
+
         <ConditionalLayout>
           <main>{children}</main>
         </ConditionalLayout>
