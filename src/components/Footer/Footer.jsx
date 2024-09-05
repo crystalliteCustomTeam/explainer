@@ -8,6 +8,7 @@ import facebook from "media/icons/fb.png";
 import twitter from "media/icons/twitter.png";
 import instagram from "media/icons/insta.png";
 import linkedin from "media/icons/linkedin.png";
+import pinterest from "media/icons/print.png";
 import Location from "media/icons/location.svg"
 import Phone from "media/icons/phone.svg"
 
@@ -82,7 +83,7 @@ const Footer = () => {
     },
     {
       icon: twitter,
-      link: "https://twitter.com/_",
+      link: "https://x.com/explainervidLLC",
     },
     {
       icon: instagram,
@@ -91,6 +92,10 @@ const Footer = () => {
     {
       icon: linkedin,
       link: "https://www.linkedin.com/company/explainer-videos-llc/",
+    },
+    {
+      icon: pinterest,
+      link: "https://www.pinterest.com/ExplainerVideoLLC/",
     },
   ];
   const contactLinks = [

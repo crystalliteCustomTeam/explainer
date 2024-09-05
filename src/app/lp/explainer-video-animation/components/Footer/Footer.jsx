@@ -14,6 +14,7 @@ import facebook from "media/icons/fb.png";
 import twitter from "media/icons/x.png";
 import youtube from "media/icons/youtube.png";
 import instagram from "media/icons/insta.png";
+import pinterest from "media/icons/print.png";
 import linkedin from "media/icons/linkedin.png";
 import vimeo from "media/icons/vemio.png";
 import tiktok from "media/icons/tiktok.png";
@@ -35,6 +36,10 @@ const Footer = () => {
             link: "https://www.facebook.com/explainervideosllc/",
         },
         {
+            icon: twitter,
+            link: "https://x.com/explainervidLLC",
+        },
+        {
             icon: instagram,
             link: "https://www.instagram.com/explainervideosllc/",
         },
@@ -42,6 +47,10 @@ const Footer = () => {
             icon: linkedin,
             link: "https://www.linkedin.com/company/explainer-videos-llc/",
         },
+        {
+            icon: pinterest,
+            link: "https://www.pinterest.com/ExplainerVideoLLC/",
+        }
     ];
     //========== Form
     const [ip, setIP] = useState('');
