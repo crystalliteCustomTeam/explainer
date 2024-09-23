@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Turn data and numbers into visual treats with Infographics Design.",
-    description: "Say goodbye to complex stats and numbers with engaging Infographics Design solutions and video animation by Explainer Videos LLC – where every animation project is done with the ultimate creativity. ",
+    title: "Infographics Video Services - Explainer Videos LLC",
+    description: "Be inspired by our creative Infographics Video Services. Experience the art of transforming information into captivating visuals. ",
     //===== OG Tags =====
     openGraph: {
-        title: 'Turn data and numbers into visual treats with Infographics Design.',
-        description: "Say goodbye to complex stats and numbers with engaging Infographics Design solutions and video animation by Explainer Videos LLC – where every animation project is done with the ultimate creativity.",
+        title: 'Infographics Video Services - Explainer Videos LLC',
+        description: "Be inspired by our creative Infographics Video Services. Experience the art of transforming information into captivating visuals.",
         url: '/infograpics-desgin',
         siteName: 'Explainer Videos LLC',
         locale: 'en_US',

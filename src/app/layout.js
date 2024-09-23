@@ -10,12 +10,12 @@ import Scripts from "./Scripts";
 export const metadata = {
   metadataBase: new URL("https://www.explainervideosllc.com/"),
   //===== Meta Tags =====
-  title: "Explainer Videos LLC – Your Brand, Animated!",
-  description: "Embrace the juncture and vivify your narrative through impeccable craftsmanship, alongside an all-inclusive suite of video animation and 3D animation services.",
+  title: "Explainer Video Production - Explainer Videos LLC",
+  description: "Looking to make explainer videos for your business? Explainer Videos LLC specializes in animated video production. ✓ Find out more about business animation videos!",
   //===== OG Tags =====
   openGraph: {
-    title: "Explainer Videos LLC – Your Brand, Animated!",
-    description: "Embrace the juncture and vivify your narrative through impeccable craftsmanship, alongside an all-inclusive suite of video animation and 3D animation services.",
+    title: "Explainer Video Production - Explainer Videos LLC",
+    description: "Looking to make explainer videos for your business? Explainer Videos LLC specializes in animated video production. ✓ Find out more about business animation videos!",
     url: "/",
     siteName: "Explainer Videos LLC",
     locale: "en_US",
@@ -44,6 +44,18 @@ export const metadata = {
   verification: {
     other: {
       "google-site-verification": ['CVmqagSKSfFi8jAYO2AyZehlsaONsTRqWhWdvxpnCE4'],
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      'max-snippet': -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
     },
   },
 };
