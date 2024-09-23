@@ -100,8 +100,13 @@ const Footer = () => {
   ];
   const contactLinks = [
     {
-      text: "110 Spadina Ave. Suite 500, Toronto, ON M5V 2K4, Canada",
+      text: "222 S Figueroa St, Los Angeles, CA 90012, United States",
       link: "https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7",
+      img: Location,
+    },
+    {
+      text: "110 Spadina Ave. Suite 500, Toronto, ON M5V 2K4, Canada",
+      link: "https://maps.app.goo.gl/dJw3jHDkZRiSwPe6A",
       img: Location,
     },
     {
