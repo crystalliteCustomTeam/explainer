@@ -252,7 +252,7 @@ const Footer = () => {
                                         </li>
                                         <li className='py-[10px]'>
                                             <a href="https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7" target='_blank' className='text-[15px] md:text-[20px] text-white montserrat flex gap-2'>
-                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> 222 S Figueroa St, Los Angeles, CA 90012, United States
+                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> 110 Spadina Ave. Suite 500, Toronto, ON M5V 2K4, Canada
                                             </a>
                                         </li>
                                     </ul>
