@@ -11,14 +11,14 @@ export async function POST(request) {
             port: 465,
             secure: true,
             auth: {
-                user: "aziz.rehman@productions-dev.com",
-                pass: "ctfhepafurmhrnmt"
+                user: "leads@infinityanimations.com",
+                pass: "10@Kskwoks"
             }
         });
         const mailOptions = {
             from: "leads@infinityanimations.com",
-            to: ['queries@infinityanimations.com', 'queries@explainervideosllc.com', 'm.farrukh@infinityanimations.com'],
-            subject: `Explainer Videos LLC Lead`,
+            to: ['queries@infinityanimations.com', 'm.farrukh@infinityanimations.com', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
+            subject: `Explainer Videos LLC - Lead`,
             html: `
             <table>
               <tr>

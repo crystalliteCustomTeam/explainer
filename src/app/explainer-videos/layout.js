@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Engaging & Powerful Explainer Videos for Crystal Communication.",
-    description: "Discover the power of explainer videos to simplify complex ideas. Engage your audience with concise, visually appealing content that drives results and boosts understanding.",
+    title: "Explainer Video Production Services - Explainer Videos LLC",
+    description: "Explainer Videos LLC expertly crafted explainer videos that simplify complex ideas precisely. We transform ideas into engaging visual stories that captivate audiences and amplify your brand’s impact.",
     //===== OG Tags =====
     openGraph: {
-        title: 'EEngaging & Powerful Explainer Videos for Crystal Communication.',
-        description: 'Discover the power of explainer videos to simplify complex ideas. Engage your audience with concise, visually appealing content that drives results and boosts understanding.',
+        title: 'Explainer Video Production Services - Explainer Videos LLC',
+        description: 'Explainer Videos LLC expertly crafted explainer videos that simplify complex ideas precisely. We transform ideas into engaging visual stories that captivate audiences and amplify your brand’s impact.',
         url: '/explainer-videos',
         siteName: 'Explainer Videos LLC',
         locale: 'en_US',

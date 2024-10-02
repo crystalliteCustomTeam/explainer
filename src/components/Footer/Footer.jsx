@@ -8,6 +8,7 @@ import facebook from "media/icons/fb.png";
 import twitter from "media/icons/twitter.png";
 import instagram from "media/icons/insta.png";
 import linkedin from "media/icons/linkedin.png";
+import pinterest from "media/icons/print.png";
 import Location from "media/icons/location.svg"
 import Phone from "media/icons/phone.svg"
 
@@ -82,7 +83,7 @@ const Footer = () => {
     },
     {
       icon: twitter,
-      link: "https://twitter.com/_",
+      link: "https://x.com/explainervidLLC",
     },
     {
       icon: instagram,
@@ -92,11 +93,20 @@ const Footer = () => {
       icon: linkedin,
       link: "https://www.linkedin.com/company/explainer-videos-llc/",
     },
+    {
+      icon: pinterest,
+      link: "https://www.pinterest.com/ExplainerVideoLLC/",
+    },
   ];
   const contactLinks = [
     {
       text: "222 S Figueroa St, Los Angeles, CA 90012, United States",
       link: "https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7",
+      img: Location,
+    },
+    {
+      text: "110 Spadina Ave. Suite 500, Toronto, ON M5V 2K4, Canada",
+      link: "https://maps.app.goo.gl/dJw3jHDkZRiSwPe6A",
       img: Location,
     },
     {

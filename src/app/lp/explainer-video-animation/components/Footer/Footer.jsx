@@ -14,6 +14,7 @@ import facebook from "media/icons/fb.png";
 import twitter from "media/icons/x.png";
 import youtube from "media/icons/youtube.png";
 import instagram from "media/icons/insta.png";
+import pinterest from "media/icons/print.png";
 import linkedin from "media/icons/linkedin.png";
 import vimeo from "media/icons/vemio.png";
 import tiktok from "media/icons/tiktok.png";
@@ -35,6 +36,10 @@ const Footer = () => {
             link: "https://www.facebook.com/explainervideosllc/",
         },
         {
+            icon: twitter,
+            link: "https://x.com/explainervidLLC",
+        },
+        {
             icon: instagram,
             link: "https://www.instagram.com/explainervideosllc/",
         },
@@ -42,6 +47,10 @@ const Footer = () => {
             icon: linkedin,
             link: "https://www.linkedin.com/company/explainer-videos-llc/",
         },
+        {
+            icon: pinterest,
+            link: "https://www.pinterest.com/ExplainerVideoLLC/",
+        }
     ];
     //========== Form
     const [ip, setIP] = useState('');
@@ -236,14 +245,19 @@ const Footer = () => {
                                                 <EnvelopeIcon className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> queries@explainervideosllc.com
                                             </a>
                                         </li>
-                                        <li className='py-[10px]'>
+                                        {/* <li className='py-[10px]'>
                                             <a href="https://explainervideosllc.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
                                                 <Globe className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> www.explainervideosllc.com
                                             </a>
-                                        </li>
+                                        </li> */}
                                         <li className='py-[10px]'>
                                             <a href="https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7" target='_blank' className='text-[15px] md:text-[20px] text-white montserrat flex gap-2'>
-                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[45px] h-[25px]' /> 222 S Figueroa St, Los Angeles, CA 90012, United States
+                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[33px] h-[25px]' /> 222 S Figueroa St, Los Angeles, CA 90012, United States
+                                            </a>
+                                        </li>
+                                        <li className='py-[10px]'>
+                                            <a href="https://maps.app.goo.gl/dJw3jHDkZRiSwPe6A" target='_blank' className='text-[15px] md:text-[20px] text-white montserrat flex gap-2'>
+                                                <HiMapPin className='bg-[#ffffff] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[25px] lg:w-[33px] h-[25px]' /> 110 Spadina Ave. Suite 500, Toronto, ON M5V 2K4, Canada
                                             </a>
                                         </li>
                                     </ul>

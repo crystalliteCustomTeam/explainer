@@ -5,6 +5,7 @@ import FormContact from '../from/from'
 import Image from 'next/image'
 import IconEmail from "media/2D-animation-offer/footer-icon-1.png"
 import IconPhone from "media/2D-animation-offer/footer-icon-2.png"
+import IconLoc from "media/2D-animation-offer/footer-icon-3.webp"
 import Link from 'next/link'
 import usePopup from '@/app/configs/store/Popup'
 
@@ -29,6 +30,16 @@ const FooterLP = () => {
                                 enquiries within 24 hours on business days.</p>
                             <div className={styles.btnStart} onClick={popupHandle}>
                                 Get Started
+                            </div>
+                            <div className={styles.infoContact}>
+                                <div className={styles.imgInfo}>
+                                    <Image src={IconLoc} alt="Email Address" />
+                                </div>
+                                <div className={styles.imgTxt}>
+                                    Location
+                                    <a href='https://maps.app.goo.gl/p2Vac7NxSYA7NU5L7' target='_blank'>222 S Figueroa St, Los Angeles, CA 90012, United States</a>
+                                    <a href='https://maps.app.goo.gl/dJw3jHDkZRiSwPe6A' target='_blank'>110 Spadina Ave. Suite 500, Toronto, ON M5V 2K4, Canada</a>
+                                </div>
                             </div>
                             <div className={styles.infoContact}>
                                 <div className={styles.imgInfo}>
