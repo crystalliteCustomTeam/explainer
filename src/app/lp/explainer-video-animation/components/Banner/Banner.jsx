@@ -206,7 +206,7 @@ const Banner = () => {
                 <div className="grid grid-cols-12 gap-y-12 items-end ">
                     <div className="col-span-12 lg:col-span-7 xl:col-span-7">
                         <div className="txt">
-                            <h1 className='text-[25px] lg:text-[35px] font-semibold poppins leading-[35px] lg:leading-[50px] mb-5 text-white'>Boost Sales with Animation Services. Get 70% Discount on all Animated Explainer Video Production Service!</h1>
+                            <h1 className='text-[25px] lg:text-[35px] font-semibold poppins leading-[35px] lg:leading-[50px] mb-5 text-white'>Boost Sales with Animated Videos. Get 70% Discount on all Animated Explainer Video Production Service!</h1>
                             <p className='text-[14px] md:text-[16px] poppins leading-[25px] font-normal xl:pr-[20px] text-white'>Transform Your Ideas into Visually Engaging Animated Stories, Tailored to Resonate with Your Audience & Elevate your Brand.</p>
                             <div className="grid grid-cols-12 gap-y-6 sm:gap-x-10 items-end pb-0 pt-[25px] md:py-[25px]">
                                 <div className="col-span-12 sm:col-span-6 lg:col-span-5">
