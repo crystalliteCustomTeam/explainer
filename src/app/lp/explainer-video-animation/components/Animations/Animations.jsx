@@ -31,8 +31,11 @@ const Animations = ({ content }) => {
     // Chat Code
     const handleChatOpen = (e) => {
         e.preventDefault();
-        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-            $zopim.livechat.window.show();
+        // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
+        //     $zopim.livechat.window.show();
+        // }
+        if (window.LiveChatWidget) {
+            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
         }
     };
     return (
