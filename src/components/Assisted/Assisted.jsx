@@ -3,6 +3,16 @@ import Link from 'next/link'
 import React from 'react'
 
 const Assisted = () => {
+    // Chat Code
+    const handleChatOpen = (e) => {
+        e.preventDefault();
+        // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
+        //     $zopim.livechat.window.show();
+        // }
+        if (window.LiveChatWidget) {
+            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
+        }
+    };
     const banVideo = [
         [
             "https://player.vimeo.com/progressive_redirect/playback/913404582/rendition/720p/file.mp4?loc=external&log_user=0&signature=fb7ea9f370c1d99717d02f8e809c585e0668181fdd1411f3d4322da785685a8a",
@@ -20,7 +30,7 @@ const Assisted = () => {
                                 <p className='text-[13px] sm:text-[16px] font-sans leading-[20px] mb-3 text-white'>As tech-savvy video aficionados, we bring your brand story to life with cinematically powerful animations. From animated explainers that immerse your audience to hybrid animation and 3D rendering that showcase your brand’s personality – we're your one-stop solution for delivering video experiences that pack a punch. Dive into our creative playground, where imagination thrives.</p>
 
                                 <div className="btn mt-8">
-                                    <Link href="javascript:;" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-[320px] h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>
+                                    <Link onClick={handleChatOpen} href="javascript:;" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-[320px] h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>
                                 </div>
                             </div>
                         </div>
