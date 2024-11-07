@@ -64,6 +64,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Scripts />
+
       <body className={`${primary.variable}`}>
 
         <ConditionalLayout>

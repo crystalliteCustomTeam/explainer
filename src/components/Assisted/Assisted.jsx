@@ -9,8 +9,8 @@ const Assisted = () => {
         // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
         //     $zopim.livechat.window.show();
         // }
-        if (window.LiveChatWidget) {
-            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            parent.LC_API.open_chat_window(); return false; // Open the LiveChat widget
         }
     };
     const banVideo = [
@@ -30,7 +30,7 @@ const Assisted = () => {
                                 <p className='text-[13px] sm:text-[16px] font-sans leading-[20px] mb-3 text-white'>As tech-savvy video aficionados, we bring your brand story to life with cinematically powerful animations. From animated explainers that immerse your audience to hybrid animation and 3D rendering that showcase your brand’s personality – we're your one-stop solution for delivering video experiences that pack a punch. Dive into our creative playground, where imagination thrives.</p>
 
                                 <div className="btn mt-8">
-                                    <Link onClick={handleChatOpen} href="javascript:;" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-[320px] h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>
+                                    <button onClick={handleChatOpen} className="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-[320px] h-[44px] poppins flex items-center justify-center" >Make an Animation</button>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const Assisted = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }

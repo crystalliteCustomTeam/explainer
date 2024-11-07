@@ -32,7 +32,7 @@ const AwardWinning = () => {
                             <h2 className='text-black poppins text-[25px] md:text-[30px] lg:text-[35px] font-semibold leading-[35px] md:leading-[45px] lg:leading-[60px] text-center mb-2'>An <span className='text-[#F5090B]'>Award-Winning</span> Video Animation Company</h2>
                             <p className='text-[14px] md:text-[16px] poppins text-normal text-black text-center xl:w-7/12 mx-auto'>At Explainer Videos LLC, we create powerful video animations that elevate your brand. Our dedication to excellence has earned us numerous awards and accolades, including:</p>
                         </div>
-                        <AutoScroll wrapperClass="" options={{ loop: true, align: "start" }}>
+                        <AutoScroll wrapperclassName="" options={{ loop: true, align: "start" }}>
                             {
                                 [icon1, icon2, icon4, icon6, icon7, icon8, icon9, icon10, icon12, icon13, icon14, icon15, icon16, icon17, icon18, icon19].map((e, i) => (
                                     <div key={i} className="shrink-0 grow-0 basis-1/3 md:basis-1/4 lg:basis-1/5 mr-5">

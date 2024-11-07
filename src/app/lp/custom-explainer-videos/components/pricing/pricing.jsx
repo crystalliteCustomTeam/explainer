@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import usePopup from '@/app/configs/store/Popup'
 
 const Arrow = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
     </svg>
 );
@@ -22,8 +22,8 @@ const PricingLP = () => {
         // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
         //     $zopim.livechat.window.show();
         // }
-        if (window.LiveChatWidget) {
-            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            parent.LC_API.open_chat_window(); return false; // Open the LiveChat widget
         }
     };
 

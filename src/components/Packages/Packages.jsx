@@ -25,8 +25,8 @@ const Packages = () => {
         // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
         //     $zopim.livechat.window.show();
         // }
-        if (window.LiveChatWidget) {
-            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            parent.LC_API.open_chat_window(); return false; // Open the LiveChat widget
         }
     };
     return (
@@ -85,9 +85,9 @@ const Packages = () => {
                                             1-833-666-6684
                                         </span>
                                     </a>
-                                    <a href="javascript:$zopim.livechat.window.show();" className='text-left m-0 leading-[20px] montserrat flex flex-col justify-center font-normal'>
+                                    <button onClick={handleChatOpen} className='text-left m-0 leading-[20px] montserrat flex flex-col justify-center font-normal'>
                                         <span className='text-[#231f20] text-[16px] pt-2'>Live Chat Now</span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -139,9 +139,9 @@ const Packages = () => {
                                             1-833-666-6684
                                         </span>
                                     </a>
-                                    <a href="javascript:$zopim.livechat.window.show();" className='text-left m-0 leading-[20px] montserrat flex flex-col justify-center font-normal'>
+                                    <button onClick={handleChatOpen} className='text-left m-0 leading-[20px] montserrat flex flex-col justify-center font-normal'>
                                         <span className='text-white text-[16px] pt-2'>Live Chat Now</span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -193,9 +193,9 @@ const Packages = () => {
                                             1-833-666-6684
                                         </span>
                                     </a>
-                                    <a href="javascript:$zopim.livechat.window.show();" className='text-left m-0 leading-[20px] montserrat flex flex-col justify-center font-normal'>
+                                    <button onClick={handleChatOpen} className='text-left m-0 leading-[20px] montserrat flex flex-col justify-center font-normal'>
                                         <span className='text-white text-[16px] pt-2'>Live Chat Now</span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>

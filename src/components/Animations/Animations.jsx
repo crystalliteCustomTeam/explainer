@@ -8,7 +8,15 @@ import AnimationImage from "media/2d-animation/animations.png"
 import Logos from "media/2d-animation/animations-logos.png"
 
 const Animations = ({ content }) => {
-
+    const handleChatOpen = (e) => {
+        e.preventDefault();
+        // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
+        //     $zopim.livechat.window.show();
+        // }
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            parent.LC_API.open_chat_window(); return false; // Open the LiveChat widget
+        }
+    };
     const { title, para, subtitleOne, subtitleTwo, subpara, AnimationVideo } = content;
 
     return (
@@ -33,7 +41,7 @@ const Animations = ({ content }) => {
                                 <Image src={Logos} alt='Explainer Videos LLC' className='w-11/12 mx-auto' />
                             </div>
                             <div className="btn mt-8 lg:mt-12 flex items-center justify-center">
-                                <Link href="javascript:$zopim.livechat.window.show();" class="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-3/12 mx-auto h-[44px] poppins flex items-center justify-center" >Make an Animation</Link>
+                                <button onClick={handleChatOpen} className="text-[16px] font-semibold leading-[25px] text-white bg-[#FF2D4B] dropShadow rounded-[5px] w-full sm:w-3/12 mx-auto h-[44px] poppins flex items-center justify-center" >Make an Animation</button>
                             </div>
                         </div>
                     </div>

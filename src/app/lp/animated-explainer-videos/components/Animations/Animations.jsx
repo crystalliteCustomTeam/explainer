@@ -34,8 +34,8 @@ const Animations = ({ content }) => {
         // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
         //     $zopim.livechat.window.show();
         // }
-        if (window.LiveChatWidget) {
-            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            parent.LC_API.open_chat_window(); return false; // Open the LiveChat widget
         }
     };
     return (
@@ -59,7 +59,7 @@ const Animations = ({ content }) => {
                                     <a href='tel:833-666-6689' className="text-[13px] md:text-[16px] font-bold leading-[25px] text-white bg-[#FF2D4B] rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center">Get Started</a>
                                 </div>
                                 <div className="btn mt-6 w-[180px]">
-                                    <a className="text-[13px] md:text-[16px] font-bold leading-[25px] bg-white rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center" href="javascript:$zopim.livechat.window.show();">
+                                    <a className="text-[13px] md:text-[16px] font-bold leading-[25px] bg-white rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center" onClick={handleChatOpen}>
                                         <Image src={Chat} alt='UK' className='object-contain invert grayscale-[1] brightness-[100] xl:block hidden' />
                                         <span className='text-[14px] xl:text-[16px] text-black px-[8px] fontbold poppins'>
                                             Live Chat

@@ -14,8 +14,8 @@ const HeaderLP = () => {
         // if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
         //     $zopim.livechat.window.show();
         // }
-        if (window.LiveChatWidget) {
-            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
+        if (typeof window !== "undefined" && window.LiveChatWidget) {
+            parent.LC_API.open_chat_window(); return false; // Open the LiveChat widget
         }
     };
     return (
