@@ -330,3 +330,69 @@ body {
 }
 
 /*=============== LP ReadClientSlider End */
+
+/* New LP */
+.bg-gradient-custom{
+  background: -webkit-linear-gradient(-14deg, rgb(236, 1, 166) 0%, rgb(126,24,158) 89%, rgb(126, 24, 158) 100%);
+  animation: normal 5s ease-in;
+}
+.bg-gradient-custom:hover{
+  background: transparent;
+}
+@keyframes boreder-drow-right {
+  0%{
+    transform: translateX(10px);
+  }
+  50%{
+      transform: translateX(-50px);
+  }
+  100% {
+     transform: translateX(10px);
+  }
+}
+
+.blink {-webkit-animation: blink 2s step-end infinite;animation: blink 2s step-end infinite;}
+
+@keyframes blink {
+  50% {
+    background: -webkit-linear-gradient(-14deg,rgb(236,1,166) 0%,rgb(181,13,162) 49%,rgb(126,24,158) 100%);-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+.beat {
+  animation: beat 2s infinite alternate;
+}
+
+@keyframes beat {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.banner-animated{
+  animation: banner-animated 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes banner-animated {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(20px);
+  }
+}
+
+.tadaa{
+  animation: taadaa 1s infinite;
+}
+@keyframes taadaa { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

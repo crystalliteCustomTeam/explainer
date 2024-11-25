@@ -1,5 +1,5 @@
 // Import Fonts
-import { primary } from "./configs/fonts";
+import { primary,rubik,sfmono } from "./configs/fonts";
 // Import Components
 import ConditionalLayout from "./ConditionalLayout";
 // Import Css
@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Scripts />
 
-      <body className={`${primary.variable}`}>
+      <body className={`${primary.variable} ${sfmono.variable} ${rubik.variable}`}>
 
         <ConditionalLayout>
           <main>{children}</main>

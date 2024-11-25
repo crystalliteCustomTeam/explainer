@@ -20,7 +20,7 @@ const ConditionalLayout = ({ children }) => {
     useEffect(() => {
         setPopup(false);
         const timer = setTimeout(() => {
-            setPopup(true);
+            setPopup(false);
         }, 5000);
 
         return () => clearTimeout(timer);
@@ -35,15 +35,23 @@ const ConditionalLayout = ({ children }) => {
 
     return (
         <PopupProvider value={{ popup, togglePopup }}>
-            <Popup />
-            {pathname !== "/lp/explainer-video-animation" && pathname !== "/lp/animated-explainer-videos" && pathname !== "/lp/2D-animation-offer" && pathname !== "/lp/custom-explainer-videos" && (
-                <Header />
-            )}
-            {children}
-            {pathname !== "/lp/explainer-video-animation" && pathname !== "/lp/animated-explainer-videos" && pathname !== "/lp/2D-animation-offer" && pathname !== "/lp/custom-explainer-videos" && (
-                <Footer />
-            )}
-        </PopupProvider>
+        <Popup />
+        {(pathname !== "/lp/explainer-video-animation" &&
+          pathname !== "/lp/animated-explainer-videos" &&
+          pathname !== "/lp/2D-animation-offer" &&
+          pathname !== "/lp/custom-explainer-videos" &&
+          pathname !== "/explainer-animated-videos") && (
+            <Header />
+        )}
+        {children}
+        {(pathname !== "/lp/explainer-video-animation" &&
+          pathname !== "/lp/animated-explainer-videos" &&
+          pathname !== "/lp/2D-animation-offer" &&
+          pathname !== "/lp/custom-explainer-videos" &&
+          pathname !== "/explainer-animated-videos") && (
+            <Footer />
+        )}
+    </PopupProvider>
     )
 }
 
