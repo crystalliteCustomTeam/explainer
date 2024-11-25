@@ -36,7 +36,7 @@ const sfmono = localFont({
             style: 'normal',
         },
         {
-            path: '../../fonts/SFMonoSemiBold.otf',
+            path: '../../fonts/SFMonoSemibold.otf',
             weight: '500',
             style: 'normal',
         },
