@@ -2,8 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import animation1 from "media/explainer-animated-videos/2d-Animation.webp";
-import animation2 from "media/explainer-animated-videos/3d-Animation.webp";
+import animation1 from "media/explainer-animated-videos/2D-Animation.webp";
+import animation2 from "media/explainer-animated-videos/3d-animation.webp";
 import animation3 from "media/explainer-animated-videos/Motion-Graphics.webp";
 import animation4 from "media/explainer-animated-videos/Whiteboard.webp";
 import animation5 from "media/explainer-animated-videos/Logo-Animation.webp";
