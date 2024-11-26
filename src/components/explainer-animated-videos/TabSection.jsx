@@ -8,7 +8,7 @@ import animation3 from "media/explainer-animated-videos/Motion-Graphics.webp";
 import animation4 from "media/explainer-animated-videos/Whiteboard.webp";
 import animation5 from "media/explainer-animated-videos/Logo-Animation.webp";
 import animation6 from "media/explainer-animated-videos/Video-Editing.webp";
-import { CTA } from "./index";
+import CTA from "./CTA";
 const tabInfo = [
   { label: "2D Animations", index: 0 },
   { label: "3D Animation", index: 1 },

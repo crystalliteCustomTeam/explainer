@@ -6,7 +6,6 @@ import Cart3 from "media/explainer-animated-videos/cart3.png";
 import Cart4 from "media/explainer-animated-videos/cart4.webp";
 import Cart5 from "media/explainer-animated-videos/cart5.webp";
 import Cart6 from "media/explainer-animated-videos/cart6.webp";
-import { list } from "postcss";
 import Link from "next/link";
 
 const packageData = [
@@ -144,21 +143,19 @@ export const Pricing = ({}) => {
                       </div>
                     </div>
                     {/* Listing */}
-                    <ul
-                      class="bg-[#00000012] w-full p-[16px] rounded-[10px] h-[215px] transition-all ticklist2 list-scroll overflow-auto list-disc group-hover:text-white"
-                    >
+                    <ul class="bg-[#00000012] w-full p-[16px] rounded-[10px] h-[215px] transition-all ticklist2 list-scroll overflow-auto list-disc group-hover:text-white">
                       {e.list &&
                         e.list.map((e, i) => (
-                          <li key={i} className="lg:text-[16px] leading-[2rem] xl:ml-[30px] ml-[20px]">
+                          <li
+                            key={i}
+                            className="lg:text-[16px] leading-[2rem] xl:ml-[30px] ml-[20px]"
+                          >
                             {e}
                           </li>
                         ))}
                     </ul>
                     <div className="block justify-center w-full bg-[linear-gradient(100deg,rgb(236,1,166)_0%,rgb(181,13,162)_49%,rgb(126,24,158)_100%)] text-center rounded-full p-[10px] text-white font-rubik font-semibold group-hover:bg-[linear-gradient(100deg,rgb(236,1,166,0)_0%,rgb(181,13,162,0)_49%,rgb(126,24,158,0)_100%)] group-hover:bg-white group-hover:text-[#e502a5] mt-5">
-                      <Link
-                        href="/"
-                        className=" text-[19px] uppercase"
-                      >
+                      <Link href="/" className=" text-[19px] uppercase">
                         Order Now
                       </Link>
                     </div>

@@ -42,22 +42,18 @@ export const Footer = () => {
           </div>
           <div className="flex lg:flex-row flex-col items-center justify-between gap-5 border-t-[1px] border-t-[#291a37] pt-[30px] uppercase font-rubik md:text-[16px] text-[12px] leading-tight">
             <div>
-            <p>
-              All Rights Reserved <span id="copyright-year">2024</span> - Pixel
-              Studios inc.
-            </p>
+              <p>
+                All Rights Reserved <span id="copyright-year">2024</span> -
+                Pixel Studios inc.
+              </p>
             </div>
             <ul class="footer-menu flex justify-content-end align-items-center">
               <li>
-                <Link href="/">
-                  Privacy Policy
-                </Link>
+                <Link href="/">Privacy Policy</Link>
               </li>
               <li>&nbsp;|&nbsp;</li>
               <li>
-                <Link href="/">
-                  Terms &amp; Conditions
-                </Link>
+                <Link href="/">Terms &amp; Conditions</Link>
               </li>
             </ul>
           </div>

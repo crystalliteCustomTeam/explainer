@@ -1,9 +1,7 @@
-import React from "react";
-import { CTA } from "./index";
+import CTA from "./CTA";
 
 export const CallToAction = ({
   title = "We’re Continually Racing Against <br> The Clock So That  You Can <br>Stay Ahead Of The Game.  ",
-  desc = "",
 }) => {
   return (
     <section>
@@ -18,7 +16,6 @@ export const CallToAction = ({
               <CTA icon={true} text="Live Chat" css="bg-gradient-custom" />
               <CTA icon={true} />
             </div>
-            
           </div>
         </div>
       </div>

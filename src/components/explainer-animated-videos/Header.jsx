@@ -1,28 +1,33 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
 import Logo from "media/logo.webp";
 import phone from "media/explainer-animated-videos/phone-calling.svg";
 import Link from "next/link";
-import { CTA } from "./index";
+import CTA from "./CTA";
 
-
-export default function Header(){
+export default function Header() {
   const [scrolled, setScrolled] = useState(false);
-      useEffect(() => {
-          const handleScroll = () => {
-              const isScrolled = window.scrollY > 10;
-              setScrolled(isScrolled);
-          };
-          window.addEventListener('scroll', handleScroll);
-          return () => {
-              window.removeEventListener('scroll', handleScroll);
-          };
-      }, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 10;
+      setScrolled(isScrolled);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <header>
-      <div className={`py-[15px] fixed z-10 w-full ${scrolled ? "bg-[#1a0830f7] shadow-[0_4px_24px_0_rgba(103,_151,_255,_.1),_0_12px_64px_0_rgba(103,_151,_255,_.1)] " : ""}`}>
+      <div
+        className={`py-[15px] fixed z-10 w-full ${
+          scrolled
+            ? "bg-[#1a0830f7] shadow-[0_4px_24px_0_rgba(103,_151,_255,_.1),_0_12px_64px_0_rgba(103,_151,_255,_.1)] "
+            : ""
+        }`}
+      >
         <div className="container">
           <div className="flex md:flex-row flex-col justify-between items-center">
             <Image src={Logo} alt="" width={200} height={100} />
@@ -55,4 +60,4 @@ export default function Header(){
       </div>
     </header>
   );
-};
+}

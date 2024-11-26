@@ -94,24 +94,33 @@ export const Process = ({
                   </div>
                   <h4 className="flex justify-center items-center gap-5 mt-[20px] mb-[20px] xl:text-[24px] text-[22px] leading-[35px] font-light">
                     {e.title}
-                    
-                    {e.icon && <span className={`${i === activeIndex ? "animate-run" : "animate-none"}`}><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="size-6"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
-                      />
-                    </svg></span>}
-                    
+
+                    {e.icon && (
+                      <span
+                        className={`${
+                          i === activeIndex ? "animate-run" : "animate-none"
+                        }`}
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="size-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
+                          />
+                        </svg>
+                      </span>
+                    )}
                   </h4>
-                  <p className="text-[14px] w-[90%] mx-auto lg:min-h-[210px] min-h-fit">{e.desc}</p>
+                  <p className="text-[14px] w-[90%] mx-auto lg:min-h-[210px] min-h-fit">
+                    {e.desc}
+                  </p>
                 </li>
               ))}
             </ul>

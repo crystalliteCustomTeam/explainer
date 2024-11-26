@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA } from "./index";
+import CTA from "./CTA";
 import Image from "next/image";
 
 // Media
@@ -115,7 +115,7 @@ export const Testimonial = ({
                 <CTA icon={true} />
               </div>
             </div>
-            <ul className="md:col-span-5 grid md:grid-cols-2 grid-cols-2 md:absolute right-0 md:w-[40%] w-[100%] md:mt-0 mt-[10%]" >
+            <ul className="md:col-span-5 grid md:grid-cols-2 grid-cols-2 md:absolute right-0 md:w-[40%] w-[100%] md:mt-0 mt-[10%]">
               {testimonials.map((testimonial) => (
                 <li key={testimonial.id}>
                   <div className="h-full relative group bg-[#110220] overflow-hidden hover:overflow-visible">
@@ -144,31 +144,31 @@ export const Testimonial = ({
           </div>
         </div>
         <ul className="grid grid-cols-2 md:flex mt-[0%] md:mt-[6%] xl:mt-[0.5%] 2xl:mt-[2%] items-center md:px-0 px-4">
-                {testimonials2.map((testimonial2) => (
-                  <li key={testimonial2.id} className="w-full h-full">
-                    <div className="h-full relative group bg-[#110220] overflow-hidden hover:overflow-visible">
-                      <Image
-                        src={testimonial2.imgSrc}
-                        alt="testimonial"
-                        className="opacity-20 w-full h-full group-hover:opacity-100"
-                      />
-                      <div className="-translate-x-full group-hover:translate-x-full transition-all ease-in-out duration-300 absolute w-full h-full top-0 bottom-0 z-10 text-left group-hover:opacity-100">
-                        <span className="w-full h-full flex flex-col items-start justify-center bg-[linear-gradient(124deg,rgb(236,1,166)_0%,rgb(181,13,162)_49%,rgb(126,24,158)_100%)] text-white xl:p-5 p-3 z-10">
-                          <h4 className="text-[18px] lg:text-[25px] xl:text-[30px] 2xl:text-[36px] font-medium">
-                            {testimonial2.name}
-                          </h4>
-                          <h6 className="text-[14px] xl:text-[16px] 2xl:text-[18px] leading-tight font-light py-[10px]">
-                            {testimonial2.role}
-                          </h6>
-                          <p className="text-[12px] text-white leading-tight text-left xl:line-clamp-none line-clamp-2">
-                            {testimonial2.testimonial}
-                          </p>
-                        </span>
-                      </div>
-                    </div>
-                  </li>
-                ))}
-              </ul>
+          {testimonials2.map((testimonial2) => (
+            <li key={testimonial2.id} className="w-full h-full">
+              <div className="h-full relative group bg-[#110220] overflow-hidden hover:overflow-visible">
+                <Image
+                  src={testimonial2.imgSrc}
+                  alt="testimonial"
+                  className="opacity-20 w-full h-full group-hover:opacity-100"
+                />
+                <div className="-translate-x-full group-hover:translate-x-full transition-all ease-in-out duration-300 absolute w-full h-full top-0 bottom-0 z-10 text-left group-hover:opacity-100">
+                  <span className="w-full h-full flex flex-col items-start justify-center bg-[linear-gradient(124deg,rgb(236,1,166)_0%,rgb(181,13,162)_49%,rgb(126,24,158)_100%)] text-white xl:p-5 p-3 z-10">
+                    <h4 className="text-[18px] lg:text-[25px] xl:text-[30px] 2xl:text-[36px] font-medium">
+                      {testimonial2.name}
+                    </h4>
+                    <h6 className="text-[14px] xl:text-[16px] 2xl:text-[18px] leading-tight font-light py-[10px]">
+                      {testimonial2.role}
+                    </h6>
+                    <p className="text-[12px] text-white leading-tight text-left xl:line-clamp-none line-clamp-2">
+                      {testimonial2.testimonial}
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
