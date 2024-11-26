@@ -6,9 +6,25 @@ export const metadata = {
    
     //===== Canonical =====
     alternates: { canonical: '/explainer-animated-videos' },
+
     //===== GEO Tags =====
-    other: {},
-}
+    other: {
+        robots: {
+            index: false,
+            follow: false,
+            nocache: true,
+            googleBot: {
+                index: false,
+                follow: false,
+                noimageindex: true,
+                "max-video-preview": -1,
+                "max-image-preview": "large",
+                "max-snippet": -1,
+            },
+        }, // Close the robots object properly here
+    }, // Close the other object properly here
+};
+
 
 export default function RootLayout({ children }) {
     return (children);

@@ -3,34 +3,38 @@ import CTA from "./CTA";
 import Image from "next/image";
 
 // Media
-import img1 from "media/explainer-animated-videos/01.webp";
-import img2 from "media/explainer-animated-videos/02.webp";
-import img3 from "media/explainer-animated-videos/03.webp";
-import img4 from "media/explainer-animated-videos/04.webp";
-import img5 from "media/explainer-animated-videos/05.webp";
-import img6 from "media/explainer-animated-videos/06.webp";
+import img1 from "media/explainer-animated-videos/testimonial/david.jpg";
+import img2 from "media/explainer-animated-videos/testimonial/emma.jpg";
+import img3 from "media/explainer-animated-videos/testimonial/grace.png";
+import img4 from "media/explainer-animated-videos/testimonial/michael.jpg";
+import img5 from "media/explainer-animated-videos/testimonial/olivia.png";
+import img6 from "media/explainer-animated-videos/testimonial/sarah.png";
+import img7 from "media/explainer-animated-videos/testimonial/alex.png";
+import img8 from "media/explainer-animated-videos/testimonial/02.webp";
+import img9 from "media/explainer-animated-videos/testimonial/03.webp";
+
 
 const testimonials = [
   {
     id: 1,
     imgSrc: img1,
-    name: "William Smith",
+    name: "David",
     role: "President & Founder",
     testimonial:
-      "Pixel Studios never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
+      "Explainer Videos LLC never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
   },
   {
     id: 2,
     imgSrc: img2,
-    name: "Steven Patterson ",
+    name: "Emma ",
     role: "Co-Founder",
     testimonial:
-      "Pixel Studios worked with us and helped us create a great video. It portrayed our product in an easily understandable and visually attractive way.",
+      "Explainer Videos LLC worked with us and helped us create a great video. It portrayed our product in an easily understandable and visually attractive way.",
   },
   {
     id: 3,
     imgSrc: img3,
-    name: "Taylor Leonard ",
+    name: "Grace Leonard ",
     role: "Chief Marketing Officer",
     testimonial:
       "They are a team of highly skilled and professional app developers. I hired them for my latest project, and they did it perfectly! We plan to have them develop more apps for us in the future.",
@@ -38,7 +42,7 @@ const testimonials = [
   {
     id: 4,
     imgSrc: img4,
-    name: "Carroll Nelson ",
+    name: "Michael Nelson ",
     role: "Project Manager",
     testimonial:
       "They helped us develop a useful and great-looking application in a short period of time and on budget. In addition, the team is talented, efficient, and easy to work with.",
@@ -47,50 +51,50 @@ const testimonials = [
 const testimonials2 = [
   {
     id: 1,
-    imgSrc: img1,
-    name: "William Smith",
+    imgSrc: img7,
+    name: "Alex Smith",
     role: "President & Founder",
     testimonial:
-      "Pixel Studios never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
+      "Explainer Videos LLC never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
   },
   {
     id: 2,
-    imgSrc: img1,
-    name: "William Smith",
+    imgSrc: img8,
+    name: "Ronald Taylor",
     role: "President & Founder",
     testimonial:
-      "Pixel Studios never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
+      "Explainer Videos LLC never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
   },
   {
     id: 3,
-    imgSrc: img1,
-    name: "William Smith",
+    imgSrc: img9,
+    name: "Sarah Ethan",
     role: "President & Founder",
     testimonial:
-      "Pixel Studios never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
+      "Explainer Videos LLC never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
   },
   {
     id: 4,
     imgSrc: img5,
-    name: "William Smith",
+    name: "Olivia Smith",
     role: "President & Founder",
     testimonial:
-      "Pixel Studios never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
+      "Explainer Videos LLC never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
   },
   {
     id: 5,
     imgSrc: img6,
-    name: "William Smith",
+    name: "Sarah Johnson",
     role: "President & Founder",
     testimonial:
-      "Pixel Studios never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
+      "Explainer Videos LLC never disappoints. Whether it's a simple video or complex character animation, they always hit the deadline and make sure everything is on point.",
   },
 ];
 
 export const Testimonial = ({
   subtitle = "Testimonials",
   title = "Sharing Our <br class='lg:block hidden'/> Client’s Success <br class='lg:block hidden'/> Stories",
-  desc = "We revolutionize the way your audience perceives your brand’s online presence. These are stories of <br class='lg:block hidden'/> people whose lives have been inspired by Pixel Studios Inc and its diverse range of services.",
+  desc = "We revolutionize the way your audience perceives your brand’s online presence. These are stories of <br class='lg:block hidden'/> people whose lives have been inspired by Explainer Videos LLC Inc and its diverse range of services.",
 }) => {
   return (
     <section className="relative overflow-hidden">
@@ -122,7 +126,7 @@ export const Testimonial = ({
                     <Image
                       src={testimonial.imgSrc}
                       alt="testimonial"
-                      className="opacity-20 w-full h-full group-hover:opacity-100"
+                      className="opacity-20 w-full h-[323px] group-hover:opacity-100 object-cover"
                     />
                     <div className="-translate-y-full group-hover:translate-y-full transition-all ease-in-out duration-300 absolute w-full h-full top-0 bottom-0 z-10 text-left group-hover:opacity-100">
                       <span className="w-full h-full flex flex-col items-start justify-center bg-[linear-gradient(124deg,rgb(236,1,166)_0%,rgb(181,13,162)_49%,rgb(126,24,158)_100%)] text-white xl:p-5 p-3 z-10">
@@ -143,14 +147,14 @@ export const Testimonial = ({
             </ul>
           </div>
         </div>
-        <ul className="grid grid-cols-2 md:flex mt-[0%] md:mt-[6%] xl:mt-[0.5%] 2xl:mt-[2%] items-center md:px-0 px-4">
+        <ul className="grid grid-cols-2 md:flex mt-[0%] md:mt-[6%] xl:mt-[3%] 2xl:mt-[2%] items-center md:px-0 px-4">
           {testimonials2.map((testimonial2) => (
             <li key={testimonial2.id} className="w-full h-full">
               <div className="h-full relative group bg-[#110220] overflow-hidden hover:overflow-visible">
                 <Image
                   src={testimonial2.imgSrc}
                   alt="testimonial"
-                  className="opacity-20 w-full h-full group-hover:opacity-100"
+                  className="opacity-20 w-full h-[323px] group-hover:opacity-100 object-cover"
                 />
                 <div className="-translate-x-full group-hover:translate-x-full transition-all ease-in-out duration-300 absolute w-full h-full top-0 bottom-0 z-10 text-left group-hover:opacity-100">
                   <span className="w-full h-full flex flex-col items-start justify-center bg-[linear-gradient(124deg,rgb(236,1,166)_0%,rgb(181,13,162)_49%,rgb(126,24,158)_100%)] text-white xl:p-5 p-3 z-10">

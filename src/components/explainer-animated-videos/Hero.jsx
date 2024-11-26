@@ -1,6 +1,9 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import Axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import RightArrow from "media/explainer-animated-videos/right-arrow.svg";
 import space from "media/explainer-animated-videos/space.webp";
 import spaceback from "media/explainer-animated-videos/space-back.webp";
@@ -10,6 +13,120 @@ export const Hero = ({
   title = "Let's explore the <br />Art of STORYTELLING",
   desc = 'Get the best <span class="font-semibold">2D, 3D video animation service </span> for your <span class="font-semibold">custom animated video</span>  production by professional video animation company.',
 }) => {
+  //========== Form
+  const [ip, setIP] = useState("");
+  const [pagenewurl, setPagenewurl] = useState("");
+  const [errors, setErrors] = useState({});
+  const [formStatus, setFormStatus] = useState("Claim");
+  const [isDisabled, setIsDisabled] = useState(false);
+  const [data, setData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  //========== Fetch IP data from the API
+  const getIPData = async () => {
+    try {
+      const res = await Axios.get("https://ipwho.is/");
+      setIP(res.data);
+    } catch (error) {
+      console.error("Error fetching IP data:", error);
+    }
+  };
+  useEffect(() => {
+    getIPData();
+    setPagenewurl(window.location.href);
+  }, []);
+
+  const router = usePathname();
+  const currentRoute = router;
+
+  const handleDataChange = (e) => {
+    setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  const formValidateHandle = () => {
+    let errors = {};
+    if (!data.name.trim()) {
+      errors.name = "Name is required";
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!data.email.match(emailRegex)) {
+      errors.email = "Valid email is required";
+    }
+    const phoneRegex = /^[0-9]+$/;
+    if (!data.phone.match(phoneRegex)) {
+      errors.phone = "Valid phone number is required";
+    }
+    return errors;
+  };
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    setFormStatus("Processing...");
+    setIsDisabled(true);
+
+    const errors = formValidateHandle();
+    setErrors(errors);
+
+    if (Object.keys(errors).length === 0) {
+      const currentdate = new Date().toLocaleString();
+      const dataToSend = {
+        ...data,
+        pageUrl: pagenewurl,
+        IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
+        currentdate: currentdate,
+      };
+      const JSONdata = JSON.stringify(dataToSend);
+
+      try {
+        //========== First API call to your server
+        await fetch("/api/email/", {
+          method: "POST",
+          headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+          },
+          body: JSONdata,
+        });
+
+        //========== Second API call to SheetDB
+        let headersList = {
+          Accept: "*/*",
+          "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+          Authorization: "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+          "Content-Type": "application/json",
+        };
+        let bodyContent = JSON.stringify({
+          IP: `${ip.ip} - ${ip.country} - ${ip.city}`,
+          Brand: "Explainer Videos LLC",
+          Page: `${currentRoute}`,
+          Date: currentdate,
+          Time: currentdate,
+          JSON: JSONdata,
+        });
+        await fetch("https://sheetdb.io/api/v1/orh55uv03rvh4", {
+          method: "POST",
+          body: bodyContent,
+          headers: headersList,
+        });
+
+        setFormStatus("Success...");
+        setTimeout(() => {
+          window.location.href = "/thank-you";
+        }, 2000);
+      } catch (error) {
+        console.error("Error during form submission:", error);
+        setFormStatus("Failed...");
+        setIsDisabled(false);
+      }
+    } else {
+      setFormStatus("Failed...");
+      setIsDisabled(false);
+    }
+  };
+
   return (
     <section>
       <div className="xl:pt-[150px] pt-[100px] xl:pb-[200px] pb-[50px] relative ">
@@ -51,7 +168,7 @@ export const Hero = ({
               ))}
             </div>
             <div className="basis-6/12">
-              <form action="" method="post">
+              <form action="javascript:;" method="post">
                 <div className="bg-[#0009] xl:p-10 p-7 xl:w-[70%] w-full float-right rounded-[25px] shadow-md border-solid border-2 border-[#d605a4] relative">
                   <h3 className=" xl:text-[30px] md:text-[20px] text-[28px] font-semibold font-rubik">
                     We are here to help!
@@ -60,28 +177,58 @@ export const Hero = ({
                     Sign up Now To Avail <strong className="blink">70%</strong>{" "}
                     Discount
                   </p>
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-full w-full xl:p-4 p-2 mb-5"
-                    required
-                  />
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-full w-full xl:p-4 p-2 mb-5"
-                    required
-                  />
-                  <input
-                    type="phone"
-                    placeholder="Phone*"
-                    minLength={10}
-                    maxLength={10}
-                    className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-full w-full xl:p-4 p-2 mb-5"
-                    required
-                  />
+                  <div className="name relative">
+                    <input
+                      type="text"
+                      placeholder="Full Name"
+                      name="name"
+                      className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-full w-full xl:p-4 p-2 mb-5"
+                      onChange={handleDataChange}
+                      required
+                    />
+                    {errors.name && (
+                      <span className="text-[10px] block p-2 font-semibold poppins text-black absolute left-0 bottom-[-60%] z-50">
+                        {errors.name}
+                      </span>
+                    )}
+                  </div>
+                  <div className="email relative">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                      className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-full w-full xl:p-4 p-2 mb-5"
+                      onChange={handleDataChange}
+                      required
+                    />
+                    {errors.email && (
+                      <span className="text-[10px] block p-2 font-semibold poppins text-black absolute left-0 bottom-[-60%] z-50">
+                        {errors.email}
+                      </span>
+                    )}
+                  </div>
+                  <div className="phone relative">
+                    <input
+                      placeholder="Phone*"
+                      type="tel"
+                      name="phone"
+                      minLength="10"
+                      maxLength="13"
+                      pattern="[0-9]*"
+                      onChange={handleDataChange}
+                      className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-full w-full xl:p-4 p-2 mb-5"
+                      required
+                    />
+                    {errors.phone && (
+                      <span className="text-[10px] block p-2 font-semibold poppins text-black absolute left-0 bottom-[-60%] z-50">
+                        {errors.phone}
+                      </span>
+                    )}
+                  </div>
+
                   <textarea
                     type="text"
+                    name="message"
                     placeholder="Project Description"
                     className="bg-[rgba(255,255,255,0.03)] border-solid border-[1px] rounded-3xl w-full xl:p-4 p-2 mb-5 h-[100px]"
                   />
@@ -91,7 +238,7 @@ export const Hero = ({
                   >
                     submit
                   </button>
-
+                  <span onClick={handleFormSubmit} disabled={isDisabled}></span>
                   <p className="xl:text-[14px] text-[11px] leading-tight ">
                     Any Confusion?{" "}
                     <Link

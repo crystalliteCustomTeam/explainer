@@ -44,7 +44,7 @@ export const Footer = () => {
             <div>
               <p>
                 All Rights Reserved <span id="copyright-year">2024</span> -
-                Pixel Studios inc.
+                Explainer Videos LLC.
               </p>
             </div>
             <ul class="footer-menu flex justify-content-end align-items-center">
