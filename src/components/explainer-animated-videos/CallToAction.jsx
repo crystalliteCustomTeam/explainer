@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA } from ".";
+import { CTA } from "./index";
 
 export const CallToAction = ({
   title = "We’re Continually Racing Against <br> The Clock So That  You Can <br>Stay Ahead Of The Game.  ",

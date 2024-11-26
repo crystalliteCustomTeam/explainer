@@ -1,14 +1,14 @@
 "use client"
-import Image from "next/image";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+
 import Logo from "media/logo.webp";
 import phone from "media/explainer-animated-videos/phone-calling.svg";
-import RightArrow from "media/explainer-animated-videos/right-arrow.svg";
 import Link from "next/link";
-import { CTA } from ".";
+import { CTA } from "./index";
 
 
-export const Header = () => {
+export default function Header(){
   const [scrolled, setScrolled] = useState(false);
       useEffect(() => {
           const handleScroll = () => {
@@ -34,7 +34,7 @@ export const Header = () => {
                 <span>
                   <Image
                     src={phone}
-                    alt=""
+                    alt="phone"
                     width={25}
                     height={25}
                     className="rotate-12 fill-red-600"

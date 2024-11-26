@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA } from ".";
+import { CTA } from "./index";
 import Image from "next/image";
 
 // Media

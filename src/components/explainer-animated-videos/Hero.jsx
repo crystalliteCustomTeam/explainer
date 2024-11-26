@@ -4,7 +4,7 @@ import React from "react";
 import RightArrow from "media/explainer-animated-videos/right-arrow.svg";
 import space from "media/explainer-animated-videos/space.webp"
 import spaceback from "media/explainer-animated-videos/space-back.webp"
-import { CTA } from ".";
+import { CTA } from "./index";
 
 export const Hero = ({
   title = "Let's explore the <br />Art of STORYTELLING",
