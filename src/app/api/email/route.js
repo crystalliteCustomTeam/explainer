@@ -11,13 +11,13 @@ export async function POST(request) {
             port: 465,
             secure: true,
             auth: {
-                user: "leads@infinityanimations.com",
-                pass: "10@Kskwoks"
+                user: "developer@infinitimediainc.com",
+                pass: "ajnekhphvmhqnrts ",
             }
         });
         const mailOptions = {
-            from: "leads@infinityanimations.com",
-            to: ['queries@infinityanimations.com', 'm.farrukh@infinityanimations.com', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'maroof@infinityanimations.com'],
+            from: "developer@infinitimediainc.com",
+            to: ['queries@infinityanimations.com', 'adil@infinityanimations.com ', 'ppc@infinityanimations.com', 'adil@infinityanimations.com', 'developer@infinitimediainc.com'],
             subject: `Explainer Videos LLC - Lead`,
             html: `
             <table>
