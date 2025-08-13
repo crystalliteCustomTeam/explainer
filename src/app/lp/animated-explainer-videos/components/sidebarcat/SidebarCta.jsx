@@ -206,7 +206,7 @@ const SidebarCTA = () => {
                     <Image src={arrowRed} alt="Explainer Videos LLC " />
                 </div>
                 <div className={styles.phoneNumber} >
-                    <a href='tel:833-666-6689'>
+                    <a href='tel:1-833-666-6684'>
                         <Phone />
                     </a>
                 </div>

@@ -209,7 +209,7 @@ const Banner = () => {
                             <p className='text-[14px] md:text-[16px] poppins leading-[25px] font-normal xl:pr-[20px] text-white'>Choose Explainer Videos LLC. for the ultimate video animation solutions and convert prospects into clients using the video medium.</p>
                             <div className="flex items-center gap-4 lg:gap-8 pt-5 lg:pt-9">
                                 <div>
-                                    <a href='tel:833-666-6689' className='flex items-center justify-center text-[14px] xl:text-[14px] md:text-[16px] text-white font-semibold poppins h-[45px] w-[165px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
+                                    <a href='tel:1-833-666-6684' className='flex items-center justify-center text-[14px] xl:text-[14px] md:text-[16px] text-white font-semibold poppins h-[45px] w-[165px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
                                         Call Us Now!
                                     </a>
                                 </div>

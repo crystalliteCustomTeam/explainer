@@ -56,7 +56,7 @@ const Animations = ({ content }) => {
                             <p className='text-white text-[13px] lg:text-[14px] xxl:text-[15px] pr-[10px] poppins'>{subpara}</p>
                             <div className='flex items-center gap-4'>
                                 <div className="btn mt-6 w-[250px]">
-                                    <a href='tel:833-666-6689' className="text-[13px] md:text-[16px] font-bold leading-[25px] text-white bg-[#FF2D4B] rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center">Get Started</a>
+                                    <a href='tel:1-833-666-6684' className="text-[13px] md:text-[16px] font-bold leading-[25px] text-white bg-[#FF2D4B] rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center">Get Started</a>
                                 </div>
                                 <div className="btn mt-6 w-[180px]">
                                     <a className="text-[13px] md:text-[16px] font-bold leading-[25px] bg-white rounded-[5px] max-width h-[44px] px-[10px] md:px-[20px] poppins flex items-center justify-center" onClick={handleChatOpen}>

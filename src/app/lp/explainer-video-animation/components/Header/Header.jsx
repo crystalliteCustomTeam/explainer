@@ -88,7 +88,7 @@ const Header = () => {
                                         </button>
                                     </li>
                                     <li>
-                                        <a href='tel:833-666-6689' className='flex items-center gap-2 text-[14px] lg:text-[13px] xl:text-[14px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
+                                        <a href='tel:1-833-666-6684' className='flex items-center gap-2 text-[14px] lg:text-[13px] xl:text-[14px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
                                             <Image priority src={flag} alt='CA' className='object-contain' />
                                             <span className='w-max'>
                                                 Toll Free: 1-833-666-6684
@@ -101,7 +101,7 @@ const Header = () => {
                         <div className="col-span-8 lg:hidden block">
                             <ul>
                                 <li className='flex items-center justify-end'>
-                                    <a href='tel:833-666-6689' className='flex items-center gap-2 text-[13px] md:text-[16px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
+                                    <a href='tel:1-833-666-6684' className='flex items-center gap-2 text-[13px] md:text-[16px] text-white font-medium poppins xl:ml-[10px] h-[40px] xl:h-[45px] px-[8px] xl:px-[12px] tracking-[.3px] rounded-[5px] shadow-3xl duration-700 transition-all bg-[#FF2D4B] hover:duration-700 hover:transition-all'>
                                         <Image priority src={flag} alt='CA' className='object-contain' />
                                         <span className='w-max'>
                                             Toll Free: 1-833-666-6684

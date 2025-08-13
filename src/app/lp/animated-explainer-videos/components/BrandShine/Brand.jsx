@@ -45,7 +45,7 @@ const Brand = ({ content }) => {
                                         </a>
                                     </div>
                                     <div className='btn w-max'>
-                                        <a href="tel:833-666-6689" className='flex items-center gap-2 max-width h-[40px] xl:h-[45px] text-[14px] lg:text-[12px] xl:text-[14px] poppins font-bold text-white'>
+                                        <a href="tel:1-833-666-6684" className='flex items-center gap-2 max-width h-[40px] xl:h-[45px] text-[14px] lg:text-[12px] xl:text-[14px] poppins font-bold text-white'>
                                             <Image src={flag} alt='UK' className='object-contain' />
                                             <span>
                                                 Toll Free: 1-833-666-6684
@@ -63,7 +63,7 @@ const Brand = ({ content }) => {
                                         <button onClick={handleChatOpen} className="text-[14px] lg:text-[12px] xl:text-[14px] font-bold text-white bg-black rounded-[5px] px-4 xl:px-10 max-width h-[40px] xl:h-[45px] poppins flex items-center justify-center">Let’s Animate Your Idea</button>
                                     </div>
                                     <div className='btn w-max'>
-                                        <a href="tel:833-666-6689" className='flex items-center gap-2 max-width h-[40px] xl:h-[45px] text-[14px] lg:text-[12px] xl:text-[14px] poppins font-bold text-white'>
+                                        <a href="tel:1-833-666-6684" className='flex items-center gap-2 max-width h-[40px] xl:h-[45px] text-[14px] lg:text-[12px] xl:text-[14px] poppins font-bold text-white'>
                                             <Image src={flag} alt='UK' className='object-contain' />
                                             <span>
                                                 Toll Free: 1-833-666-6684
